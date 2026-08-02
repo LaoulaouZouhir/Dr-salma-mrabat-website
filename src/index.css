@@ -3093,4 +3093,779 @@ button:focus-visible {
   .form-row-2 { grid-template-columns: 1fr; }
 }
 
+/* =========================================
+   MEGA-MENU & NAVIGATION DROPDOWNS
+   ========================================= */
+.nav-item-dropdown {
+  position: relative;
+}
+
+.dropdown-caret {
+  font-size: 0.7rem;
+  margin-left: 2px;
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+
+.nav-item-dropdown:hover .dropdown-caret {
+  transform: rotate(180deg);
+}
+
+.mega-menu {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%) translateY(10px);
+  background: rgba(255, 255, 255, 0.98);
+  backdrop-filter: blur(16px);
+  border: 1px solid #EBE7E1;
+  border-radius: 16px;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.08);
+  padding: 24px 32px;
+  min-width: 320px;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  z-index: 100;
+}
+
+.mega-menu.show,
+.nav-item-dropdown:hover .mega-menu {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(-50%) translateY(0);
+}
+
+.mega-menu-inner {
+  display: flex;
+  gap: 32px;
+}
+
+.mega-col {
+  flex: 1;
+}
+
+.mega-category-title {
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: var(--color-beige);
+  margin-bottom: 12px;
+  border-bottom: 1px solid #EFEBE4;
+  padding-bottom: 6px;
+}
+
+.mega-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.mega-links a {
+  font-size: 0.84rem !important;
+  text-transform: none !important;
+  letter-spacing: 0 !important;
+  font-weight: 500 !important;
+  color: var(--color-black) !important;
+  display: block;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.mega-links a:hover {
+  color: var(--color-beige) !important;
+  transform: translateX(4px);
+}
+
+/* =========================================
+   LIGHTBOX MODAL & DIAGRAM CONTAINERS
+   ========================================= */
+.diagram-block {
+  margin: 36px 0;
+  text-align: center;
+}
+
+.lightbox-wrapper {
+  display: inline-block;
+  max-width: 100%;
+}
+
+.lightbox-img-box {
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
+  border: 1px solid #EAE5DE;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.lightbox-img-box:hover {
+  transform: scale(1.01);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.12);
+}
+
+.lightbox-thumbnail {
+  width: 100%;
+  max-width: 820px;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
+
+.lightbox-overlay-hint {
+  position: absolute;
+  bottom: 12px;
+  right: 12px;
+  background: rgba(17, 17, 17, 0.75);
+  color: white;
+  padding: 6px 14px;
+  border-radius: 30px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  backdrop-filter: blur(6px);
+  pointer-events: none;
+}
+
+.lightbox-caption {
+  margin-top: 10px;
+  font-size: 0.85rem;
+  color: var(--color-gray-dark);
+  font-style: italic;
+}
+
+.lightbox-modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.85);
+  backdrop-filter: blur(8px);
+  z-index: 2000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  animation: fadeIn 0.3s ease;
+}
+
+.lightbox-modal-content {
+  position: relative;
+  max-width: 90vw;
+  max-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lightbox-full-img {
+  max-width: 100%;
+  max-height: 80vh;
+  object-fit: contain;
+  border-radius: 12px;
+  box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+}
+
+.lightbox-modal-caption {
+  color: white;
+  margin-top: 16px;
+  font-size: 0.92rem;
+  text-align: center;
+}
+
+.lightbox-close-btn {
+  position: absolute;
+  top: -40px;
+  right: -10px;
+  background: white;
+  color: black;
+  border: none;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* =========================================
+   BREADCRUMBS
+   ========================================= */
+.breadcrumbs-nav {
+  margin-bottom: 24px;
+}
+
+.breadcrumbs-list {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.82rem;
+  color: var(--color-gray-dark);
+  flex-wrap: wrap;
+}
+
+.breadcrumbs-list a {
+  color: var(--color-gray-dark);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.breadcrumbs-list a:hover {
+  color: var(--color-beige);
+}
+
+.breadcrumb-separator {
+  color: #CCC;
+  font-size: 0.75rem;
+}
+
+.breadcrumb-current {
+  color: var(--color-beige);
+  font-weight: 600;
+}
+
+/* =========================================
+   TREATMENT SUB-PAGES LAYOUT
+   ========================================= */
+.subpage-wrapper {
+  padding-top: 90px;
+}
+
+.subpage-hero {
+  background-color: var(--color-gray-light);
+  padding: 60px 0 50px;
+}
+
+.subpage-badge {
+  display: inline-block;
+  font-size: 0.75rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--color-beige);
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.gold-badge {
+  color: #C4A882;
+}
+
+.subpage-title {
+  font-family: var(--font-serif);
+  font-size: clamp(2rem, 3.8vw, 2.8rem);
+  color: var(--color-black);
+  margin-bottom: 16px;
+  line-height: 1.2;
+}
+
+.subpage-subtitle {
+  font-size: 1rem;
+  color: var(--color-gray-dark);
+  max-width: 820px;
+  line-height: 1.7;
+}
+
+.subpage-content-section {
+  padding: 70px 0;
+}
+
+.subpage-grid-layout {
+  display: grid;
+  grid-template-columns: 1fr 340px;
+  gap: 56px;
+  align-items: start;
+}
+
+.medical-article h2 {
+  font-family: var(--font-serif);
+  font-size: 1.8rem;
+  color: var(--color-black);
+  margin: 40px 0 16px;
+  line-height: 1.3;
+}
+
+.medical-article p {
+  font-size: 0.96rem;
+  color: var(--color-gray-dark);
+  line-height: 1.75;
+  margin-bottom: 20px;
+}
+
+.symptoms-dual-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin: 28px 0;
+}
+
+.symptom-card {
+  background: var(--color-gray-light);
+  padding: 28px;
+  border-radius: 16px;
+  border: 1px solid #EAE5DE;
+}
+
+.symptom-card h3 {
+  font-family: var(--font-serif);
+  font-size: 1.2rem;
+  color: var(--color-black);
+  margin-bottom: 14px;
+}
+
+.symptom-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.symptom-card li {
+  font-size: 0.88rem;
+  color: var(--color-gray-dark);
+  margin-bottom: 8px;
+  position: relative;
+  padding-left: 18px;
+}
+
+.symptom-card li::before {
+  content: "•";
+  color: var(--color-beige);
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+}
+
+.two-column-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  margin: 28px 0;
+}
+
+.two-column-list h4 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--color-black);
+  margin-bottom: 12px;
+}
+
+.two-column-list ul {
+  list-style: disc;
+  padding-left: 20px;
+  color: var(--color-gray-dark);
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.check-list {
+  list-style: none;
+  padding: 0;
+  margin: 24px 0;
+}
+
+.check-list li {
+  font-size: 0.93rem;
+  color: var(--color-gray-dark);
+  margin-bottom: 12px;
+  position: relative;
+  padding-left: 28px;
+  line-height: 1.6;
+}
+
+.check-list li::before {
+  content: "✓";
+  color: #10B981;
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+}
+
+.bullet-list {
+  padding-left: 20px;
+  margin: 24px 0;
+}
+
+.bullet-list li {
+  font-size: 0.93rem;
+  color: var(--color-gray-dark);
+  margin-bottom: 10px;
+  line-height: 1.65;
+}
+
+.advice-box {
+  background: #F4F0EA;
+  border-left: 4px solid var(--color-beige);
+  padding: 24px 28px;
+  border-radius: 0 16px 16px 0;
+  margin: 32px 0;
+  list-style: disc;
+  padding-left: 48px;
+}
+
+.advice-box li {
+  font-size: 0.92rem;
+  color: var(--color-black);
+  margin-bottom: 8px;
+  line-height: 1.6;
+}
+
+/* Sidebar booking card */
+.sidebar-booking-card {
+  position: sticky;
+  top: 110px;
+  background: var(--color-gray-light);
+  border: 1px solid #EAE5DE;
+  border-radius: 20px;
+  padding: 32px;
+}
+
+.sidebar-booking-card h3 {
+  font-family: var(--font-serif);
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+  color: var(--color-black);
+}
+
+.sidebar-booking-card p {
+  font-size: 0.88rem;
+  color: var(--color-gray-dark);
+  margin-bottom: 24px;
+  line-height: 1.5;
+}
+
+.side-btn-call {
+  display: block;
+  background: var(--color-black);
+  color: white;
+  text-align: center;
+  padding: 12px;
+  border-radius: 40px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-decoration: none;
+  margin-bottom: 12px;
+  transition: background 0.3s ease;
+}
+
+.side-btn-call:hover {
+  background: #333;
+}
+
+.side-btn-wa {
+  display: block;
+  background: #25D366;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  border-radius: 40px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.side-btn-wa:hover {
+  background: #1EBE57;
+}
+
+.side-location-mini {
+  margin-top: 20px;
+  padding-top: 16px;
+  border-top: 1px solid #E2DCD5;
+  font-size: 0.8rem;
+  color: var(--color-gray-dark);
+}
+
+/* Sub-service Hub Cards */
+.subservices-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 28px;
+  margin-bottom: 60px;
+}
+
+.subservice-hub-card {
+  background: var(--color-white);
+  border: 1px solid #EBE7E1;
+  border-radius: 20px;
+  padding: 36px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: all 0.3s ease;
+}
+
+.subservice-hub-card:hover {
+  border-color: var(--color-beige);
+  box-shadow: 0 12px 36px rgba(0,0,0,0.06);
+  transform: translateY(-4px);
+}
+
+.hub-card-num {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--color-beige);
+  margin-bottom: 12px;
+  display: block;
+}
+
+.subservice-hub-card h3 {
+  font-family: var(--font-serif);
+  font-size: 1.4rem;
+  color: var(--color-black);
+  margin-bottom: 10px;
+}
+
+.subservice-hub-card p {
+  font-size: 0.9rem;
+  color: var(--color-gray-dark);
+  line-height: 1.65;
+  margin-bottom: 24px;
+}
+
+.hub-card-link {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--color-beige);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.hub-card-link:hover {
+  color: var(--color-beige-dark);
+}
+
+.subpage-cta-banner {
+  background: var(--color-black);
+  color: white;
+  border-radius: 24px;
+  padding: 56px 40px;
+  text-align: center;
+}
+
+.subpage-cta-banner h2 {
+  font-family: var(--font-serif);
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.subpage-cta-banner p {
+  color: rgba(255,255,255,0.7);
+  margin-bottom: 28px;
+}
+
+/* =========================================
+   AESTHETIC HIGH-END STYLING
+   ========================================= */
+.aesthetic-hub-wrapper .subpage-hero,
+.aesthetic-subpage .subpage-hero {
+  background: linear-gradient(135deg, #FAF7F2 0%, #F4EFE6 100%);
+}
+
+.aesthetic-card {
+  border-color: #E8DFD3;
+}
+
+.gold-num {
+  color: #C4A882;
+}
+
+.gold-link {
+  color: #A68B5B;
+}
+
+.aesthetic-banner {
+  background: linear-gradient(135deg, #1C1C1C 0%, #2A2621 100%);
+  border: 1px solid #3D352B;
+}
+
+.aesthetic-sidebar-card {
+  background: #FAF7F2;
+  border-color: #E8DFD3;
+}
+
+/* =========================================
+   NOTRE CABINET PAGE (DIPLOMAS & EQUIPMENTS)
+   ========================================= */
+.about-intro-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 48px;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.about-intro-text h2 {
+  font-family: var(--font-serif);
+  font-size: 2.2rem;
+  color: var(--color-black);
+  margin-bottom: 16px;
+}
+
+.academic-timeline-section {
+  background: var(--color-gray-light);
+  border-radius: 24px;
+  padding: 60px 40px;
+  margin-bottom: 80px;
+}
+
+.diplomas-list-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-top: 40px;
+}
+
+.diploma-card {
+  background: white;
+  padding: 28px;
+  border-radius: 16px;
+  border: 1px solid #EBE7E1;
+  text-align: center;
+}
+
+.diploma-flag {
+  font-size: 2rem;
+  margin-bottom: 12px;
+  display: block;
+}
+
+.diploma-card h3 {
+  font-family: var(--font-serif);
+  font-size: 1.15rem;
+  color: var(--color-black);
+  margin-bottom: 8px;
+}
+
+.diploma-card p {
+  font-size: 0.88rem;
+  color: var(--color-gray-dark);
+}
+
+.equipments-section {
+  margin-bottom: 80px;
+}
+
+.equipments-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+  margin-top: 40px;
+}
+
+.equip-card {
+  background: white;
+  border: 1px solid #EBE7E1;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 6px 24px rgba(0,0,0,0.04);
+}
+
+.equip-img-box {
+  height: 240px;
+  overflow: hidden;
+}
+
+.equip-img-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.equip-body {
+  padding: 32px;
+}
+
+.equip-num {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--color-beige);
+  display: block;
+  margin-bottom: 6px;
+}
+
+.equip-body h3 {
+  font-family: var(--font-serif);
+  font-size: 1.4rem;
+  color: var(--color-black);
+  margin-bottom: 4px;
+}
+
+.equip-body h4 {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--color-beige-dark);
+  margin-bottom: 14px;
+}
+
+.equip-body p {
+  font-size: 0.88rem;
+  color: var(--color-gray-dark);
+  line-height: 1.65;
+}
+
+.patient-experience-section {
+  margin-bottom: 80px;
+}
+
+.experience-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  margin-top: 40px;
+}
+
+.exp-card {
+  background: var(--color-gray-light);
+  padding: 28px;
+  border-radius: 16px;
+  border: 1px solid #EAE5DE;
+  text-align: center;
+}
+
+.exp-icon {
+  font-size: 2rem;
+  margin-bottom: 12px;
+}
+
+.exp-card h3 {
+  font-family: var(--font-serif);
+  font-size: 1.1rem;
+  color: var(--color-black);
+  margin-bottom: 8px;
+}
+
+.exp-card p {
+  font-size: 0.85rem;
+  color: var(--color-gray-dark);
+  line-height: 1.6;
+}
+
+/* =========================================
+   RESPONSIVE BREAKPOINTS
+   ========================================= */
+@media (max-width: 1024px) {
+  .subpage-grid-layout { grid-template-columns: 1fr; }
+  .sidebar-booking-card { position: static; }
+  .experience-cards-grid { grid-template-columns: repeat(2, 1fr); }
+  .diplomas-list-grid { grid-template-columns: 1fr; }
+  .about-intro-grid { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 768px) {
+  .subservices-cards-grid { grid-template-columns: 1fr; }
+  .symptoms-dual-grid, .two-column-list { grid-template-columns: 1fr; }
+  .equipments-grid { grid-template-columns: 1fr; }
+  .experience-cards-grid { grid-template-columns: 1fr; }
+  .mega-menu { display: none !important; }
+}
+
+
 
