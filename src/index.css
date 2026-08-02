@@ -3782,7 +3782,7 @@ button:focus-visible {
    ========================================= */
 .aesthetic-hub-wrapper .subpage-hero,
 .aesthetic-subpage .subpage-hero {
-  background: linear-gradient(135deg, #FAF7F2 0%, #F4EFE6 100%);
+  background-color: var(--color-gray-light);
 }
 
 .aesthetic-card {
