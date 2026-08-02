@@ -1,13 +1,41 @@
 import React from 'react';
 
 const images = [
-  { src: '/images/cabinet/cabinet-01.jpg', alt: 'Façade du cabinet de dermatologie Dr Samia Mrabat à Meknès', label: 'Façade' },
-  { src: '/images/cabinet/cabinet-02.jpg', alt: 'Accueil du cabinet de dermatologie Dr Samia Mrabat', label: 'Accueil' },
-  { src: '/images/cabinet/cabinet-03.jpg', alt: 'Salle d\'attente du cabinet Dr Samia Mrabat Meknès', label: 'Salle d\'attente' },
-  { src: '/images/cabinet/cabinet-04.jpg', alt: 'Salle de consultation du cabinet Dr Samia Mrabat', label: 'Consultation' },
-  { src: '/images/cabinet/cabinet-05.jpg', alt: 'Équipements médicaux du cabinet dermatologique Meknès', label: 'Équipements' },
-  { src: '/images/cabinet/cabinet-06.jpg', alt: 'Espace de soins du cabinet Dr Samia Mrabat Meknès', label: 'Espace soins' },
-  { src: '/images/cabinet/cabinet-07.jpg', alt: 'Cabinet dermatologique Dr Samia Mrabat Meknès', label: 'Le cabinet' },
+  {
+    src: '/images/cabinet/cabinet-01.jpg',
+    alt: 'Entrée du cabinet de dermatologie Dr Samia Mrabat à Meknès',
+    label: 'Entrée du cabinet',
+  },
+  {
+    src: '/images/cabinet/cabinet-02.jpg',
+    alt: 'Salle d\'attente chaleureuse du cabinet Dr Samia Mrabat Meknès',
+    label: 'Salle d\'attente',
+  },
+  {
+    src: '/images/cabinet/cabinet-03.jpg',
+    alt: 'Salle de consultation du Dr Samia Mrabat à Meknès',
+    label: 'Salle de consultation',
+  },
+  {
+    src: '/images/cabinet/cabinet-04.jpg',
+    alt: 'Espace d\'accueil et secrétariat du cabinet Dr Samia Mrabat',
+    label: 'Espace d\'accueil',
+  },
+  {
+    src: '/images/cabinet/cabinet-05.jpg',
+    alt: 'Espace d\'attente du cabinet de dermatologie à Meknès',
+    label: 'Salle d\'attente',
+  },
+  {
+    src: '/images/cabinet/cabinet-06.jpg',
+    alt: 'Espace de soins dermatologiques et esthétiques à Meknès',
+    label: 'Espace de soins',
+  },
+  {
+    src: '/images/cabinet/cabinet-07.jpg',
+    alt: 'Équipements médicaux et laser dermatologique de pointe',
+    label: 'Équipements médicaux',
+  },
 ];
 
 export default function CabinetGallery() {
