@@ -24,7 +24,7 @@ export default function Header({ isSubPage }) {
   const isLightHeader = isSubPage || scrolled;
 
   return (
-    <header className={`header ${isLightHeader ? 'scrolled' : ''} ${menuOpen ? 'menu-open' : ''}`}>
+    <header className={`header ${isLightHeader ? 'scrolled' : ''} ${activeMega ? 'mega-active' : ''} ${menuOpen ? 'menu-open' : ''}`}>
       <div className="header-container">
         {/* Brand Logo - flex-shrink: 0 ensuring it NEVER disappears */}
         <Link to="/" className="logo" aria-label="Dr Samia Mrabat - Accueil">

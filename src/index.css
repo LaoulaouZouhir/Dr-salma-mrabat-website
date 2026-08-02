@@ -2351,9 +2351,29 @@ button:focus-visible {
    ========================================= */
 
 /* Active link indicator in header */
-.nav-links a.active-link {
-  color: var(--color-beige) !important;
-  font-weight: 600;
+.header:not(.scrolled) .nav-links a.active-link,
+.header:not(.scrolled) .nav-dropdown-btn.active-link {
+  color: #FFD700 !important; /* Glowing gold for high contrast over video hero */
+  font-weight: 700 !important;
+  border-bottom: 2px solid #FFD700;
+  padding-bottom: 2px;
+}
+
+.header.scrolled .nav-links a.active-link,
+.header.scrolled .nav-dropdown-btn.active-link {
+  color: var(--color-beige) !important; /* Primary Teal on white scrolled header */
+  font-weight: 700 !important;
+  border-bottom: 2px solid var(--color-beige);
+  padding-bottom: 2px;
+}
+
+.header.mega-active {
+  background: rgba(17, 17, 17, 0.94) !important;
+  backdrop-filter: blur(16px);
+}
+
+.header.scrolled.mega-active {
+  background: rgba(255, 255, 255, 0.98) !important;
 }
 
 /* ── SERVICES PAGE ── */
@@ -3227,16 +3247,29 @@ button:focus-visible {
   flex: 1;
 }
 
+.mega-menu a,
 .mega-category-title {
-  display: block;
-  font-size: 0.72rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 1.5px;
-  color: var(--color-beige);
-  margin-bottom: 12px;
-  border-bottom: 1px solid #EFEBE4;
-  padding-bottom: 6px;
+  color: var(--color-black) !important;
+}
+
+.mega-category-title {
+  display: flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+  font-size: 0.78rem !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 1px !important;
+  color: #1B7A8A !important; /* Primary Teal */
+  margin-bottom: 14px !important;
+  border-bottom: 2px solid #EFEBE4 !important;
+  padding-bottom: 8px !important;
+  text-decoration: none !important;
+  transition: color 0.2s ease !important;
+}
+
+.mega-category-title:hover {
+  color: #E8A820 !important; /* Warm Gold hover */
 }
 
 .mega-links {
@@ -3249,18 +3282,19 @@ button:focus-visible {
 }
 
 .mega-links a {
-  font-size: 0.84rem !important;
+  font-size: 0.86rem !important;
   text-transform: none !important;
   letter-spacing: 0 !important;
   font-weight: 500 !important;
-  color: var(--color-black) !important;
-  display: block;
-  transition: color 0.2s ease, transform 0.2s ease;
+  color: #444444 !important; /* Dark charcoal */
+  display: block !important;
+  transition: color 0.2s ease, transform 0.2s ease !important;
+  text-decoration: none !important;
 }
 
 .mega-links a:hover {
-  color: var(--color-beige) !important;
-  transform: translateX(4px);
+  color: #1B7A8A !important;
+  transform: translateX(4px) !important;
 }
 
 /* =========================================
