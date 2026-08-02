@@ -4,22 +4,22 @@ const images = [
   {
     src: '/images/cabinet/cabinet-01.jpg',
     alt: 'Entrée du cabinet de dermatologie Dr Samia Mrabat à Meknès',
-    label: 'Entrée du cabinet',
+    label: 'Accès & Entrée',
   },
   {
     src: '/images/cabinet/cabinet-02.jpg',
-    alt: 'Salle d\'attente chaleureuse du cabinet Dr Samia Mrabat Meknès',
+    alt: 'Salle d\'attente du cabinet Dr Samia Mrabat Meknès',
     label: 'Salle d\'attente',
   },
   {
     src: '/images/cabinet/cabinet-03.jpg',
-    alt: 'Salle de consultation du Dr Samia Mrabat à Meknès',
-    label: 'Salle de consultation',
+    alt: 'Bureau de consultation du Dr Samia Mrabat à Meknès',
+    label: 'Consultation',
   },
   {
     src: '/images/cabinet/cabinet-04.jpg',
     alt: 'Espace d\'accueil et secrétariat du cabinet Dr Samia Mrabat',
-    label: 'Espace d\'accueil',
+    label: 'Accueil',
   },
   {
     src: '/images/cabinet/cabinet-05.jpg',
@@ -34,7 +34,7 @@ const images = [
   {
     src: '/images/cabinet/cabinet-07.jpg',
     alt: 'Équipements médicaux et laser dermatologique de pointe',
-    label: 'Équipements médicaux',
+    label: 'Équipements',
   },
 ];
 
