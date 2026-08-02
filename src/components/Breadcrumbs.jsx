@@ -6,28 +6,26 @@ export default function Breadcrumbs({ items }) {
 
   return (
     <nav aria-label="Fil d'Ariane" className="breadcrumbs-nav">
-      <div className="container">
-        <ol className="breadcrumbs-list">
-          <li className="breadcrumb-item">
-            <Link to="/">Accueil</Link>
-          </li>
-          {items.map((item, idx) => {
-            const isLast = idx === items.length - 1;
-            return (
-              <li key={idx} className="breadcrumb-item">
-                <span className="breadcrumb-separator">/</span>
-                {isLast || !item.url ? (
-                  <span className="breadcrumb-current" aria-current="page">
-                    {item.label}
-                  </span>
-                ) : (
-                  <Link to={item.url}>{item.label}</Link>
-                )}
-              </li>
-            );
-          })}
-        </ol>
-      </div>
+      <ol className="breadcrumbs-list">
+        <li className="breadcrumb-item">
+          <Link to="/">Accueil</Link>
+        </li>
+        {items.map((item, idx) => {
+          const isLast = idx === items.length - 1;
+          return (
+            <li key={idx} className="breadcrumb-item">
+              <span className="breadcrumb-separator">/</span>
+              {isLast || !item.url ? (
+                <span className="breadcrumb-current" aria-current="page">
+                  {item.label}
+                </span>
+              ) : (
+                <Link to={item.url}>{item.label}</Link>
+              )}
+            </li>
+          );
+        })}
+      </ol>
     </nav>
   );
 }

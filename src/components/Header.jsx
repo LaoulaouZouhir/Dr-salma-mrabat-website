@@ -9,7 +9,7 @@ export default function Header({ isSubPage }) {
 
   useEffect(() => {
     const handleScroll = () => {
-      setScrolled(window.scrollY > 50);
+      setScrolled(window.scrollY > 40);
     };
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
@@ -26,13 +26,18 @@ export default function Header({ isSubPage }) {
   return (
     <header className={`header ${isLightHeader ? 'scrolled' : ''} ${menuOpen ? 'menu-open' : ''}`}>
       <div className="header-container">
-        {/* Logo */}
-        <Link to="/" className="logo">
+        {/* Brand Logo - flex-shrink: 0 ensuring it NEVER disappears */}
+        <Link to="/" className="logo" aria-label="Dr Samia Mrabat - Accueil">
           <img
             src="/images/logo.png"
-            alt="Dr Samia Mrabat – Dermatologue à Meknès"
+            alt="Dr Samia Mrabat Logo"
             className="logo-img"
+            onError={(e) => {
+              // Fallback if image fails to load
+              e.target.style.display = 'none';
+            }}
           />
+          <span className="logo-text">Dr Samia Mrabat</span>
         </Link>
 
         {/* Mobile toggle */}
@@ -62,114 +67,78 @@ export default function Header({ isSubPage }) {
               </Link>
             </li>
 
-            {/* 1. Dermatologie Médicale Dropdown */}
+            {/* Master Services Mega-Menu Dropdown */}
             <li
               className="nav-item-dropdown"
-              onMouseEnter={() => setActiveMega('medicale')}
+              onMouseEnter={() => setActiveMega('services')}
               onMouseLeave={() => setActiveMega(null)}
             >
-              <Link
-                to="/dermatologie-medicale"
-                className={location.pathname.startsWith('/dermatologie-medicale') ? 'active-link' : ''}
+              <button
+                className={`nav-dropdown-btn ${location.pathname.includes('/dermatologie') || location.pathname.includes('/chirurgie') || location.pathname.includes('/prevention') ? 'active-link' : ''}`}
+                onClick={() => setActiveMega(activeMega === 'services' ? null : 'services')}
               >
-                Dermatologie Médicale <span className="dropdown-caret">▾</span>
-              </Link>
-              <div className={`mega-menu ${activeMega === 'medicale' ? 'show' : ''}`}>
+                Nos Services <span className="dropdown-caret">▾</span>
+              </button>
+
+              <div className={`mega-menu master-mega-menu ${activeMega === 'services' ? 'show' : ''}`}>
                 <div className="mega-menu-inner">
+                  
+                  {/* Col 1: Dermatologie Médicale */}
                   <div className="mega-col">
-                    <span className="mega-category-title">Soins Médicaux</span>
+                    <Link to="/dermatologie-medicale" className="mega-category-title">
+                      🩺 Dermatologie Médicale →
+                    </Link>
                     <ul className="mega-links">
                       <li><Link to="/dermatologie-medicale/acne-rosacee">Acné &amp; Rosacée</Link></li>
                       <li><Link to="/dermatologie-medicale/eczema-psoriasis-vitiligo">Eczéma, Psoriasis &amp; Vitiligo</Link></li>
                       <li><Link to="/dermatologie-medicale/chute-cheveux-maladies-cuir-chevelu">Chute de Cheveux &amp; Cuir Chevelu</Link></li>
-                      <li><Link to="/dermatologie-medicale/allergies-infections-maladies-peau">Allergies &amp; Infections Cutanées</Link></li>
+                      <li><Link to="/dermatologie-medicale/allergies-infections-maladies-peau">Allergies &amp; Infections</Link></li>
                       <li><Link to="/dermatologie-medicale/dermatologie-pediatrique">Dermatologie Pédiatrique</Link></li>
                     </ul>
                   </div>
-                </div>
-              </div>
-            </li>
 
-            {/* 2. Dermatologie Esthétique Dropdown */}
-            <li
-              className="nav-item-dropdown"
-              onMouseEnter={() => setActiveMega('esthetique')}
-              onMouseLeave={() => setActiveMega(null)}
-            >
-              <Link
-                to="/dermatologie-esthetique"
-                className={location.pathname.startsWith('/dermatologie-esthetique') ? 'active-link' : ''}
-              >
-                Dermatologie Esthétique <span className="dropdown-caret">▾</span>
-              </Link>
-              <div className={`mega-menu ${activeMega === 'esthetique' ? 'show' : ''}`}>
-                <div className="mega-menu-inner">
+                  {/* Col 2: Dermatologie Esthétique */}
                   <div className="mega-col">
-                    <span className="mega-category-title">Médecine Esthétique</span>
+                    <Link to="/dermatologie-esthetique" className="mega-category-title">
+                      ✨ Dermatologie Esthétique →
+                    </Link>
                     <ul className="mega-links">
-                      <li><Link to="/dermatologie-esthetique/injections-botox-acide-hyaluronique">Injections (Botox® &amp; Acide Hyaluronique)</Link></li>
-                      <li><Link to="/dermatologie-esthetique/peelings-soins-peau">Peelings &amp; Soins de la Peau</Link></li>
+                      <li><Link to="/dermatologie-esthetique/injections-botox-acide-hyaluronique">Injections (Botox® &amp; Hyaluronique)</Link></li>
+                      <li><Link to="/dermatologie-esthetique/peelings-soins-peau">Peelings &amp; Soins de Peau</Link></li>
                       <li><Link to="/dermatologie-esthetique/microneedling-mesotherapie">Microneedling &amp; Mésothérapie</Link></li>
-                      <li><Link to="/dermatologie-esthetique/traitement-cicatrices-taches-pigmentaires">Traitement Cicatrices &amp; Taches</Link></li>
+                      <li><Link to="/dermatologie-esthetique/traitement-cicatrices-taches-pigmentaires">Cicatrices &amp; Taches</Link></li>
                       <li><Link to="/dermatologie-esthetique/rajeunissement-cutane">Rajeunissement Cutané</Link></li>
                     </ul>
                   </div>
-                </div>
-              </div>
-            </li>
 
-            {/* 3. Chirurgie Dermatologique Dropdown */}
-            <li
-              className="nav-item-dropdown"
-              onMouseEnter={() => setActiveMega('chirurgie')}
-              onMouseLeave={() => setActiveMega(null)}
-            >
-              <Link
-                to="/chirurgie-dermatologique"
-                className={location.pathname.startsWith('/chirurgie-dermatologique') ? 'active-link' : ''}
-              >
-                Chirurgie Dermatologique <span className="dropdown-caret">▾</span>
-              </Link>
-              <div className={`mega-menu ${activeMega === 'chirurgie' ? 'show' : ''}`}>
-                <div className="mega-menu-inner">
+                  {/* Col 3: Chirurgie Dermatologique */}
                   <div className="mega-col">
-                    <span className="mega-category-title">Actes Chirurgicaux</span>
+                    <Link to="/chirurgie-dermatologique" className="mega-category-title">
+                      🔪 Chirurgie Dermatologique →
+                    </Link>
                     <ul className="mega-links">
                       <li><Link to="/chirurgie-dermatologique/exerese-kystes-lipomes">Exérèse Kystes &amp; Lipomes</Link></li>
                       <li><Link to="/chirurgie-dermatologique/ablation-grains-beaute-lesions-cutanees">Ablation Grains de Beauté</Link></li>
                       <li><Link to="/chirurgie-dermatologique/biopsies-cutanees">Biopsies Cutanées</Link></li>
-                      <li><Link to="/chirurgie-dermatologique/chirurgie-ongle-incarne">Chirurgie de l'Ongle Incarné</Link></li>
-                      <li><Link to="/chirurgie-dermatologique/petite-chirurgie-dermatologique">Petite Chirurgie Dermatologique</Link></li>
+                      <li><Link to="/chirurgie-dermatologique/chirurgie-ongle-incarne">Chirurgie Ongle Incarné</Link></li>
+                      <li><Link to="/chirurgie-dermatologique/petite-chirurgie-dermatologique">Petite Chirurgie</Link></li>
                     </ul>
                   </div>
-                </div>
-              </div>
-            </li>
 
-            {/* 4. Prévention & Dépistage Dropdown */}
-            <li
-              className="nav-item-dropdown"
-              onMouseEnter={() => setActiveMega('prevention')}
-              onMouseLeave={() => setActiveMega(null)}
-            >
-              <Link
-                to="/prevention-depistage"
-                className={location.pathname.startsWith('/prevention-depistage') ? 'active-link' : ''}
-              >
-                Prévention &amp; Dépistage <span className="dropdown-caret">▾</span>
-              </Link>
-              <div className={`mega-menu ${activeMega === 'prevention' ? 'show' : ''}`}>
-                <div className="mega-menu-inner">
+                  {/* Col 4: Prévention & Dépistage */}
                   <div className="mega-col">
-                    <span className="mega-category-title">Dépistage &amp; Prévention</span>
+                    <Link to="/prevention-depistage" className="mega-category-title">
+                      🛡️ Prévention &amp; Dépistage →
+                    </Link>
                     <ul className="mega-links">
-                      <li><Link to="/prevention-depistage/depistage-cancers-peau">Dépistage des Cancers de la Peau</Link></li>
-                      <li><Link to="/prevention-depistage/controle-grains-beaute">Contrôle des Grains de Beauté</Link></li>
+                      <li><Link to="/prevention-depistage/depistage-cancers-peau">Dépistage Cancers de la Peau</Link></li>
+                      <li><Link to="/prevention-depistage/controle-grains-beaute">Contrôle Grains de Beauté</Link></li>
                       <li><Link to="/prevention-depistage/prevention-solaire">Prévention Solaire</Link></li>
-                      <li><Link to="/prevention-depistage/lesions-cutanees-suspectes">Lésions Cutanées Suspectes</Link></li>
+                      <li><Link to="/prevention-depistage/lesions-cutanees-suspectes">Lésions Suspectes</Link></li>
                       <li><Link to="/prevention-depistage/conseils-prevention-dermatologique">Conseils de Prévention</Link></li>
                     </ul>
                   </div>
+
                 </div>
               </div>
             </li>
@@ -191,6 +160,27 @@ export default function Header({ isSubPage }) {
             Prendre rendez-vous
           </Link>
         </nav>
+
+        {/* Mobile Fullscreen Drawer */}
+        {menuOpen && (
+          <div className="mobile-drawer">
+            <div className="mobile-drawer-inner">
+              <Link to="/" onClick={() => setMenuOpen(false)}>Accueil</Link>
+              <Link to="/notre-cabinet" onClick={() => setMenuOpen(false)}>Notre Cabinet</Link>
+              
+              <div className="mobile-section-header">NOS SERVICES</div>
+              <Link to="/dermatologie-medicale" onClick={() => setMenuOpen(false)}>🩺 Dermatologie Médicale</Link>
+              <Link to="/dermatologie-esthetique" onClick={() => setMenuOpen(false)}>✨ Dermatologie Esthétique</Link>
+              <Link to="/chirurgie-dermatologique" onClick={() => setMenuOpen(false)}>🔪 Chirurgie Dermatologique</Link>
+              <Link to="/prevention-depistage" onClick={() => setMenuOpen(false)}>🛡️ Prévention &amp; Dépistage</Link>
+
+              <div className="mobile-divider" />
+              <Link to="/faq" onClick={() => setMenuOpen(false)}>FAQ</Link>
+              <Link to="/contact" onClick={() => setMenuOpen(false)}>Contact</Link>
+              <Link to="/rendez-vous" className="mobile-cta-btn" onClick={() => setMenuOpen(false)}>Prendre Rendez-vous</Link>
+            </div>
+          </div>
+        )}
       </div>
     </header>
   );
