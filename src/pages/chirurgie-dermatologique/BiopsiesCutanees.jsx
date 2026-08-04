@@ -1,7 +1,6 @@
 import React from 'react';
 import SEO from '../../components/SEO';
 import Breadcrumbs from '../../components/Breadcrumbs';
-import ArticleImageBlock from '../../components/ArticleImageBlock';
 
 export default function BiopsiesCutanees() {
   const schemaData = {
@@ -48,49 +47,6 @@ export default function BiopsiesCutanees() {
           <div className="subpage-grid-layout">
             <div className="subpage-main-body">
               <article className="medical-article">
-                <ArticleImageBlock articleId="biopsies-cutanees" imageIndex={0} className="diagram-block hero-diagram" />
-
-                <h2>Qu'est-ce qu'une biopsie cutanée ?</h2>
-                <p>Une biopsie cutanée consiste à prélever un très petit échantillon de peau sous anesthésie locale. Ce prélèvement est ensuite envoyé dans un laboratoire spécialisé où il est examiné au microscope par un médecin anatomopathologiste.</p>
-                <p>Cet examen permet d'obtenir des informations précieuses sur la nature de certaines lésions ou maladies cutanées et d'orienter le traitement le plus adapté.</p>
-
-                
-                <ArticleImageBlock articleId="biopsies-cutanees" imageIndex={1} />
-<h2>Dans quels cas une biopsie peut-elle être proposée ?</h2>
-                <p>Une biopsie cutanée peut être indiquée dans différentes situations, notamment pour :</p>
-                <ul className="check-list">
-                  <li>Confirmer le diagnostic d'une maladie de la peau</li>
-                  <li>Analyser une lésion cutanée inhabituelle</li>
-                  <li>Explorer une lésion persistante malgré un traitement</li>
-                  <li>Évaluer certaines maladies inflammatoires de la peau</li>
-                  <li>Rechercher certaines maladies auto-immunes</li>
-                  <li>Préciser la nature d'une tumeur cutanée</li>
-                </ul>
-                <p>Chaque indication est évaluée individuellement lors de la consultation.</p>
-
-                
-                <ArticleImageBlock articleId="biopsies-cutanees" imageIndex={2} />
-<h2>Comment se déroule une biopsie ?</h2>
-                <p>Après un examen clinique, le dermatologue détermine la zone la plus pertinente à prélever.</p>
-                <p>L'intervention est réalisée sous anesthésie locale. Un très petit fragment de peau est prélevé à l'aide d'un instrument adapté. Selon la taille du prélèvement, un ou plusieurs points de suture peuvent être nécessaires.</p>
-                <p>Le prélèvement est ensuite adressé à un laboratoire d'anatomopathologie pour être analysé.</p>
-                
-
-                <h2>Après la biopsie</h2>
-                <p>Après le prélèvement, quelques soins locaux sont généralement suffisants pour assurer une bonne cicatrisation.</p>
-                <p>Le Dr Samia Mrabat vous remet des recommandations personnalisées concernant :</p>
-                <ul className="check-list">
-                  <li>Les soins de la plaie</li>
-                  <li>Les pansements</li>
-                  <li>L'hygiène locale</li>
-                  <li>Les activités à éviter temporairement</li>
-                  <li>La date éventuelle de retrait des fils</li>
-                </ul>
-                <p>Les résultats de l'analyse sont communiqués et expliqués lors du suivi.</p>
-
-                <h2>Pourquoi consulter un dermatologue ?</h2>
-                <p>Toutes les lésions cutanées ne nécessitent pas une biopsie.</p>
-                <p>Une consultation dermatologique permet de déterminer si cet examen est utile et de choisir la technique de prélèvement la plus adaptée afin d'obtenir un diagnostic fiable.</p>
               </article>
             </div>
 

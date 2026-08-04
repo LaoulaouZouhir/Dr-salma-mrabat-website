@@ -1,7 +1,6 @@
 import React from 'react';
 import SEO from '../../components/SEO';
 import Breadcrumbs from '../../components/Breadcrumbs';
-import ArticleImageBlock from '../../components/ArticleImageBlock';
 
 export default function RajeunissementCutane() {
   const schemaData = {
@@ -48,69 +47,6 @@ export default function RajeunissementCutane() {
           <div className="subpage-grid-layout">
             <div className="subpage-main-body">
               <article className="medical-article">
-                <ArticleImageBlock articleId="rajeunissement-cutane" imageIndex={0} className="diagram-block hero-diagram" />
-
-                <h2>Pourquoi la peau vieillit-elle ?</h2>
-                <p>Le vieillissement cutané résulte de plusieurs mécanismes naturels. Au fil des années :</p>
-                <ul className="check-list">
-                  <li>La production de collagène diminue</li>
-                  <li>Les fibres d'élastine perdent progressivement leur élasticité</li>
-                  <li>L'hydratation naturelle de la peau diminue</li>
-                  <li>Le renouvellement cellulaire ralentit</li>
-                  <li>Les effets du soleil, du tabac, de la pollution et du mode de vie peuvent accélérer ce processus</li>
-                </ul>
-                <p>Ces différents facteurs contribuent progressivement à modifier l'aspect et la qualité de la peau.</p>
-
-                
-                <ArticleImageBlock articleId="rajeunissement-cutane" imageIndex={1} />
-<h2>Quels signes du vieillissement cutané peuvent être pris en charge ?</h2>
-                <p>Selon votre situation, différents signes peuvent être évalués lors de la consultation :</p>
-                <ul className="check-list">
-                  <li>Rides d'expression</li>
-                  <li>Ridules</li>
-                  <li>Perte de fermeté</li>
-                  <li>Relâchement cutané léger</li>
-                  <li>Perte d'éclat</li>
-                  <li>Texture irrégulière</li>
-                  <li>Sécheresse cutanée</li>
-                  <li>Perte de volume sur certaines zones du visage</li>
-                </ul>
-                <p>Chaque prise en charge est personnalisée selon les besoins de votre peau.</p>
-
-                
-                <ArticleImageBlock articleId="rajeunissement-cutane" imageIndex={2} />
-<h2>Quels traitements peuvent être proposés ?</h2>
-                <p>Après un examen clinique, le Dr Samia Mrabat peut proposer, selon les indications :</p>
-                <ul className="check-list">
-                  <li>Injections de Botox®</li>
-                  <li>Injections d'acide hyaluronique</li>
-                  <li>Peelings dermatologiques</li>
-                  <li>Microneedling</li>
-                  <li>Mésothérapie</li>
-                  <li>Protocoles combinés lorsque cela est indiqué</li>
-                </ul>
-                <p>Le choix du traitement dépend de votre peau, de votre âge, de vos attentes et des indications médicales.</p>
-                
-
-                <h2>Quels résultats peut-on attendre ?</h2>
-                <p>Les résultats apparaissent progressivement selon le traitement réalisé et la réponse naturelle de votre peau.</p>
-                <p>L'objectif est d'améliorer progressivement la qualité cutanée, la fermeté, l'éclat et l'harmonie du visage tout en préservant des expressions naturelles.</p>
-                <p>Chaque prise en charge est adaptée à votre morphologie et à vos besoins.</p>
-
-                <h2>Les conseils pour préserver la jeunesse de la peau</h2>
-                <p>Afin de préserver durablement la qualité de votre peau, il est recommandé de :</p>
-                <ul className="check-list">
-                  <li>Protéger quotidiennement sa peau du soleil</li>
-                  <li>Hydrater régulièrement la peau</li>
-                  <li>Adopter une routine de soins adaptée</li>
-                  <li>Éviter le tabac</li>
-                  <li>Maintenir une bonne hygiène de vie</li>
-                </ul>
-                <p>Ces habitudes complètent les traitements réalisés au cabinet.</p>
-
-                <h2>Pourquoi consulter un dermatologue ?</h2>
-                <p>Le vieillissement cutané est propre à chaque personne.</p>
-                <p>Une consultation dermatologique permet d'évaluer précisément les besoins de votre peau et de proposer une stratégie personnalisée, fondée sur un diagnostic médical et des traitements adaptés.</p>
               </article>
             </div>
 

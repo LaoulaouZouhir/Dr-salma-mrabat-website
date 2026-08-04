@@ -1,7 +1,6 @@
 import React from 'react';
 import SEO from '../../components/SEO';
 import Breadcrumbs from '../../components/Breadcrumbs';
-import ArticleImageBlock from '../../components/ArticleImageBlock';
 
 export default function DermatologiePediatrique() {
   const schemaData = {
@@ -48,68 +47,6 @@ export default function DermatologiePediatrique() {
           <div className="subpage-grid-layout">
             <div className="subpage-main-body">
               <article className="medical-article">
-                <ArticleImageBlock articleId="dermatologie-pediatrique" imageIndex={0} className="diagram-block hero-diagram" />
-
-                <h2>Quelles maladies de la peau peuvent toucher les enfants ?</h2>
-                <p>Les enfants peuvent présenter différentes maladies dermatologiques dès les premiers mois de vie ou au cours de leur croissance. Parmi les affections les plus fréquentes :</p>
-                <ul className="check-list">
-                  <li>Eczéma atopique</li>
-                  <li>Molluscum contagiosum</li>
-                  <li>Verrues</li>
-                  <li>Impétigo</li>
-                  <li>Mycoses cutanées</li>
-                  <li>Urticaire</li>
-                  <li>Psoriasis de l'enfant</li>
-                  <li>Vitiligo</li>
-                  <li>Acné de l'adolescent</li>
-                  <li>Angiomes et autres lésions vasculaires</li>
-                </ul>
-                <p>Chaque maladie nécessite une évaluation médicale afin d'établir un diagnostic précis.</p>
-
-                
-                <ArticleImageBlock articleId="dermatologie-pediatrique" imageIndex={1} />
-<h2>Les symptômes qui doivent amener à consulter</h2>
-                <p>Une consultation dermatologique est recommandée si votre enfant présente :</p>
-                <ul className="check-list">
-                  <li>Des plaques rouges persistantes</li>
-                  <li>Des démangeaisons importantes</li>
-                  <li>Des boutons inhabituels</li>
-                  <li>Des verrues qui se multiplient</li>
-                  <li>Des lésions qui ne guérissent pas</li>
-                  <li>Une perte de cheveux localisée</li>
-                  <li>Des taches blanches sur la peau</li>
-                  <li>Une éruption cutanée accompagnée de fièvre</li>
-                </ul>
-                
-
-                <h2>Comment se déroule la consultation ?</h2>
-                <p>La consultation débute par un échange avec les parents afin de recueillir les antécédents médicaux, l'évolution des symptômes et les traitements déjà utilisés.</p>
-                <p>Le Dr Samia Mrabat réalise ensuite un examen clinique complet de la peau de l'enfant afin d'établir un diagnostic précis.</p>
-                <p>Chaque traitement est expliqué aux parents avec des conseils adaptés à l'âge de l'enfant et à sa maladie.</p>
-
-                <h2>Les traitements proposés</h2>
-                <p>Selon la maladie diagnostiquée, le Dr Samia Mrabat peut proposer :</p>
-                <ul className="check-list">
-                  <li>Des traitements locaux</li>
-                  <li>Des traitements médicamenteux lorsque cela est indiqué</li>
-                  <li>Des conseils d'hygiène et de soins de la peau</li>
-                  <li>Un suivi dermatologique régulier</li>
-                  <li>Une prise en charge personnalisée selon l'âge de l'enfant et l'évolution de la maladie</li>
-                </ul>
-
-                <h2>Conseils pour protéger la peau des enfants</h2>
-                <p>Quelques gestes simples permettent de préserver la peau des plus jeunes :</p>
-                <ul className="check-list">
-                  <li>Hydrater régulièrement la peau</li>
-                  <li>Utiliser des produits adaptés aux peaux sensibles</li>
-                  <li>Protéger les enfants du soleil</li>
-                  <li>Éviter les produits irritants</li>
-                  <li>Consulter rapidement en cas de lésion persistante</li>
-                </ul>
-
-                <h2>Pourquoi consulter rapidement ?</h2>
-                <p>Chez l'enfant, certaines maladies de la peau peuvent évoluer rapidement ou devenir inconfortables au quotidien.</p>
-                <p>Une prise en charge précoce permet souvent de soulager les symptômes, de limiter les complications et d'accompagner les parents dans le suivi du traitement.</p>
               </article>
             </div>
 

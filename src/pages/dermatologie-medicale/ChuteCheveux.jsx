@@ -1,7 +1,6 @@
 import React from 'react';
 import SEO from '../../components/SEO';
 import Breadcrumbs from '../../components/Breadcrumbs';
-import ArticleImageBlock from '../../components/ArticleImageBlock';
 
 export default function ChuteCheveux() {
   const schemaData = {
@@ -48,85 +47,6 @@ export default function ChuteCheveux() {
           <div className="subpage-grid-layout">
             <div className="subpage-main-body">
               <article className="medical-article">
-                {/* Image 1: Hero Banner (Article_3_Chute_Cheveux_Cuir_Chevelu_p2_img1.png) */}
-                <ArticleImageBlock articleId="chute-cheveux" imageIndex={0} className="diagram-block hero-diagram" />
-
-                <h2>Qu'est-ce que la chute de cheveux ?</h2>
-                {/* Image 2: Le cycle de vie du cheveu (Article_3_Chute_Cheveux_Cuir_Chevelu_p2_img2.png) */}
-                <ArticleImageBlock articleId="chute-cheveux" imageIndex={1} />
-                <p>La chute de cheveux est un phénomène naturel lorsqu'elle reste modérée. En revanche, une perte importante, prolongée ou localisée peut révéler une affection nécessitant une évaluation dermatologique.</p>
-                <p>Selon les cas, la chute de cheveux peut être temporaire ou chronique et toucher l'ensemble du cuir chevelu ou certaines zones uniquement.</p>
-
-                <h2>Les principales causes de la chute de cheveux</h2>
-                <p>La perte de cheveux peut avoir différentes origines :</p>
-                <ul className="check-list">
-                  <li>Alopécie androgénétique</li>
-                  <li>Chute de cheveux saisonnière</li>
-                  <li>Effluvium télogène après un stress ou une maladie</li>
-                  <li>Carences nutritionnelles</li>
-                  <li>Déséquilibres hormonaux</li>
-                  <li>Maladies auto-immunes</li>
-                  <li>Certains traitements médicamenteux</li>
-                  <li>Infections du cuir chevelu</li>
-                </ul>
-                <p>Identifier la cause est essentiel afin de proposer le traitement le plus adapté.</p>
-
-                <h2>Les maladies du cuir chevelu</h2>
-                {/* Image 3: Les principales maladies du cuir chevelu (Article_3_Chute_Cheveux_Cuir_Chevelu_p3_img1.png) */}
-                <ArticleImageBlock articleId="chute-cheveux" imageIndex={2} />
-                <p>Le cuir chevelu peut être touché par différentes affections dermatologiques, notamment :</p>
-                <ul className="check-list">
-                  <li>Dermatite séborrhéique</li>
-                  <li>Psoriasis du cuir chevelu</li>
-                  <li>Eczéma</li>
-                  <li>Infections fongiques</li>
-                  <li>Folliculites</li>
-                  <li>Pellicules persistantes</li>
-                  <li>Démangeaisons chroniques</li>
-                </ul>
-                <p>Ces maladies peuvent entraîner une gêne importante et parfois favoriser une perte de cheveux si elles ne sont pas prises en charge.</p>
-
-                <h2>Les symptômes qui doivent vous alerter</h2>
-                <p>Il est conseillé de consulter si vous observez :</p>
-                <ul className="check-list">
-                  <li>Une chute importante de cheveux</li>
-                  <li>Des cheveux qui deviennent progressivement plus fins</li>
-                  <li>Des plaques sans cheveux</li>
-                  <li>Des démangeaisons persistantes</li>
-                  <li>Des rougeurs du cuir chevelu</li>
-                  <li>Des pellicules abondantes</li>
-                  <li>Des douleurs ou une sensibilité du cuir chevelu</li>
-                  <li>Une perte de cheveux après une maladie ou un accouchement</li>
-                </ul>
-
-                <h2>Comment se déroule la consultation ?</h2>
-                <p>Lors de la consultation, le Dr Samia Mrabat réalise un examen du cuir chevelu et de la chevelure afin d'identifier l'origine de la chute de cheveux ou des symptômes.</p>
-                <p>Selon votre situation, des examens complémentaires peuvent être proposés afin d'orienter le diagnostic.</p>
-                <p>Une fois la cause identifiée, un traitement personnalisé vous est expliqué ainsi que les conseils à suivre pour préserver la santé du cuir chevelu.</p>
-
-                <h2>Les traitements proposés</h2>
-                <p>La prise en charge dépend toujours du diagnostic. Selon votre situation, le Dr Samia Mrabat peut proposer :</p>
-                <ul className="check-list">
-                  <li>Des traitements locaux</li>
-                  <li>Des traitements par voie orale lorsque cela est indiqué</li>
-                  <li>Des soins dermatologiques adaptés au cuir chevelu</li>
-                  <li>Des conseils personnalisés concernant l'hygiène capillaire</li>
-                  <li>Un suivi régulier afin d'évaluer l'évolution de la repousse</li>
-                </ul>
-
-                <h2>Conseils pour préserver la santé de vos cheveux</h2>
-                <p>Quelques habitudes simples permettent de protéger durablement vos cheveux :</p>
-                <ul className="check-list">
-                  <li>Utiliser un shampoing adapté à votre cuir chevelu</li>
-                  <li>Éviter les traitements capillaires agressifs</li>
-                  <li>Adopter une alimentation équilibrée</li>
-                  <li>Limiter les sources de stress lorsque cela est possible</li>
-                  <li>Consulter rapidement en cas de chute inhabituelle</li>
-                </ul>
-
-                <h2>Pourquoi consulter rapidement ?</h2>
-                <p>Une prise en charge précoce permet souvent de ralentir l'évolution de certaines formes de chute de cheveux et d'améliorer les chances de repousse lorsqu'un traitement est indiqué.</p>
-                <p>Plus le diagnostic est posé tôt, plus les solutions thérapeutiques peuvent être efficaces.</p>
               </article>
             </div>
 

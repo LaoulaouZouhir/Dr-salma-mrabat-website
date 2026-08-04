@@ -1,7 +1,6 @@
 import React from 'react';
 import SEO from '../../components/SEO';
 import Breadcrumbs from '../../components/Breadcrumbs';
-import ArticleImageBlock from '../../components/ArticleImageBlock';
 
 export default function ControleGrainsBeaute() {
   const schemaData = {
@@ -48,61 +47,6 @@ export default function ControleGrainsBeaute() {
           <div className="subpage-grid-layout">
             <div className="subpage-main-body">
               <article className="medical-article">
-                <ArticleImageBlock articleId="controle-grains-beaute" imageIndex={0} className="diagram-block hero-diagram" />
-
-                <h2>Pourquoi faire contrôler ses grains de beauté ?</h2>
-                <p>Un contrôle dermatologique permet :</p>
-                <ul className="check-list">
-                  <li>De surveiller l'évolution de certains grains de beauté</li>
-                  <li>D'identifier précocement des lésions inhabituelles</li>
-                  <li>De distinguer les lésions bénignes des lésions nécessitant une surveillance particulière</li>
-                  <li>De bénéficier d'un suivi personnalisé selon votre profil</li>
-                </ul>
-                <p>La plupart des grains de beauté sont bénins, mais leur surveillance peut être recommandée dans certaines situations.</p>
-
-                
-                <ArticleImageBlock articleId="controle-grains-beaute" imageIndex={1} />
-<h2>Qui devrait réaliser un contrôle dermatologique ?</h2>
-                <p>Un contrôle est particulièrement recommandé si vous :</p>
-                <ul className="check-list">
-                  <li>Avez un grand nombre de grains de beauté</li>
-                  <li>Présentez une peau claire</li>
-                  <li>Avez des antécédents personnels ou familiaux de cancer de la peau</li>
-                  <li>Avez subi de nombreux coups de soleil, notamment durant l'enfance</li>
-                  <li>Observez l'apparition d'un nouveau grain de beauté à l'âge adulte</li>
-                  <li>Remarquez une modification d'une lésion existante</li>
-                </ul>
-
-                
-                <ArticleImageBlock articleId="controle-grains-beaute" imageIndex={2} />
-<h2>Comment se déroule le contrôle ?</h2>
-                <p>Lors de la consultation, le dermatologue examine l'ensemble des grains de beauté visibles.</p>
-                <p>Lorsque cela est nécessaire, une dermoscopie est réalisée afin d'observer les structures de la peau invisibles à l'œil nu.</p>
-                <p>Selon les résultats de l'examen, plusieurs options peuvent être proposées :</p>
-                <ul className="check-list">
-                  <li>Simple surveillance</li>
-                  <li>Contrôle régulier</li>
-                  <li>Photographie de suivi</li>
-                  <li>Biopsie ou exérèse lorsqu'elles sont médicalement indiquées</li>
-                </ul>
-                
-
-                <h2>Les signes qui doivent vous alerter</h2>
-                <p>Il est recommandé de consulter rapidement si un grain de beauté :</p>
-                <ul className="check-list">
-                  <li>Change de taille</li>
-                  <li>Change de forme</li>
-                  <li>Change de couleur</li>
-                  <li>Présente des bords irréguliers</li>
-                  <li>Saigne spontanément</li>
-                  <li>Démange ou devient douloureux</li>
-                  <li>Évolue rapidement</li>
-                </ul>
-                <p>Ces signes ne permettent pas à eux seuls de poser un diagnostic, mais justifient un avis dermatologique.</p>
-
-                <h2>Pourquoi consulter un dermatologue ?</h2>
-                <p>L'examen d'un grain de beauté nécessite une évaluation médicale précise.</p>
-                <p>Le dermatologue dispose des connaissances et des outils nécessaires, notamment la dermoscopie, pour analyser les lésions cutanées et déterminer la conduite à tenir la plus adaptée.</p>
               </article>
             </div>
 

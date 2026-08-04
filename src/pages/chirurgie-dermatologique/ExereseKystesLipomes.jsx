@@ -1,7 +1,6 @@
 import React from 'react';
 import SEO from '../../components/SEO';
 import Breadcrumbs from '../../components/Breadcrumbs';
-import ArticleImageBlock from '../../components/ArticleImageBlock';
 
 export default function ExereseKystesLipomes() {
   const schemaData = {
@@ -48,40 +47,6 @@ export default function ExereseKystesLipomes() {
           <div className="subpage-grid-layout">
             <div className="subpage-main-body">
               <article className="medical-article">
-                <ArticleImageBlock articleId="exerese-kystes-lipomes" imageIndex={0} className="diagram-block hero-diagram" />
-
-                <h2>Qu'est-ce qu'un kyste ou un lipome ?</h2>
-                <p>Un kyste est une poche située sous la peau contenant le plus souvent du sébum ou d'autres substances produites naturellement par l'organisme. Il se présente généralement sous la forme d'une petite boule mobile sous la peau.</p>
-                <p>Un lipome est une tumeur bénigne constituée de cellules graisseuses. Il est le plus souvent souple, mobile et indolore.</p>
-                <p>Bien que ces deux lésions soient différentes, elles nécessitent parfois une prise en charge lorsqu'elles deviennent gênantes ou évoluent.</p>
-                
-
-                
-                <ArticleImageBlock articleId="exerese-kystes-lipomes" imageIndex={1} />
-<h2>Dans quels cas une exérèse peut-elle être proposée ?</h2>
-                <p>Une intervention peut être envisagée notamment lorsque :</p>
-                <ul className="check-list">
-                  <li>Le kyste ou le lipome augmente de volume</li>
-                  <li>Il devient douloureux ou inflammatoire</li>
-                  <li>Des épisodes d'infection se répètent</li>
-                  <li>Il provoque une gêne dans les mouvements ou le port de vêtements</li>
-                  <li>Son emplacement entraîne une gêne esthétique importante</li>
-                  <li>Un examen complémentaire est nécessaire pour confirmer le diagnostic</li>
-                </ul>
-                <p>Chaque indication est évaluée individuellement lors de la consultation.</p>
-
-                <h2>Comment se déroule l'intervention ?</h2>
-                <p>Après un examen clinique, le dermatologue vérifie que l'exérèse est indiquée.</p>
-                <p>L'intervention est réalisée sous anesthésie locale. Une petite incision est effectuée afin de retirer complètement le kyste ou le lipome lorsque cela est possible.</p>
-                <p>Une fois la lésion retirée, la peau est refermée avec des points de suture adaptés à la zone traitée. La durée de l'intervention varie selon la taille et la localisation de la lésion.</p>
-
-                <h2>Après l'intervention</h2>
-                <p>Après l'exérèse, des soins locaux simples sont généralement recommandés afin de favoriser une bonne cicatrisation.</p>
-                <p>Le Dr Samia Mrabat vous remet des consignes personnalisées concernant les pansements, l'hygiène de la zone opérée, les activités à éviter temporairement et la date du contrôle si celui-ci est nécessaire.</p>
-
-                <h2>Pourquoi consulter un dermatologue ?</h2>
-                <p>Toutes les boules sous la peau ne correspondent pas à un kyste ou à un lipome.</p>
-                <p>Une consultation dermatologique permet d'établir un diagnostic précis, d'écarter d'autres lésions cutanées et de déterminer si une exérèse est réellement indiquée.</p>
               </article>
             </div>
 

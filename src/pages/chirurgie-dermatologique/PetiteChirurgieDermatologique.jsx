@@ -1,7 +1,6 @@
 import React from 'react';
 import SEO from '../../components/SEO';
 import Breadcrumbs from '../../components/Breadcrumbs';
-import ArticleImageBlock from '../../components/ArticleImageBlock';
 
 export default function PetiteChirurgieDermatologique() {
   const schemaData = {
@@ -48,46 +47,6 @@ export default function PetiteChirurgieDermatologique() {
           <div className="subpage-grid-layout">
             <div className="subpage-main-body">
               <article className="medical-article">
-                <ArticleImageBlock articleId="petite-chirurgie-dermatologique" imageIndex={0} className="diagram-block hero-diagram" />
-
-                <h2>Qu'est-ce que la petite chirurgie dermatologique ?</h2>
-                <p>La petite chirurgie dermatologique correspond à des interventions de courte durée réalisées sous anesthésie locale, sans hospitalisation.</p>
-                <p>Elle permet notamment de retirer certaines lésions cutanées bénignes, de réaliser un prélèvement diagnostique ou de traiter certaines pathologies de la peau et des ongles lorsque cela est indiqué.</p>
-                <p>Chaque intervention est adaptée à la nature de la lésion et aux besoins du patient.</p>
-
-                
-                <ArticleImageBlock articleId="petite-chirurgie-dermatologique" imageIndex={1} />
-<h2>Quels actes peuvent être réalisés ?</h2>
-                <p>Selon votre situation, différents actes peuvent être proposés, notamment :</p>
-                <ul className="check-list">
-                  <li>Exérèse de kystes</li>
-                  <li>Exérèse de lipomes</li>
-                  <li>Ablation de certains grains de beauté lorsque cela est indiqué</li>
-                  <li>Biopsies cutanées</li>
-                  <li>Chirurgie de l'ongle incarné</li>
-                  <li>Exérèse de certaines lésions cutanées bénignes</li>
-                </ul>
-                <p>Chaque indication est évaluée individuellement lors de la consultation.</p>
-                
-
-                <h2>Comment se déroule une intervention ?</h2>
-                <p>Avant toute intervention, un examen clinique permet de confirmer le diagnostic et de vérifier que le geste est adapté.</p>
-                <p>La plupart des interventions sont réalisées sous anesthésie locale. Après désinfection de la peau, le geste est réalisé avec des instruments adaptés afin d'assurer une prise en charge précise et de favoriser une bonne cicatrisation. Selon le type d'intervention, des points de suture peuvent être nécessaires.</p>
-
-                <h2>Après l'intervention</h2>
-                <p>Après l'acte chirurgical, des soins locaux simples sont généralement suffisants.</p>
-                <p>Le Dr Samia Mrabat vous remet des recommandations personnalisées concernant :</p>
-                <ul className="check-list">
-                  <li>Les soins de la plaie</li>
-                  <li>Les pansements</li>
-                  <li>La reprise des activités</li>
-                  <li>Les rendez-vous de contrôle</li>
-                  <li>Le retrait des fils lorsque cela est nécessaire</li>
-                </ul>
-
-                <h2>Pourquoi consulter un dermatologue ?</h2>
-                <p>Toutes les lésions cutanées ne nécessitent pas une intervention.</p>
-                <p>Une consultation dermatologique permet d'établir un diagnostic précis, de déterminer si une petite chirurgie est indiquée et de proposer la prise en charge la plus adaptée à votre situation.</p>
               </article>
             </div>
 

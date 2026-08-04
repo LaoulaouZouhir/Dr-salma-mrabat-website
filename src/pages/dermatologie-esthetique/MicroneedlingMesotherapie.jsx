@@ -1,7 +1,6 @@
 import React from 'react';
 import SEO from '../../components/SEO';
 import Breadcrumbs from '../../components/Breadcrumbs';
-import ArticleImageBlock from '../../components/ArticleImageBlock';
 
 export default function MicroneedlingMesotherapie() {
   const schemaData = {
@@ -48,45 +47,6 @@ export default function MicroneedlingMesotherapie() {
           <div className="subpage-grid-layout">
             <div className="subpage-main-body">
               <article className="medical-article">
-                <ArticleImageBlock articleId="microneedling-mesotherapie" imageIndex={0} className="diagram-block hero-diagram" />
-
-                <h2>Qu'est-ce que le microneedling et la mésothérapie ?</h2>
-                <p>Le microneedling consiste à réaliser de très fines micro-perforations contrôlées à la surface de la peau à l'aide d'un dispositif médical spécifique. Ce processus stimule naturellement les mécanismes de réparation cutanée et favorise le renouvellement de la peau.</p>
-                <p>La mésothérapie consiste à administrer de faibles quantités de substances adaptées directement dans les couches superficielles de la peau afin d'améliorer son hydratation, son éclat et sa qualité.</p>
-                <p>Selon votre situation, ces deux traitements peuvent être proposés séparément ou associés.</p>
-
-                
-                <ArticleImageBlock articleId="microneedling-mesotherapie" imageIndex={1} />
-<h2>Dans quels cas ces traitements peuvent-ils être indiqués ?</h2>
-                <p>Le microneedling et la mésothérapie peuvent être proposés notamment pour :</p>
-                <ul className="check-list">
-                  <li>Améliorer la qualité de la peau</li>
-                  <li>Affiner le grain de peau</li>
-                  <li>Améliorer l'éclat du teint</li>
-                  <li>Atténuer certaines cicatrices d'acné superficielles</li>
-                  <li>Réduire l'apparence des pores dilatés</li>
-                  <li>Améliorer certaines ridules superficielles</li>
-                  <li>Favoriser une meilleure hydratation cutanée</li>
-                </ul>
-                <p>Chaque indication est évaluée individuellement lors de la consultation.</p>
-
-                <h2>Comment se déroule une séance ?</h2>
-                <p>La consultation débute par une analyse de votre peau afin d'évaluer vos besoins et de définir le protocole le plus adapté.</p>
-                <p>La peau est ensuite préparée avant la réalisation du traitement. Une fois la séance terminée, des recommandations personnalisées vous sont remises afin d'optimiser la récupération cutanée.</p>
-                
-
-                <h2>Quels résultats peut-on attendre ?</h2>
-                <p>Les résultats apparaissent progressivement au fil du renouvellement naturel de la peau.</p>
-                <p>Selon les indications, ces traitements peuvent contribuer à améliorer la texture cutanée, l'éclat du teint, l'hydratation de la peau et certaines imperfections superficielles.</p>
-                <p>Le nombre de séances recommandé dépend de votre peau et de vos objectifs.</p>
-
-                <h2>Les précautions après la séance</h2>
-                <p>Après le traitement, une légère rougeur peut être observée pendant une courte période.</p>
-                <p>Il est recommandé de suivre les conseils donnés par le dermatologue concernant l'hydratation, la protection solaire, les soins à appliquer et les activités à éviter temporairement afin de favoriser une bonne récupération de la peau.</p>
-
-                <h2>Pourquoi consulter un dermatologue ?</h2>
-                <p>Le choix du protocole dépend de nombreux critères, notamment du type de peau, du phototype, des indications médicales et des attentes du patient.</p>
-                <p>Une consultation dermatologique permet de proposer une prise en charge personnalisée et adaptée à chaque situation.</p>
               </article>
             </div>
 

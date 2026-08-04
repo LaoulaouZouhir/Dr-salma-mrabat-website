@@ -1,7 +1,6 @@
 import React from 'react';
 import SEO from '../../components/SEO';
 import Breadcrumbs from '../../components/Breadcrumbs';
-import ArticleImageBlock from '../../components/ArticleImageBlock';
 
 export default function AllergiesInfections() {
   const schemaData = {
@@ -48,80 +47,6 @@ export default function AllergiesInfections() {
           <div className="subpage-grid-layout">
             <div className="subpage-main-body">
               <article className="medical-article">
-                {/* Image 1: Hero */}
-                <ArticleImageBlock articleId="allergies-infections" imageIndex={0} className="diagram-block hero-diagram" />
-
-                <h2>Qu'est-ce qu'une allergie cutanée ?</h2>
-                <p>Une allergie cutanée est une réaction excessive du système immunitaire face à une substance normalement inoffensive. Elle peut être déclenchée par des cosmétiques, des produits ménagers, certains métaux, des médicaments ou encore des plantes.</p>
-                <p>Les manifestations varient selon les patients et peuvent apparaître rapidement après le contact avec l'allergène.</p>
-
-                <h2>Les principales infections de la peau</h2>
-                {/* Image 2: Les principales infections */}
-                <ArticleImageBlock articleId="allergies-infections" imageIndex={1} />
-                <p>La peau peut être touchée par différents types d'infections :</p>
-                <ul className="check-list">
-                  <li>Infections bactériennes</li>
-                  <li>Infections virales</li>
-                  <li>Infections fongiques (mycoses)</li>
-                  <li>Infections parasitaires</li>
-                </ul>
-                <p>Chaque type d'infection nécessite une prise en charge spécifique afin d'éviter sa propagation ou ses complications.</p>
-
-                <h2>Les maladies dermatologiques fréquentes</h2>
-                <p>Certaines maladies de la peau ne sont ni allergiques ni infectieuses, mais nécessitent également une prise en charge dermatologique. Parmi les plus fréquentes :</p>
-                <ul className="check-list">
-                  <li>Urticaire</li>
-                  <li>Rosacée</li>
-                  <li>Dermatite séborrhéique</li>
-                  <li>Kératose pilaire</li>
-                  <li>Maladies bulleuses</li>
-                  <li>Troubles de la pigmentation</li>
-                </ul>
-
-                <h2>Les symptômes qui doivent vous amener à consulter</h2>
-                {/* Image 3: Signes d'alerte / Symptômes (Article_4_Allergies_Infections_Maladies_Peau_p3_img1.png) */}
-                <ArticleImageBlock articleId="allergies-infections" imageIndex={2} />
-                <p>Une consultation est recommandée en cas de :</p>
-                <ul className="check-list">
-                  <li>Rougeurs persistantes</li>
-                  <li>Démangeaisons importantes</li>
-                  <li>Boutons ou éruptions cutanées</li>
-                  <li>Cloques</li>
-                  <li>Lésions douloureuses</li>
-                  <li>Écoulement ou suintement</li>
-                  <li>Plaques qui s'étendent</li>
-                  <li>Fièvre associée à une éruption cutanée</li>
-                  <li>Absence d'amélioration malgré les traitements habituels</li>
-                </ul>
-
-                <h2>Comment se déroule la consultation ?</h2>
-                <p>Le Dr Samia Mrabat réalise un examen clinique complet de votre peau afin d'identifier l'origine des lésions.</p>
-                <p>Selon votre situation, le diagnostic peut être orienté par l'aspect des lésions, leur localisation, leur ancienneté et leur évolution.</p>
-                <p>Lorsque cela est nécessaire, des examens complémentaires peuvent être proposés afin de confirmer le diagnostic.</p>
-
-                <h2>Les traitements proposés</h2>
-                <p>Le traitement dépend toujours de la cause identifiée. Selon le diagnostic, le Dr Samia Mrabat peut proposer :</p>
-                <ul className="check-list">
-                  <li>Des traitements locaux</li>
-                  <li>Des traitements par voie orale lorsque cela est indiqué</li>
-                  <li>Des conseils d'éviction des allergènes</li>
-                  <li>Des recommandations d'hygiène cutanée</li>
-                  <li>Un suivi dermatologique personnalisé</li>
-                </ul>
-
-                <h2>Conseils pour protéger votre peau</h2>
-                <p>Quelques habitudes permettent de préserver la santé de votre peau :</p>
-                <ul className="check-list">
-                  <li>Utiliser des produits adaptés aux peaux sensibles</li>
-                  <li>Hydrater régulièrement la peau</li>
-                  <li>Éviter les produits irritants</li>
-                  <li>Protéger la peau du soleil</li>
-                  <li>Consulter rapidement en cas d'apparition d'une nouvelle lésion</li>
-                </ul>
-
-                <h2>Pourquoi consulter rapidement ?</h2>
-                <p>Une prise en charge précoce permet souvent de limiter l'aggravation des lésions, d'éviter certaines complications et d'améliorer le confort du patient.</p>
-                <p>Un diagnostic précis est indispensable afin de mettre en place le traitement le plus adapté.</p>
               </article>
             </div>
 

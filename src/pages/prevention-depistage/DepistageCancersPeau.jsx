@@ -1,7 +1,6 @@
 import React from 'react';
 import SEO from '../../components/SEO';
 import Breadcrumbs from '../../components/Breadcrumbs';
-import ArticleImageBlock from '../../components/ArticleImageBlock';
 
 export default function DepistageCancersPeau() {
   const schemaData = {
@@ -48,56 +47,6 @@ export default function DepistageCancersPeau() {
           <div className="subpage-grid-layout">
             <div className="subpage-main-body">
               <article className="medical-article">
-                <ArticleImageBlock articleId="depistage-cancers-peau" imageIndex={0} className="diagram-block hero-diagram" />
-
-                <h2>Pourquoi réaliser un dépistage ?</h2>
-                <p>Les cancers de la peau figurent parmi les cancers les plus fréquents. Lorsqu'ils sont détectés précocement, ils peuvent être pris en charge plus rapidement.</p>
-                <p>Un dépistage est particulièrement recommandé chez les personnes présentant :</p>
-                <ul className="check-list">
-                  <li>De nombreux grains de beauté</li>
-                  <li>Une peau claire</li>
-                  <li>Des antécédents personnels ou familiaux de cancer cutané</li>
-                  <li>Une exposition importante au soleil au cours de la vie</li>
-                  <li>Des coups de soleil répétés, notamment pendant l'enfance</li>
-                  <li>Une apparition récente ou une modification d'une lésion cutanée</li>
-                </ul>
-
-                
-                <ArticleImageBlock articleId="depistage-cancers-peau" imageIndex={1} />
-<h2>Comment se déroule le dépistage ?</h2>
-                <p>Lors de la consultation, le dermatologue examine l'ensemble de la peau, du cuir chevelu jusqu'aux pieds.</p>
-                <p>Lorsque cela est nécessaire, une dermoscopie est réalisée. Cet examen utilise un dermatoscope permettant d'observer les structures de la peau invisibles à l'œil nu et d'évaluer plus précisément certaines lésions.</p>
-                <p>Si une anomalie est identifiée, une surveillance, une biopsie ou une exérèse peut être proposée selon les indications médicales.</p>
-
-                
-                <ArticleImageBlock articleId="depistage-cancers-peau" imageIndex={2} />
-<h2>Quels signes doivent vous amener à consulter ?</h2>
-                <p>Une consultation dermatologique est recommandée si vous observez :</p>
-                <ul className="check-list">
-                  <li>Un grain de beauté qui change de taille, de forme ou de couleur</li>
-                  <li>Une nouvelle lésion pigmentée</li>
-                  <li>Une plaie qui ne cicatrise pas</li>
-                  <li>Une lésion qui saigne spontanément</li>
-                  <li>Une croûte persistante</li>
-                  <li>Une lésion qui démange ou devient douloureuse</li>
-                </ul>
-                <p>Ces signes ne signifient pas nécessairement qu'il s'agit d'un cancer de la peau, mais ils justifient un avis spécialisé.</p>
-                
-
-                <h2>La règle ABCDE</h2>
-                <p>Pour repérer certaines lésions suspectes, les dermatologues utilisent notamment la règle ABCDE :</p>
-                <ul className="check-list">
-                  <li><strong>A</strong> : Asymétrie</li>
-                  <li><strong>B</strong> : Bords irréguliers</li>
-                  <li><strong>C</strong> : Couleurs multiples</li>
-                  <li><strong>D</strong> : Diamètre supérieur à 6 mm</li>
-                  <li><strong>E</strong> : Évolution de la lésion</li>
-                </ul>
-                <p>Cette règle constitue un outil d'alerte, mais seul un examen dermatologique permet d'établir un diagnostic.</p>
-
-                <h2>Pourquoi consulter un dermatologue ?</h2>
-                <p>Toutes les lésions pigmentées ne sont pas cancéreuses.</p>
-                <p>Une consultation dermatologique permet d'établir un diagnostic précis, d'éviter des inquiétudes inutiles et de mettre en place une surveillance ou une prise en charge adaptée lorsque cela est nécessaire.</p>
               </article>
             </div>
 
