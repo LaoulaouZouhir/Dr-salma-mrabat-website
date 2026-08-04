@@ -36,7 +36,7 @@
     "images": [
       {
         "id": "eczema-img-1",
-        "section": "En-tête de l'article",
+        "section": "En-tête / Introduction",
         "src": "/images/pdf_extracted/page_38_img_1.jpeg",
         "alt": "Infographie : Physiopathologie de la barrière cutanée dans l'eczéma",
         "caption": "Altération de la barrière épidermique et perte en eau transépidermique dans la dermatite atopique."
@@ -50,17 +50,17 @@
       },
       {
         "id": "eczema-img-3",
-        "section": "Qu'est-ce que le vitiligo ?",
+        "section": "Qu'est-ce que le psoriasis ?",
         "src": "/images/pdf_extracted/page_40_img_1.jpeg",
-        "alt": "Le vitiligo : comprendre la perte de pigmentation",
-        "caption": "Le vitiligo : disparition progressive des mélanocytes responsables de la pigmentation cutanée."
+        "alt": "Le psoriasis : plaques rouges et squames blanchâtres",
+        "caption": "Le psoriasis : maladie inflammatoire liée au renouvellement accéléré des cellules de la peau."
       },
       {
         "id": "eczema-img-4",
-        "section": "Quels sont les symptômes ?",
+        "section": "Qu'est-ce que le vitiligo ?",
         "src": "/images/pdf_extracted/page_41_img_1.jpeg",
-        "alt": "Symptômes comparés de l'eczéma, du psoriasis et du vitiligo",
-        "caption": "Comparaison des manifestations cliniques de l'eczéma, du psoriasis et du vitiligo."
+        "alt": "Le vitiligo : comprendre la perte de pigmentation",
+        "caption": "Le vitiligo : disparition progressive des mélanocytes responsables de la pigmentation cutanée."
       },
       {
         "id": "eczema-img-5",

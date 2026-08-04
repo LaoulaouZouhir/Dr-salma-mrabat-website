@@ -48,24 +48,29 @@ export default function EczemaPsoriasisVitiligo() {
           <div className="subpage-grid-layout">
             <div className="subpage-main-body">
               <article className="medical-article">
+                {/* Image 1: Hero / Introduction */}
                 <ArticleImageBlock articleId="eczema-psoriasis-vitiligo" imageIndex={0} className="diagram-block hero-diagram" />
 
                 <h2>Qu'est-ce que l'eczéma ?</h2>
                 <p>L'eczéma est une maladie inflammatoire chronique de la peau caractérisée par une altération de la barrière cutanée. Il provoque des plaques rouges, des démangeaisons parfois très intenses et une peau sèche.</p>
                 <p>Il existe plusieurs formes d'eczéma, notamment l'eczéma atopique et l'eczéma de contact. Les poussées peuvent être déclenchées par différents facteurs comme certains allergènes, les irritants, le stress ou les variations climatiques.</p>
                 <p>Une prise en charge adaptée permet généralement de soulager les symptômes et de réduire la fréquence des poussées.</p>
+                {/* Image 2: Qu'est-ce que l'eczéma ? */}
                 <ArticleImageBlock articleId="eczema-psoriasis-vitiligo" imageIndex={1} />
 
                 <h2>Qu'est-ce que le psoriasis ?</h2>
                 <p>Le psoriasis est une maladie inflammatoire chronique liée à un renouvellement accéléré des cellules de la peau. Il se manifeste par des plaques épaisses, rouges, recouvertes de squames blanchâtres.</p>
                 <p>Les lésions apparaissent le plus souvent au niveau des coudes, des genoux, du cuir chevelu ou du bas du dos, mais peuvent toucher d'autres parties du corps.</p>
                 <p>Le psoriasis évolue par périodes de poussées et de rémission. Une prise en charge dermatologique permet d'adapter le traitement selon la sévérité de la maladie et son impact sur la vie quotidienne.</p>
+                {/* Image 3: Qu'est-ce que le psoriasis ? */}
+                <ArticleImageBlock articleId="eczema-psoriasis-vitiligo" imageIndex={2} />
 
                 <h2>Qu'est-ce que le vitiligo ?</h2>
                 <p>Le vitiligo est une maladie chronique caractérisée par la disparition progressive des cellules responsables de la pigmentation de la peau, appelées mélanocytes.</p>
                 <p>Il se traduit par l'apparition de taches blanches bien délimitées pouvant toucher différentes zones du corps.</p>
                 <p>Le vitiligo n'est ni contagieux ni douloureux, mais son retentissement esthétique et psychologique peut être important. Une consultation dermatologique permet de confirmer le diagnostic et de discuter des différentes options thérapeutiques.</p>
-                <ArticleImageBlock articleId="eczema-psoriasis-vitiligo" imageIndex={2} />
+                {/* Image 4: Qu'est-ce que le vitiligo ? */}
+                <ArticleImageBlock articleId="eczema-psoriasis-vitiligo" imageIndex={3} />
 
                 <h2>Quels sont les symptômes ?</h2>
                 <h3>Symptômes de l'eczéma</h3>
@@ -93,7 +98,6 @@ export default function EczemaPsoriasisVitiligo() {
                   <li>Atteinte du visage, des mains, des coudes ou d'autres zones du corps</li>
                   <li>Parfois blanchiment précoce des poils sur les zones concernées</li>
                 </ul>
-                <ArticleImageBlock articleId="eczema-psoriasis-vitiligo" imageIndex={3} />
 
                 <h2>Quand consulter un dermatologue ?</h2>
                 <p>Il est recommandé de consulter lorsque :</p>
@@ -106,6 +110,7 @@ export default function EczemaPsoriasisVitiligo() {
                   <li>Les symptômes ont un impact sur votre qualité de vie</li>
                 </ul>
                 <p>Un diagnostic précoce permet d'adapter rapidement le traitement et d'améliorer le confort au quotidien.</p>
+                {/* Image 5: Quand consulter un dermatologue ? */}
                 <ArticleImageBlock articleId="eczema-psoriasis-vitiligo" imageIndex={4} />
 
                 <h2>Comment se déroule la consultation ?</h2>
