@@ -1,14 +1,9 @@
 import React from 'react';
 import SEO from '../../components/SEO';
 import Breadcrumbs from '../../components/Breadcrumbs';
-import LightboxImage from '../../components/Lightbox';
-import { useArticleImages } from '../../utils/articleImageHelper';
+import ArticleImageBlock from '../../components/ArticleImageBlock';
 
 export default function EczemaPsoriasisVitiligo() {
-  const images = useArticleImages('eczema-psoriasis-vitiligo');
-  const img1 = images[0] || { src: '/images/pdf_extracted/page_38_img_1.jpeg', alt: '', caption: '' };
-  const img2 = images[1] || { src: '/images/pdf_extracted/page_40_img_1.jpeg', alt: '', caption: '' };
-
   const schemaData = {
     '@context': 'https://schema.org',
     '@type': 'MedicalWebPage',
@@ -53,20 +48,13 @@ export default function EczemaPsoriasisVitiligo() {
           <div className="subpage-grid-layout">
             <div className="subpage-main-body">
               <article className="medical-article">
-                {img1 && img1.src && (
-                  <div className="diagram-block hero-diagram">
-                    <LightboxImage
-                      src={img1.src}
-                      alt={img1.alt || "Eczéma, psoriasis et vitiligo"}
-                      caption={img1.caption}
-                    />
-                  </div>
-                )}
+                <ArticleImageBlock articleId="eczema-psoriasis-vitiligo" imageIndex={0} className="diagram-block hero-diagram" />
 
                 <h2>Qu'est-ce que l'eczéma ?</h2>
                 <p>L'eczéma est une maladie inflammatoire chronique de la peau caractérisée par une altération de la barrière cutanée. Il provoque des plaques rouges, des démangeaisons parfois très intenses et une peau sèche.</p>
                 <p>Il existe plusieurs formes d'eczéma, notamment l'eczéma atopique et l'eczéma de contact. Les poussées peuvent être déclenchées par différents facteurs comme certains allergènes, les irritants, le stress ou les variations climatiques.</p>
                 <p>Une prise en charge adaptée permet généralement de soulager les symptômes et de réduire la fréquence des poussées.</p>
+                <ArticleImageBlock articleId="eczema-psoriasis-vitiligo" imageIndex={1} />
 
                 <h2>Qu'est-ce que le psoriasis ?</h2>
                 <p>Le psoriasis est une maladie inflammatoire chronique liée à un renouvellement accéléré des cellules de la peau. Il se manifeste par des plaques épaisses, rouges, recouvertes de squames blanchâtres.</p>
@@ -77,15 +65,7 @@ export default function EczemaPsoriasisVitiligo() {
                 <p>Le vitiligo est une maladie chronique caractérisée par la disparition progressive des cellules responsables de la pigmentation de la peau, appelées mélanocytes.</p>
                 <p>Il se traduit par l'apparition de taches blanches bien délimitées pouvant toucher différentes zones du corps.</p>
                 <p>Le vitiligo n'est ni contagieux ni douloureux, mais son retentissement esthétique et psychologique peut être important. Une consultation dermatologique permet de confirmer le diagnostic et de discuter des différentes options thérapeutiques.</p>
-                {img2 && img2.src && (
-                  <div className="diagram-block">
-                    <LightboxImage
-                      src={img2.src}
-                      alt={img2.alt || "Vitiligo et maladies pigmentaires"}
-                      caption={img2.caption}
-                    />
-                  </div>
-                )}
+                <ArticleImageBlock articleId="eczema-psoriasis-vitiligo" imageIndex={2} />
 
                 <h2>Quels sont les symptômes ?</h2>
                 <h3>Symptômes de l'eczéma</h3>
@@ -113,6 +93,7 @@ export default function EczemaPsoriasisVitiligo() {
                   <li>Atteinte du visage, des mains, des coudes ou d'autres zones du corps</li>
                   <li>Parfois blanchiment précoce des poils sur les zones concernées</li>
                 </ul>
+                <ArticleImageBlock articleId="eczema-psoriasis-vitiligo" imageIndex={3} />
 
                 <h2>Quand consulter un dermatologue ?</h2>
                 <p>Il est recommandé de consulter lorsque :</p>
@@ -125,6 +106,7 @@ export default function EczemaPsoriasisVitiligo() {
                   <li>Les symptômes ont un impact sur votre qualité de vie</li>
                 </ul>
                 <p>Un diagnostic précoce permet d'adapter rapidement le traitement et d'améliorer le confort au quotidien.</p>
+                <ArticleImageBlock articleId="eczema-psoriasis-vitiligo" imageIndex={4} />
 
                 <h2>Comment se déroule la consultation ?</h2>
                 <p>Lors de la consultation, le Dr Samia Mrabat réalise un examen clinique complet de votre peau et vous interroge sur vos symptômes, leur évolution, vos antécédents médicaux et les traitements déjà utilisés.</p>

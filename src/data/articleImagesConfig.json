@@ -43,10 +43,31 @@
       },
       {
         "id": "eczema-img-2",
-        "section": "Milieu de l'article",
+        "section": "Qu'est-ce que l'eczéma ?",
+        "src": "/images/pdf_extracted/page_39_img_1.jpeg",
+        "alt": "L'eczéma expliqué : mécanisme et types",
+        "caption": "L'eczéma : une maladie inflammatoire chronique de la peau aux différentes formes cliniques."
+      },
+      {
+        "id": "eczema-img-3",
+        "section": "Qu'est-ce que le vitiligo ?",
         "src": "/images/pdf_extracted/page_40_img_1.jpeg",
-        "alt": "Infographie : Différences cliniques entre Éczéma, Psoriasis et Vitiligo",
-        "caption": "Comparaison clinique des lésions : plaques érythémato-squameuses du psoriasis vs plaques de dépigmentation du vitiligo."
+        "alt": "Le vitiligo : comprendre la perte de pigmentation",
+        "caption": "Le vitiligo : disparition progressive des mélanocytes responsables de la pigmentation cutanée."
+      },
+      {
+        "id": "eczema-img-4",
+        "section": "Quels sont les symptômes ?",
+        "src": "/images/pdf_extracted/page_41_img_1.jpeg",
+        "alt": "Symptômes comparés de l'eczéma, du psoriasis et du vitiligo",
+        "caption": "Comparaison des manifestations cliniques de l'eczéma, du psoriasis et du vitiligo."
+      },
+      {
+        "id": "eczema-img-5",
+        "section": "Quand consulter un dermatologue ?",
+        "src": "/images/pdf_extracted/page_43_img_1.jpeg",
+        "alt": "Quand consulter un dermatologue pour eczéma, psoriasis ou vitiligo",
+        "caption": "Les signes qui doivent vous amener à consulter un dermatologue."
       }
     ]
   },
