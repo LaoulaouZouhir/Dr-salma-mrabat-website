@@ -1,7 +1,7 @@
 import React from 'react';
 import SEO from '../../components/SEO';
 import Breadcrumbs from '../../components/Breadcrumbs';
-import LightboxImage from '../../components/Lightbox';
+import ArticleImageBlock from '../../components/ArticleImageBlock';
 
 export default function PeelingsSoinsPeau() {
   const schemaData = {
@@ -48,18 +48,15 @@ export default function PeelingsSoinsPeau() {
           <div className="subpage-grid-layout">
             <div className="subpage-main-body">
               <article className="medical-article">
-                <div className="diagram-block hero-diagram">
-                  <LightboxImage
-                    src="/images/pdf_extracted/page_74_img_1.jpeg"
-                    alt="Infographie : Fonctionnement d'un peeling dermatologique"
-                    caption="Le processus de régénération épidermique par peeling médical."
-                  />
-                </div>
+                {/* Image 1: Hero */}
+                <ArticleImageBlock articleId="peelings-soins-peau" imageIndex={0} className="diagram-block hero-diagram" />
 
                 <h2>Qu'est-ce qu'un peeling dermatologique ?</h2>
                 <p>Un peeling dermatologique consiste à appliquer sur la peau une solution spécifique provoquant un renouvellement contrôlé des couches superficielles de l'épiderme.</p>
                 <p>Ce renouvellement stimule progressivement l'apparition d'une peau plus uniforme, plus lumineuse et plus lisse.</p>
                 <p>Le type de peeling est choisi en fonction de votre type de peau, de la zone à traiter et de l'objectif recherché.</p>
+                {/* Image 2: Fonctionnement */}
+                <ArticleImageBlock articleId="peelings-soins-peau" imageIndex={1} />
 
                 <h2>Dans quels cas un peeling peut-il être indiqué ?</h2>
                 <p>Un peeling dermatologique peut être proposé dans différentes situations, notamment pour :</p>
@@ -76,18 +73,15 @@ export default function PeelingsSoinsPeau() {
                 <h2>Comment se déroule une séance ?</h2>
                 <p>La consultation débute par une analyse de votre peau afin d'évaluer son état, son phototype et vos attentes.</p>
                 <p>Le peeling est ensuite appliqué pendant une durée adaptée au traitement choisi. Une fois la séance terminée, des conseils personnalisés vous sont remis afin de favoriser une bonne récupération cutanée.</p>
-                <div className="diagram-block">
-                  <LightboxImage
-                    src="/images/pdf_extracted/page_77_img_1.jpeg"
-                    alt="Infographie : Les soins post-peeling et protection solaire"
-                    caption="Recommandations pour optimiser les résultats d'un peeling."
-                  />
-                </div>
+                {/* Image 3: Résultats */}
+                <ArticleImageBlock articleId="peelings-soins-peau" imageIndex={2} />
 
                 <h2>Quels résultats peut-on attendre ?</h2>
                 <p>Les résultats apparaissent progressivement au fil du renouvellement de la peau.</p>
                 <p>Selon l'indication, le peeling peut contribuer à améliorer la luminosité du teint, la qualité de la peau et certaines imperfections superficielles.</p>
                 <p>Le nombre de séances recommandé dépend de chaque patient et de l'objectif recherché.</p>
+                {/* Image 4: Soins post-peeling */}
+                <ArticleImageBlock articleId="peelings-soins-peau" imageIndex={3} />
 
                 <h2>Les précautions après un peeling</h2>
                 <p>Après un peeling, la peau peut être plus sensible pendant quelques jours.</p>

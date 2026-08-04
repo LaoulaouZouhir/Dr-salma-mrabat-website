@@ -1,7 +1,7 @@
 import React from 'react';
 import SEO from '../../components/SEO';
 import Breadcrumbs from '../../components/Breadcrumbs';
-import LightboxImage from '../../components/Lightbox';
+import ArticleImageBlock from '../../components/ArticleImageBlock';
 
 export default function DermatologiePediatrique() {
   const schemaData = {
@@ -48,13 +48,7 @@ export default function DermatologiePediatrique() {
           <div className="subpage-grid-layout">
             <div className="subpage-main-body">
               <article className="medical-article">
-                <div className="diagram-block hero-diagram">
-                  <LightboxImage
-                    src="/images/pdf_extracted/page_61_img_1.jpeg"
-                    alt="Infographie : Les maladies dermatologiques fréquentes chez l'enfant"
-                    caption="Principales affections pédiatriques de la peau du bébé à l'adolescent."
-                  />
-                </div>
+                <ArticleImageBlock articleId="dermatologie-pediatrique" imageIndex={0} className="diagram-block hero-diagram" />
 
                 <h2>Quelles maladies de la peau peuvent toucher les enfants ?</h2>
                 <p>Les enfants peuvent présenter différentes maladies dermatologiques dès les premiers mois de vie ou au cours de leur croissance. Parmi les affections les plus fréquentes :</p>
@@ -72,7 +66,9 @@ export default function DermatologiePediatrique() {
                 </ul>
                 <p>Chaque maladie nécessite une évaluation médicale afin d'établir un diagnostic précis.</p>
 
-                <h2>Les symptômes qui doivent amener à consulter</h2>
+                
+                <ArticleImageBlock articleId="dermatologie-pediatrique" imageIndex={1} />
+<h2>Les symptômes qui doivent amener à consulter</h2>
                 <p>Une consultation dermatologique est recommandée si votre enfant présente :</p>
                 <ul className="check-list">
                   <li>Des plaques rouges persistantes</li>
@@ -84,13 +80,7 @@ export default function DermatologiePediatrique() {
                   <li>Des taches blanches sur la peau</li>
                   <li>Une éruption cutanée accompagnée de fièvre</li>
                 </ul>
-                <div className="diagram-block">
-                  <LightboxImage
-                    src="/images/pdf_extracted/page_63_img_1.jpeg"
-                    alt="Infographie : Déroulement et conseils pour la consultation pédiatrique"
-                    caption="Une approche douce et adaptée aux jeunes patients."
-                  />
-                </div>
+                
 
                 <h2>Comment se déroule la consultation ?</h2>
                 <p>La consultation débute par un échange avec les parents afin de recueillir les antécédents médicaux, l'évolution des symptômes et les traitements déjà utilisés.</p>

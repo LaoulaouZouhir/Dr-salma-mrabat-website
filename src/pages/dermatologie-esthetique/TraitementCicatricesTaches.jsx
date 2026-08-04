@@ -1,7 +1,7 @@
 import React from 'react';
 import SEO from '../../components/SEO';
 import Breadcrumbs from '../../components/Breadcrumbs';
-import LightboxImage from '../../components/Lightbox';
+import ArticleImageBlock from '../../components/ArticleImageBlock';
 
 export default function TraitementCicatricesTaches() {
   const schemaData = {
@@ -48,13 +48,7 @@ export default function TraitementCicatricesTaches() {
           <div className="subpage-grid-layout">
             <div className="subpage-main-body">
               <article className="medical-article">
-                <div className="diagram-block hero-diagram">
-                  <LightboxImage
-                    src="/images/pdf_extracted/page_86_img_1.jpeg"
-                    alt="Infographie : Types de cicatrices et d'hyperpigmentation"
-                    caption="Classification des cicatrices atrophiques, hypertrophiques et des taches pigmentaires."
-                  />
-                </div>
+                <ArticleImageBlock articleId="traitement-cicatrices-taches-pigmentaires" imageIndex={0} className="diagram-block hero-diagram" />
 
                 <h2>Quelles sont les principales causes des cicatrices et des taches pigmentaires ?</h2>
                 <p>Les cicatrices et les taches peuvent avoir différentes origines. Les causes les plus fréquentes sont :</p>
@@ -68,7 +62,9 @@ export default function TraitementCicatricesTaches() {
                 </ul>
                 <p>Identifier la cause est une étape essentielle pour choisir la prise en charge la plus adaptée.</p>
 
-                <h2>Comment se déroule le diagnostic ?</h2>
+                
+                <ArticleImageBlock articleId="traitement-cicatrices-taches-pigmentaires" imageIndex={1} />
+<h2>Comment se déroule le diagnostic ?</h2>
                 <p>Lors de la consultation, le Dr Samia Mrabat examine votre peau afin d'évaluer :</p>
                 <ul className="check-list">
                   <li>Le type de cicatrice ou de tache</li>
@@ -80,7 +76,9 @@ export default function TraitementCicatricesTaches() {
                 </ul>
                 <p>Cette évaluation permet de définir un protocole personnalisé.</p>
 
-                <h2>Quels traitements peuvent être proposés ?</h2>
+                
+                <ArticleImageBlock articleId="traitement-cicatrices-taches-pigmentaires" imageIndex={2} />
+<h2>Quels traitements peuvent être proposés ?</h2>
                 <p>Selon votre situation, différents traitements peuvent être envisagés, seuls ou associés. Ils peuvent inclure :</p>
                 <ul className="check-list">
                   <li>Peelings dermatologiques</li>
@@ -91,13 +89,7 @@ export default function TraitementCicatricesTaches() {
                   <li>Autres traitements adaptés à votre indication</li>
                 </ul>
                 <p>Le choix du traitement dépend toujours de votre peau et de l'avis du dermatologue.</p>
-                <div className="diagram-block">
-                  <LightboxImage
-                    src="/images/pdf_extracted/page_89_img_1.jpeg"
-                    alt="Infographie : Combinaisons de traitements dermatologiques"
-                    caption="Approches combinées pour uniformiser le grain de peau et le teint."
-                  />
-                </div>
+                
 
                 <h2>Quels résultats peut-on attendre ?</h2>
                 <p>Les résultats apparaissent progressivement et varient selon le type de cicatrice ou de tache, sa profondeur et la réponse individuelle de la peau.</p>

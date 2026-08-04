@@ -1,7 +1,7 @@
 import React from 'react';
 import SEO from '../../components/SEO';
 import Breadcrumbs from '../../components/Breadcrumbs';
-import LightboxImage from '../../components/Lightbox';
+import ArticleImageBlock from '../../components/ArticleImageBlock';
 
 export default function LesionsCutaneesSuspectes() {
   const schemaData = {
@@ -48,13 +48,7 @@ export default function LesionsCutaneesSuspectes() {
           <div className="subpage-grid-layout">
             <div className="subpage-main-body">
               <article className="medical-article">
-                <div className="diagram-block hero-diagram">
-                  <LightboxImage
-                    src="/images/pdf_extracted/page_144_img_1.jpeg"
-                    alt="Infographie : Reconnaître une lésion cutanée anormale"
-                    caption="Signes d'alerte imposant une consultation dermatologique sans délai."
-                  />
-                </div>
+                <ArticleImageBlock articleId="lesions-cutanees-suspectes" imageIndex={0} className="diagram-block hero-diagram" />
 
                 <h2>Quels signes doivent attirer votre attention ?</h2>
                 <p>Une consultation dermatologique est recommandée si vous observez :</p>
@@ -69,7 +63,9 @@ export default function LesionsCutaneesSuspectes() {
                 </ul>
                 <p>Ces signes ne permettent pas d'établir un diagnostic, mais justifient un examen dermatologique.</p>
 
-                <h2>Comment se déroule l'évaluation ?</h2>
+                
+                <ArticleImageBlock articleId="lesions-cutanees-suspectes" imageIndex={1} />
+<h2>Comment se déroule l'évaluation ?</h2>
                 <p>Lors de la consultation, le dermatologue examine la peau et analyse les caractéristiques de la lésion.</p>
                 <p>Lorsque cela est indiqué, une dermoscopie peut être réalisée afin d'observer les structures invisibles à l'œil nu.</p>
                 <p>Selon les résultats de l'examen, plusieurs options peuvent être proposées :</p>
@@ -79,15 +75,11 @@ export default function LesionsCutaneesSuspectes() {
                   <li>Biopsie cutanée</li>
                   <li>Exérèse de la lésion lorsque cela est médicalement indiqué</li>
                 </ul>
-                <div className="diagram-block">
-                  <LightboxImage
-                    src="/images/pdf_extracted/page_145_img_1.jpeg"
-                    alt="Infographie : Démarche diagnostique et prise en charge"
-                    caption="Examen dermoscopique et orientation vers une exérèse ou surveillance."
-                  />
-                </div>
+                
 
-                <h2>Toutes les lésions sont-elles inquiétantes ?</h2>
+                
+                <ArticleImageBlock articleId="lesions-cutanees-suspectes" imageIndex={2} />
+<h2>Toutes les lésions sont-elles inquiétantes ?</h2>
                 <p>Non. De nombreuses lésions cutanées sont bénignes et ne nécessitent aucun traitement particulier.</p>
                 <p>L'objectif de la consultation est de distinguer les lésions bénignes de celles qui nécessitent une surveillance ou une prise en charge spécifique.</p>
                 <p>Un diagnostic précoce permet d'adapter rapidement la conduite à tenir lorsque cela est nécessaire.</p>

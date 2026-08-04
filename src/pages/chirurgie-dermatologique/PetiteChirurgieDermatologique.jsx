@@ -1,7 +1,7 @@
 import React from 'react';
 import SEO from '../../components/SEO';
 import Breadcrumbs from '../../components/Breadcrumbs';
-import LightboxImage from '../../components/Lightbox';
+import ArticleImageBlock from '../../components/ArticleImageBlock';
 
 export default function PetiteChirurgieDermatologique() {
   const schemaData = {
@@ -48,20 +48,16 @@ export default function PetiteChirurgieDermatologique() {
           <div className="subpage-grid-layout">
             <div className="subpage-main-body">
               <article className="medical-article">
-                <div className="diagram-block hero-diagram">
-                  <LightboxImage
-                    src="/images/pdf_extracted/page_121_img_1.jpeg"
-                    alt="Infographie : Les lésions bénignes traitées en petite chirurgie"
-                    caption="Exérèse des petites lésions cutanées inesthétiques ou gênantes."
-                  />
-                </div>
+                <ArticleImageBlock articleId="petite-chirurgie-dermatologique" imageIndex={0} className="diagram-block hero-diagram" />
 
                 <h2>Qu'est-ce que la petite chirurgie dermatologique ?</h2>
                 <p>La petite chirurgie dermatologique correspond à des interventions de courte durée réalisées sous anesthésie locale, sans hospitalisation.</p>
                 <p>Elle permet notamment de retirer certaines lésions cutanées bénignes, de réaliser un prélèvement diagnostique ou de traiter certaines pathologies de la peau et des ongles lorsque cela est indiqué.</p>
                 <p>Chaque intervention est adaptée à la nature de la lésion et aux besoins du patient.</p>
 
-                <h2>Quels actes peuvent être réalisés ?</h2>
+                
+                <ArticleImageBlock articleId="petite-chirurgie-dermatologique" imageIndex={1} />
+<h2>Quels actes peuvent être réalisés ?</h2>
                 <p>Selon votre situation, différents actes peuvent être proposés, notamment :</p>
                 <ul className="check-list">
                   <li>Exérèse de kystes</li>
@@ -72,13 +68,7 @@ export default function PetiteChirurgieDermatologique() {
                   <li>Exérèse de certaines lésions cutanées bénignes</li>
                 </ul>
                 <p>Chaque indication est évaluée individuellement lors de la consultation.</p>
-                <div className="diagram-block">
-                  <LightboxImage
-                    src="/images/pdf_extracted/page_122_img_1.jpeg"
-                    alt="Infographie : Déroulement des actes chirurgicaux légers"
-                    caption="Intervention ambulatoire sous anesthésie locale sans interruption des activités."
-                  />
-                </div>
+                
 
                 <h2>Comment se déroule une intervention ?</h2>
                 <p>Avant toute intervention, un examen clinique permet de confirmer le diagnostic et de vérifier que le geste est adapté.</p>

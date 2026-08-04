@@ -1,7 +1,7 @@
 import React from 'react';
 import SEO from '../../components/SEO';
 import Breadcrumbs from '../../components/Breadcrumbs';
-import LightboxImage from '../../components/Lightbox';
+import ArticleImageBlock from '../../components/ArticleImageBlock';
 
 export default function InjectionsBotoxHyaluronique() {
   const schemaData = {
@@ -48,17 +48,14 @@ export default function InjectionsBotoxHyaluronique() {
           <div className="subpage-grid-layout">
             <div className="subpage-main-body">
               <article className="medical-article">
-                <div className="diagram-block hero-diagram">
-                  <LightboxImage
-                    src="/images/pdf_extracted/page_67_img_1.jpeg"
-                    alt="Infographie : Différence entre Botox® et Acide Hyaluronique"
-                    caption="Comparaison détaillée des mécanismes d'action du Botox® et de l'Acide Hyaluronique."
-                  />
-                </div>
+                {/* Image 1: Hero / Différence Botox Hyaluronique */}
+                <ArticleImageBlock articleId="injections-botox-acide-hyaluronique" imageIndex={0} className="diagram-block hero-diagram" />
 
                 <h2>Quelle est la différence entre le Botox® et l'acide hyaluronique ?</h2>
                 <p>Le Botox® agit en diminuant temporairement l'activité de certains muscles responsables des rides d'expression, tandis que l'acide hyaluronique permet de restaurer les volumes, hydrater la peau et combler certaines rides.</p>
                 <p>Le choix du traitement dépend de la zone concernée, de la qualité de la peau et du résultat souhaité.</p>
+                {/* Image 2: Les principales indications */}
+                <ArticleImageBlock articleId="injections-botox-acide-hyaluronique" imageIndex={1} />
 
                 <h2>Dans quels cas ces injections sont-elles indiquées ?</h2>
                 <p>Les injections peuvent être envisagées pour :</p>
@@ -74,23 +71,22 @@ export default function InjectionsBotoxHyaluronique() {
                   <li>L'amélioration de certaines asymétries</li>
                 </ul>
                 <p>Chaque indication est évaluée individuellement lors de la consultation.</p>
+                {/* Image 3: Zones et anatomie */}
+                <ArticleImageBlock articleId="injections-botox-acide-hyaluronique" imageIndex={2} />
 
                 <h2>Comment se déroule une séance ?</h2>
                 <p>La consultation débute par une analyse du visage au repos et en mouvement.</p>
                 <p>Le Dr Samia Mrabat évalue les proportions du visage, la qualité de la peau et les attentes du patient afin de déterminer les zones pouvant bénéficier d'un traitement.</p>
                 <p>Les injections sont réalisées avec précision dans le respect de l'anatomie du visage. La séance dure généralement quelques minutes et les activités habituelles peuvent être reprises rapidement selon les recommandations du médecin.</p>
-                <div className="diagram-block">
-                  <LightboxImage
-                    src="/images/pdf_extracted/page_69_img_1.jpeg"
-                    alt="Infographie : Déroulement d'une séance d'injections esthétiques"
-                    caption="Étapes d'une prise en charge esthétique médicale personnalisée."
-                  />
-                </div>
+                {/* Image 4: Traitement des sillons nasogéniens */}
+                <ArticleImageBlock articleId="injections-botox-acide-hyaluronique" imageIndex={3} />
 
                 <h2>Quels résultats peut-on attendre ?</h2>
                 <p>L'objectif est d'obtenir un résultat naturel en respectant les expressions du visage.</p>
                 <p>Les injections permettent d'atténuer certaines rides, de restaurer des volumes lorsque cela est indiqué et d'apporter un aspect plus reposé sans modifier l'identité du visage.</p>
                 <p>Chaque patient obtient un résultat personnalisé selon son anatomie et son indication médicale.</p>
+                {/* Image 5: Recommandations et précautions */}
+                <ArticleImageBlock articleId="injections-botox-acide-hyaluronique" imageIndex={4} />
 
                 <h2>Précautions après les injections</h2>
                 <p>Après une séance, il est recommandé de suivre les conseils donnés par le médecin afin d'optimiser le résultat.</p>

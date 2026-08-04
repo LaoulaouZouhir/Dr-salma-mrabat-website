@@ -1,7 +1,7 @@
 import React from 'react';
 import SEO from '../../components/SEO';
 import Breadcrumbs from '../../components/Breadcrumbs';
-import LightboxImage from '../../components/Lightbox';
+import ArticleImageBlock from '../../components/ArticleImageBlock';
 
 export default function DepistageCancersPeau() {
   const schemaData = {
@@ -48,13 +48,7 @@ export default function DepistageCancersPeau() {
           <div className="subpage-grid-layout">
             <div className="subpage-main-body">
               <article className="medical-article">
-                <div className="diagram-block hero-diagram">
-                  <LightboxImage
-                    src="/images/pdf_extracted/page_126_img_1.jpeg"
-                    alt="Infographie : Comprendre les différents types de cancers cutanés"
-                    caption="Distinction entre mélanome, carcinome basocellulaire et spinocellulaire."
-                  />
-                </div>
+                <ArticleImageBlock articleId="depistage-cancers-peau" imageIndex={0} className="diagram-block hero-diagram" />
 
                 <h2>Pourquoi réaliser un dépistage ?</h2>
                 <p>Les cancers de la peau figurent parmi les cancers les plus fréquents. Lorsqu'ils sont détectés précocement, ils peuvent être pris en charge plus rapidement.</p>
@@ -68,12 +62,16 @@ export default function DepistageCancersPeau() {
                   <li>Une apparition récente ou une modification d'une lésion cutanée</li>
                 </ul>
 
-                <h2>Comment se déroule le dépistage ?</h2>
+                
+                <ArticleImageBlock articleId="depistage-cancers-peau" imageIndex={1} />
+<h2>Comment se déroule le dépistage ?</h2>
                 <p>Lors de la consultation, le dermatologue examine l'ensemble de la peau, du cuir chevelu jusqu'aux pieds.</p>
                 <p>Lorsque cela est nécessaire, une dermoscopie est réalisée. Cet examen utilise un dermatoscope permettant d'observer les structures de la peau invisibles à l'œil nu et d'évaluer plus précisément certaines lésions.</p>
                 <p>Si une anomalie est identifiée, une surveillance, une biopsie ou une exérèse peut être proposée selon les indications médicales.</p>
 
-                <h2>Quels signes doivent vous amener à consulter ?</h2>
+                
+                <ArticleImageBlock articleId="depistage-cancers-peau" imageIndex={2} />
+<h2>Quels signes doivent vous amener à consulter ?</h2>
                 <p>Une consultation dermatologique est recommandée si vous observez :</p>
                 <ul className="check-list">
                   <li>Un grain de beauté qui change de taille, de forme ou de couleur</li>
@@ -84,13 +82,7 @@ export default function DepistageCancersPeau() {
                   <li>Une lésion qui démange ou devient douloureuse</li>
                 </ul>
                 <p>Ces signes ne signifient pas nécessairement qu'il s'agit d'un cancer de la peau, mais ils justifient un avis spécialisé.</p>
-                <div className="diagram-block">
-                  <LightboxImage
-                    src="/images/pdf_extracted/page_128_img_1.jpeg"
-                    alt="Infographie : La règle ABCDE et les signes d'alerte"
-                    caption="Critères dermoscopiques de surveillance des lésions évolutives."
-                  />
-                </div>
+                
 
                 <h2>La règle ABCDE</h2>
                 <p>Pour repérer certaines lésions suspectes, les dermatologues utilisent notamment la règle ABCDE :</p>

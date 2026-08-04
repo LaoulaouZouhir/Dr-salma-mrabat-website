@@ -1,7 +1,7 @@
 import React from 'react';
 import SEO from '../../components/SEO';
 import Breadcrumbs from '../../components/Breadcrumbs';
-import LightboxImage from '../../components/Lightbox';
+import ArticleImageBlock from '../../components/ArticleImageBlock';
 
 export default function RajeunissementCutane() {
   const schemaData = {
@@ -48,13 +48,7 @@ export default function RajeunissementCutane() {
           <div className="subpage-grid-layout">
             <div className="subpage-main-body">
               <article className="medical-article">
-                <div className="diagram-block hero-diagram">
-                  <LightboxImage
-                    src="/images/pdf_extracted/page_92_img_1.jpeg"
-                    alt="Infographie : Les facteurs du vieillissement cutané (Intrinsèques et Extrinsèques)"
-                    caption="Comprendre le vieillissement cellulaire et la perte de fermeté."
-                  />
-                </div>
+                <ArticleImageBlock articleId="rajeunissement-cutane" imageIndex={0} className="diagram-block hero-diagram" />
 
                 <h2>Pourquoi la peau vieillit-elle ?</h2>
                 <p>Le vieillissement cutané résulte de plusieurs mécanismes naturels. Au fil des années :</p>
@@ -67,7 +61,9 @@ export default function RajeunissementCutane() {
                 </ul>
                 <p>Ces différents facteurs contribuent progressivement à modifier l'aspect et la qualité de la peau.</p>
 
-                <h2>Quels signes du vieillissement cutané peuvent être pris en charge ?</h2>
+                
+                <ArticleImageBlock articleId="rajeunissement-cutane" imageIndex={1} />
+<h2>Quels signes du vieillissement cutané peuvent être pris en charge ?</h2>
                 <p>Selon votre situation, différents signes peuvent être évalués lors de la consultation :</p>
                 <ul className="check-list">
                   <li>Rides d'expression</li>
@@ -81,7 +77,9 @@ export default function RajeunissementCutane() {
                 </ul>
                 <p>Chaque prise en charge est personnalisée selon les besoins de votre peau.</p>
 
-                <h2>Quels traitements peuvent être proposés ?</h2>
+                
+                <ArticleImageBlock articleId="rajeunissement-cutane" imageIndex={2} />
+<h2>Quels traitements peuvent être proposés ?</h2>
                 <p>Après un examen clinique, le Dr Samia Mrabat peut proposer, selon les indications :</p>
                 <ul className="check-list">
                   <li>Injections de Botox®</li>
@@ -92,13 +90,7 @@ export default function RajeunissementCutane() {
                   <li>Protocoles combinés lorsque cela est indiqué</li>
                 </ul>
                 <p>Le choix du traitement dépend de votre peau, de votre âge, de vos attentes et des indications médicales.</p>
-                <div className="diagram-block">
-                  <LightboxImage
-                    src="/images/pdf_extracted/page_94_img_1.jpeg"
-                    alt="Infographie : Protocoles de rajeunissement sur-mesure"
-                    caption="Synergie de soins esthétiques médicaux pour stimuler les fibroblastes."
-                  />
-                </div>
+                
 
                 <h2>Quels résultats peut-on attendre ?</h2>
                 <p>Les résultats apparaissent progressivement selon le traitement réalisé et la réponse naturelle de votre peau.</p>

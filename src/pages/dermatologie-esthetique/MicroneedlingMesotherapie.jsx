@@ -1,7 +1,7 @@
 import React from 'react';
 import SEO from '../../components/SEO';
 import Breadcrumbs from '../../components/Breadcrumbs';
-import LightboxImage from '../../components/Lightbox';
+import ArticleImageBlock from '../../components/ArticleImageBlock';
 
 export default function MicroneedlingMesotherapie() {
   const schemaData = {
@@ -48,20 +48,16 @@ export default function MicroneedlingMesotherapie() {
           <div className="subpage-grid-layout">
             <div className="subpage-main-body">
               <article className="medical-article">
-                <div className="diagram-block hero-diagram">
-                  <LightboxImage
-                    src="/images/pdf_extracted/page_81_img_1.jpeg"
-                    alt="Infographie : Principes du Microneedling et de la Mésothérapie"
-                    caption="Stimulation mécanique du collagène et apport de nutriments essentiels."
-                  />
-                </div>
+                <ArticleImageBlock articleId="microneedling-mesotherapie" imageIndex={0} className="diagram-block hero-diagram" />
 
                 <h2>Qu'est-ce que le microneedling et la mésothérapie ?</h2>
                 <p>Le microneedling consiste à réaliser de très fines micro-perforations contrôlées à la surface de la peau à l'aide d'un dispositif médical spécifique. Ce processus stimule naturellement les mécanismes de réparation cutanée et favorise le renouvellement de la peau.</p>
                 <p>La mésothérapie consiste à administrer de faibles quantités de substances adaptées directement dans les couches superficielles de la peau afin d'améliorer son hydratation, son éclat et sa qualité.</p>
                 <p>Selon votre situation, ces deux traitements peuvent être proposés séparément ou associés.</p>
 
-                <h2>Dans quels cas ces traitements peuvent-ils être indiqués ?</h2>
+                
+                <ArticleImageBlock articleId="microneedling-mesotherapie" imageIndex={1} />
+<h2>Dans quels cas ces traitements peuvent-ils être indiqués ?</h2>
                 <p>Le microneedling et la mésothérapie peuvent être proposés notamment pour :</p>
                 <ul className="check-list">
                   <li>Améliorer la qualité de la peau</li>
@@ -77,13 +73,7 @@ export default function MicroneedlingMesotherapie() {
                 <h2>Comment se déroule une séance ?</h2>
                 <p>La consultation débute par une analyse de votre peau afin d'évaluer vos besoins et de définir le protocole le plus adapté.</p>
                 <p>La peau est ensuite préparée avant la réalisation du traitement. Une fois la séance terminée, des recommandations personnalisées vous sont remises afin d'optimiser la récupération cutanée.</p>
-                <div className="diagram-block">
-                  <LightboxImage
-                    src="/images/pdf_extracted/page_83_img_1.jpeg"
-                    alt="Infographie : Résultats attendus et protocole de soin"
-                    caption="Évolution progressive de la qualité cutanée sur plusieurs séances."
-                  />
-                </div>
+                
 
                 <h2>Quels résultats peut-on attendre ?</h2>
                 <p>Les résultats apparaissent progressivement au fil du renouvellement naturel de la peau.</p>

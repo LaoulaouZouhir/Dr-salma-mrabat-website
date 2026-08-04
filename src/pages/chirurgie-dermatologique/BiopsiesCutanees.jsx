@@ -1,7 +1,7 @@
 import React from 'react';
 import SEO from '../../components/SEO';
 import Breadcrumbs from '../../components/Breadcrumbs';
-import LightboxImage from '../../components/Lightbox';
+import ArticleImageBlock from '../../components/ArticleImageBlock';
 
 export default function BiopsiesCutanees() {
   const schemaData = {
@@ -48,19 +48,15 @@ export default function BiopsiesCutanees() {
           <div className="subpage-grid-layout">
             <div className="subpage-main-body">
               <article className="medical-article">
-                <div className="diagram-block hero-diagram">
-                  <LightboxImage
-                    src="/images/pdf_extracted/page_110_img_1.jpeg"
-                    alt="Infographie : Quand réaliser une biopsie cutanée ?"
-                    caption="Indications diagnostiques pour l'examen histologique de la peau."
-                  />
-                </div>
+                <ArticleImageBlock articleId="biopsies-cutanees" imageIndex={0} className="diagram-block hero-diagram" />
 
                 <h2>Qu'est-ce qu'une biopsie cutanée ?</h2>
                 <p>Une biopsie cutanée consiste à prélever un très petit échantillon de peau sous anesthésie locale. Ce prélèvement est ensuite envoyé dans un laboratoire spécialisé où il est examiné au microscope par un médecin anatomopathologiste.</p>
                 <p>Cet examen permet d'obtenir des informations précieuses sur la nature de certaines lésions ou maladies cutanées et d'orienter le traitement le plus adapté.</p>
 
-                <h2>Dans quels cas une biopsie peut-elle être proposée ?</h2>
+                
+                <ArticleImageBlock articleId="biopsies-cutanees" imageIndex={1} />
+<h2>Dans quels cas une biopsie peut-elle être proposée ?</h2>
                 <p>Une biopsie cutanée peut être indiquée dans différentes situations, notamment pour :</p>
                 <ul className="check-list">
                   <li>Confirmer le diagnostic d'une maladie de la peau</li>
@@ -72,17 +68,13 @@ export default function BiopsiesCutanees() {
                 </ul>
                 <p>Chaque indication est évaluée individuellement lors de la consultation.</p>
 
-                <h2>Comment se déroule une biopsie ?</h2>
+                
+                <ArticleImageBlock articleId="biopsies-cutanees" imageIndex={2} />
+<h2>Comment se déroule une biopsie ?</h2>
                 <p>Après un examen clinique, le dermatologue détermine la zone la plus pertinente à prélever.</p>
                 <p>L'intervention est réalisée sous anesthésie locale. Un très petit fragment de peau est prélevé à l'aide d'un instrument adapté. Selon la taille du prélèvement, un ou plusieurs points de suture peuvent être nécessaires.</p>
                 <p>Le prélèvement est ensuite adressé à un laboratoire d'anatomopathologie pour être analysé.</p>
-                <div className="diagram-block">
-                  <LightboxImage
-                    src="/images/pdf_extracted/page_111_img_1.jpeg"
-                    alt="Infographie : Déroulement et suites de la biopsie cutanée"
-                    caption="Protocole opératoire sous anesthésie locale au cabinet."
-                  />
-                </div>
+                
 
                 <h2>Après la biopsie</h2>
                 <p>Après le prélèvement, quelques soins locaux sont généralement suffisants pour assurer une bonne cicatrisation.</p>

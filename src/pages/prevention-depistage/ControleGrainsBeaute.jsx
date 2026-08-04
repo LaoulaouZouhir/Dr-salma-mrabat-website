@@ -1,7 +1,7 @@
 import React from 'react';
 import SEO from '../../components/SEO';
 import Breadcrumbs from '../../components/Breadcrumbs';
-import LightboxImage from '../../components/Lightbox';
+import ArticleImageBlock from '../../components/ArticleImageBlock';
 
 export default function ControleGrainsBeaute() {
   const schemaData = {
@@ -48,13 +48,7 @@ export default function ControleGrainsBeaute() {
           <div className="subpage-grid-layout">
             <div className="subpage-main-body">
               <article className="medical-article">
-                <div className="diagram-block hero-diagram">
-                  <LightboxImage
-                    src="/images/pdf_extracted/page_131_img_1.jpeg"
-                    alt="Infographie : Pourquoi faire vérifier ses grains de beauté régulièrement ?"
-                    caption="Suivi des personnes à risque : peau claire, antécédents, coups de soleil."
-                  />
-                </div>
+                <ArticleImageBlock articleId="controle-grains-beaute" imageIndex={0} className="diagram-block hero-diagram" />
 
                 <h2>Pourquoi faire contrôler ses grains de beauté ?</h2>
                 <p>Un contrôle dermatologique permet :</p>
@@ -66,7 +60,9 @@ export default function ControleGrainsBeaute() {
                 </ul>
                 <p>La plupart des grains de beauté sont bénins, mais leur surveillance peut être recommandée dans certaines situations.</p>
 
-                <h2>Qui devrait réaliser un contrôle dermatologique ?</h2>
+                
+                <ArticleImageBlock articleId="controle-grains-beaute" imageIndex={1} />
+<h2>Qui devrait réaliser un contrôle dermatologique ?</h2>
                 <p>Un contrôle est particulièrement recommandé si vous :</p>
                 <ul className="check-list">
                   <li>Avez un grand nombre de grains de beauté</li>
@@ -77,7 +73,9 @@ export default function ControleGrainsBeaute() {
                   <li>Remarquez une modification d'une lésion existante</li>
                 </ul>
 
-                <h2>Comment se déroule le contrôle ?</h2>
+                
+                <ArticleImageBlock articleId="controle-grains-beaute" imageIndex={2} />
+<h2>Comment se déroule le contrôle ?</h2>
                 <p>Lors de la consultation, le dermatologue examine l'ensemble des grains de beauté visibles.</p>
                 <p>Lorsque cela est nécessaire, une dermoscopie est réalisée afin d'observer les structures de la peau invisibles à l'œil nu.</p>
                 <p>Selon les résultats de l'examen, plusieurs options peuvent être proposées :</p>
@@ -87,13 +85,7 @@ export default function ControleGrainsBeaute() {
                   <li>Photographie de suivi</li>
                   <li>Biopsie ou exérèse lorsqu'elles sont médicalement indiquées</li>
                 </ul>
-                <div className="diagram-block">
-                  <LightboxImage
-                    src="/images/pdf_extracted/page_134_img_1.jpeg"
-                    alt="Infographie : L'examen dermoscopique indolore au cabinet"
-                    caption="Observation à fort grossissement des structures pigmentaires profondes."
-                  />
-                </div>
+                
 
                 <h2>Les signes qui doivent vous alerter</h2>
                 <p>Il est recommandé de consulter rapidement si un grain de beauté :</p>

@@ -1,7 +1,7 @@
 import React from 'react';
 import SEO from '../../components/SEO';
 import Breadcrumbs from '../../components/Breadcrumbs';
-import LightboxImage from '../../components/Lightbox';
+import ArticleImageBlock from '../../components/ArticleImageBlock';
 
 export default function ExereseKystesLipomes() {
   const schemaData = {
@@ -48,27 +48,17 @@ export default function ExereseKystesLipomes() {
           <div className="subpage-grid-layout">
             <div className="subpage-main-body">
               <article className="medical-article">
-                <div className="diagram-block hero-diagram">
-                  <LightboxImage
-                    src="/images/pdf_extracted/page_99_img_1.jpeg"
-                    alt="Infographie : Différence entre Kyste épidermoïde et Lipome"
-                    caption="Caractéristiques cliniques des kystes et lipomes cutanés."
-                  />
-                </div>
+                <ArticleImageBlock articleId="exerese-kystes-lipomes" imageIndex={0} className="diagram-block hero-diagram" />
 
                 <h2>Qu'est-ce qu'un kyste ou un lipome ?</h2>
                 <p>Un kyste est une poche située sous la peau contenant le plus souvent du sébum ou d'autres substances produites naturellement par l'organisme. Il se présente généralement sous la forme d'une petite boule mobile sous la peau.</p>
                 <p>Un lipome est une tumeur bénigne constituée de cellules graisseuses. Il est le plus souvent souple, mobile et indolore.</p>
                 <p>Bien que ces deux lésions soient différentes, elles nécessitent parfois une prise en charge lorsqu'elles deviennent gênantes ou évoluent.</p>
-                <div className="diagram-block">
-                  <LightboxImage
-                    src="/images/pdf_extracted/page_100_img_1.jpeg"
-                    alt="Infographie : Méthode d'exérèse chirurgicale sous anesthésie locale"
-                    caption="Caractéristiques cliniques et méthode d'exérèse chirurgicale sous anesthésie locale."
-                  />
-                </div>
+                
 
-                <h2>Dans quels cas une exérèse peut-elle être proposée ?</h2>
+                
+                <ArticleImageBlock articleId="exerese-kystes-lipomes" imageIndex={1} />
+<h2>Dans quels cas une exérèse peut-elle être proposée ?</h2>
                 <p>Une intervention peut être envisagée notamment lorsque :</p>
                 <ul className="check-list">
                   <li>Le kyste ou le lipome augmente de volume</li>

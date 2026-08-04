@@ -1,7 +1,7 @@
 import React from 'react';
 import SEO from '../../components/SEO';
 import Breadcrumbs from '../../components/Breadcrumbs';
-import LightboxImage from '../../components/Lightbox';
+import ArticleImageBlock from '../../components/ArticleImageBlock';
 
 export default function ChirurgieOngleIncarne() {
   const schemaData = {
@@ -48,13 +48,7 @@ export default function ChirurgieOngleIncarne() {
           <div className="subpage-grid-layout">
             <div className="subpage-main-body">
               <article className="medical-article">
-                <div className="diagram-block hero-diagram">
-                  <LightboxImage
-                    src="/images/pdf_extracted/page_115_img_1.jpeg"
-                    alt="Infographie : Stades de l'ongle incarné et techniques chirurgicales"
-                    caption="Du traitement médical à l'exérèse partielle avec traitement de la matrice."
-                  />
-                </div>
+                <ArticleImageBlock articleId="chirurgie-ongle-incarne" imageIndex={0} className="diagram-block hero-diagram" />
 
                 <h2>Qu'est-ce qu'un ongle incarné ?</h2>
                 <p>Un ongle incarné apparaît lorsqu'un bord de l'ongle pousse dans la peau qui l'entoure au lieu de pousser normalement.</p>
@@ -68,7 +62,9 @@ export default function ChirurgieOngleIncarne() {
                 </ul>
                 <p>Le gros orteil est le plus souvent concerné, mais d'autres ongles peuvent également être touchés.</p>
 
-                <h2>Quand une intervention peut-elle être indiquée ?</h2>
+                
+                <ArticleImageBlock articleId="chirurgie-ongle-incarne" imageIndex={1} />
+<h2>Quand une intervention peut-elle être indiquée ?</h2>
                 <p>Une chirurgie peut être proposée notamment lorsque :</p>
                 <ul className="check-list">
                   <li>Les douleurs persistent malgré les soins</li>
@@ -79,17 +75,13 @@ export default function ChirurgieOngleIncarne() {
                 </ul>
                 <p>Chaque indication est évaluée individuellement lors de la consultation.</p>
 
-                <h2>Comment se déroule l'intervention ?</h2>
+                
+                <ArticleImageBlock articleId="chirurgie-ongle-incarne" imageIndex={2} />
+<h2>Comment se déroule l'intervention ?</h2>
                 <p>L'intervention est réalisée sous anesthésie locale.</p>
                 <p>Après désinfection de la zone, le dermatologue retire la partie de l'ongle responsable de l'incarnation. Selon les situations, un traitement de la matrice de l'ongle peut être réalisé afin de limiter le risque de récidive.</p>
                 <p>L'intervention est généralement rapide et réalisée en ambulatoire.</p>
-                <div className="diagram-block">
-                  <LightboxImage
-                    src="/images/pdf_extracted/page_117_img_1.jpeg"
-                    alt="Infographie : Soins post-opératoires et prévention des récidives"
-                    caption="Consignes de pansement et choix du chaussage après chirurgie."
-                  />
-                </div>
+                
 
                 <h2>Après l'intervention</h2>
                 <p>Après la chirurgie, quelques soins locaux sont nécessaires pendant la période de cicatrisation.</p>

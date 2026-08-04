@@ -1,7 +1,7 @@
 import React from 'react';
 import SEO from '../../components/SEO';
 import Breadcrumbs from '../../components/Breadcrumbs';
-import LightboxImage from '../../components/Lightbox';
+import ArticleImageBlock from '../../components/ArticleImageBlock';
 
 export default function PreventionSolaire() {
   const schemaData = {
@@ -48,13 +48,7 @@ export default function PreventionSolaire() {
           <div className="subpage-grid-layout">
             <div className="subpage-main-body">
               <article className="medical-article">
-                <div className="diagram-block hero-diagram">
-                  <LightboxImage
-                    src="/images/pdf_extracted/page_138_img_1.jpeg"
-                    alt="Infographie : Les effets des rayons UVA et UVB sur la peau"
-                    caption="Impact des ultraviolets sur le vieillissement prématuré et l'ADN cellulaire."
-                  />
-                </div>
+                <ArticleImageBlock articleId="prevention-solaire" imageIndex={0} className="diagram-block hero-diagram" />
 
                 <h2>Pourquoi protéger sa peau du soleil ?</h2>
                 <p>Les rayons UV agissent progressivement sur la peau, même lorsque les effets ne sont pas immédiatement visibles.</p>
@@ -67,7 +61,9 @@ export default function PreventionSolaire() {
                   <li>Préserver la qualité et la santé de la peau</li>
                 </ul>
 
-                <h2>Quels sont les effets des rayons UV sur la peau ?</h2>
+                
+                <ArticleImageBlock articleId="prevention-solaire" imageIndex={1} />
+<h2>Quels sont les effets des rayons UV sur la peau ?</h2>
                 <p>Une exposition répétée au soleil peut entraîner :</p>
                 <ul className="check-list">
                   <li>Des coups de soleil</li>
@@ -78,15 +74,11 @@ export default function PreventionSolaire() {
                   <li>Des lésions précancéreuses ou cancéreuses chez certaines personnes</li>
                 </ul>
                 <p>Les effets des UV s'accumulent progressivement au fil des années.</p>
-                <div className="diagram-block">
-                  <LightboxImage
-                    src="/images/pdf_extracted/page_139_img_1.jpeg"
-                    alt="Infographie : Les bonnes pratiques de protection solaire"
-                    caption="Règles d'exposition et réapplication des écrans solaires à haut indice."
-                  />
-                </div>
+                
 
-                <h2>Les bons réflexes à adopter</h2>
+                
+                <ArticleImageBlock articleId="prevention-solaire" imageIndex={2} />
+<h2>Les bons réflexes à adopter</h2>
                 <p>Pour protéger efficacement votre peau, il est recommandé de :</p>
                 <ul className="check-list">
                   <li>Appliquer une protection solaire adaptée à votre phototype</li>

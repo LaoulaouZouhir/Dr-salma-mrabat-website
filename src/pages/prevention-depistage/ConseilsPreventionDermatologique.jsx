@@ -1,7 +1,7 @@
 import React from 'react';
 import SEO from '../../components/SEO';
 import Breadcrumbs from '../../components/Breadcrumbs';
-import LightboxImage from '../../components/Lightbox';
+import ArticleImageBlock from '../../components/ArticleImageBlock';
 
 export default function ConseilsPreventionDermatologique() {
   const schemaData = {
@@ -48,13 +48,7 @@ export default function ConseilsPreventionDermatologique() {
           <div className="subpage-grid-layout">
             <div className="subpage-main-body">
               <article className="medical-article">
-                <div className="diagram-block hero-diagram">
-                  <LightboxImage
-                    src="/images/pdf_extracted/page_150_img_1.jpeg"
-                    alt="Infographie : Les gestes essentiels pour prendre soin de sa peau"
-                    caption="Les bons réflexes quotidiens pour une peau saine et protégée."
-                  />
-                </div>
+                <ArticleImageBlock articleId="conseils-prevention-dermatologique" imageIndex={0} className="diagram-block hero-diagram" />
 
                 <h2>Les gestes essentiels pour prendre soin de sa peau</h2>
                 <p>Adopter quelques habitudes simples contribue à préserver durablement la santé de la peau. Il est notamment recommandé de :</p>
@@ -67,7 +61,9 @@ export default function ConseilsPreventionDermatologique() {
                 </ul>
                 <p>Ces gestes participent au maintien d'une peau en bonne santé.</p>
 
-                <h2>Pourquoi surveiller régulièrement sa peau ?</h2>
+                
+                <ArticleImageBlock articleId="conseils-prevention-dermatologique" imageIndex={1} />
+<h2>Pourquoi surveiller régulièrement sa peau ?</h2>
                 <p>Observer sa peau permet de repérer plus facilement certaines modifications.</p>
                 <p>Il est conseillé de consulter un dermatologue en cas :</p>
                 <ul className="check-list">
@@ -78,15 +74,11 @@ export default function ConseilsPreventionDermatologique() {
                   <li>De changement de couleur ou de forme d'une lésion</li>
                 </ul>
                 <p>Un diagnostic précoce permet d'orienter rapidement la prise en charge lorsque cela est nécessaire.</p>
-                <div className="diagram-block">
-                  <LightboxImage
-                    src="/images/pdf_extracted/page_152_img_1.jpeg"
-                    alt="Infographie : Quand consulter un dermatologue ?"
-                    caption="Les situations qui justifient une consultation dermatologique personnalisée."
-                  />
-                </div>
+                
 
-                <h2>Les bonnes habitudes au quotidien</h2>
+                
+                <ArticleImageBlock articleId="conseils-prevention-dermatologique" imageIndex={2} />
+<h2>Les bonnes habitudes au quotidien</h2>
                 <p>Quelques habitudes simples peuvent contribuer à préserver votre peau :</p>
                 <ul className="check-list">
                   <li>Éviter les expositions solaires excessives</li>

@@ -1,7 +1,7 @@
 import React from 'react';
 import SEO from '../../components/SEO';
 import Breadcrumbs from '../../components/Breadcrumbs';
-import LightboxImage from '../../components/Lightbox';
+import ArticleImageBlock from '../../components/ArticleImageBlock';
 
 export default function ChuteCheveux() {
   const schemaData = {
@@ -48,24 +48,14 @@ export default function ChuteCheveux() {
           <div className="subpage-grid-layout">
             <div className="subpage-main-body">
               <article className="medical-article">
-                <div className="diagram-block hero-diagram">
-                  <LightboxImage
-                    src="/images/pdf_extracted/page_47_img_1.jpeg"
-                    alt="Infographie : Le cycle de vie du cheveu (Anagène, Catagène, Télogène)"
-                    caption="Les différentes phases du cycle pilaire et leur rôle dans la chute de cheveux."
-                  />
-                </div>
+                {/* Image 1: Hero / Introduction */}
+                <ArticleImageBlock articleId="chute-cheveux" imageIndex={0} className="diagram-block hero-diagram" />
 
                 <h2>Qu'est-ce que la chute de cheveux ?</h2>
                 <p>La chute de cheveux est un phénomène naturel lorsqu'elle reste modérée. En revanche, une perte importante, prolongée ou localisée peut révéler une affection nécessitant une évaluation dermatologique.</p>
                 <p>Selon les cas, la chute de cheveux peut être temporaire ou chronique et toucher l'ensemble du cuir chevelu ou certaines zones uniquement.</p>
-                <div className="diagram-block">
-                  <LightboxImage
-                    src="/images/pdf_extracted/page_48_img_1.jpeg"
-                    alt="Le cycle de vie du cheveu : phases anagène, catagène et télogène"
-                    caption="Comprendre le cycle pilaire est essentiel pour identifier les causes de la chute de cheveux."
-                  />
-                </div>
+                {/* Image 2: Cycle de vie du cheveu */}
+                <ArticleImageBlock articleId="chute-cheveux" imageIndex={1} />
 
                 <h2>Les principales causes de la chute de cheveux</h2>
                 <p>La perte de cheveux peut avoir différentes origines :</p>
@@ -93,13 +83,8 @@ export default function ChuteCheveux() {
                   <li>Démangeaisons chroniques</li>
                 </ul>
                 <p>Ces maladies peuvent entraîner une gêne importante et parfois favoriser une perte de cheveux si elles ne sont pas prises en charge.</p>
-                <div className="diagram-block">
-                  <LightboxImage
-                    src="/images/pdf_extracted/page_49_img_1.jpeg"
-                    alt="Infographie : Les principales maladies du cuir chevelu"
-                    caption="Les affections dermatologiques les plus fréquentes touchant le cuir chevelu."
-                  />
-                </div>
+                {/* Image 3: Maladies du cuir chevelu */}
+                <ArticleImageBlock articleId="chute-cheveux" imageIndex={2} />
 
                 <h2>Les symptômes qui doivent vous alerter</h2>
                 <p>Il est conseillé de consulter si vous observez :</p>
@@ -141,7 +126,7 @@ export default function ChuteCheveux() {
 
                 <h2>Pourquoi consulter rapidement ?</h2>
                 <p>Une prise en charge précoce permet souvent de ralentir l'évolution de certaines formes de chute de cheveux et d'améliorer les chances de repousse lorsqu'un traitement est indiqué.</p>
-                <p>Plus le diagnostic est posé tôt, plus les solutions thérapeutiques peuvent être efficaces.</p>
+                <p>Plus le diagnostic est posé tôt, plus les solutions thérapeutique peuvent être efficaces.</p>
               </article>
             </div>
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import SEO from '../../components/SEO';
 import Breadcrumbs from '../../components/Breadcrumbs';
-import LightboxImage from '../../components/Lightbox';
+import ArticleImageBlock from '../../components/ArticleImageBlock';
 
 export default function AllergiesInfections() {
   const schemaData = {
@@ -48,26 +48,16 @@ export default function AllergiesInfections() {
           <div className="subpage-grid-layout">
             <div className="subpage-main-body">
               <article className="medical-article">
-                <div className="diagram-block hero-diagram">
-                  <LightboxImage
-                    src="/images/pdf_extracted/page_54_img_1.jpeg"
-                    alt="Infographie : Comprendre les allergies cutanées et l'urticaire"
-                    caption="Déclencheurs et mécanismes des réactions allergiques cutanées."
-                  />
-                </div>
+                <ArticleImageBlock articleId="allergies-infections" imageIndex={0} className="diagram-block hero-diagram" />
 
                 <h2>Qu'est-ce qu'une allergie cutanée ?</h2>
                 <p>Une allergie cutanée est une réaction excessive du système immunitaire face à une substance normalement inoffensive. Elle peut être déclenchée par des cosmétiques, des produits ménagers, certains métaux, des médicaments ou encore des plantes.</p>
                 <p>Les manifestations varient selon les patients et peuvent apparaître rapidement après le contact avec l'allergène.</p>
-                <div className="diagram-block">
-                  <LightboxImage
-                    src="/images/pdf_extracted/page_55_img_1.jpeg"
-                    alt="Comment une allergie cutanée apparaît-elle ?"
-                    caption="Mécanisme de déclenchement d'une allergie cutanée au contact d'un allergène."
-                  />
-                </div>
+                
 
-                <h2>Les principales infections de la peau</h2>
+                
+                <ArticleImageBlock articleId="allergies-infections" imageIndex={1} />
+<h2>Les principales infections de la peau</h2>
                 <p>La peau peut être touchée par différents types d'infections :</p>
                 <ul className="check-list">
                   <li>Infections bactériennes</li>
@@ -77,7 +67,9 @@ export default function AllergiesInfections() {
                 </ul>
                 <p>Chaque type d'infection nécessite une prise en charge spécifique afin d'éviter sa propagation ou ses complications.</p>
 
-                <h2>Les maladies dermatologiques fréquentes</h2>
+                
+                <ArticleImageBlock articleId="allergies-infections" imageIndex={2} />
+<h2>Les maladies dermatologiques fréquentes</h2>
                 <p>Certaines maladies de la peau ne sont ni allergiques ni infectieuses, mais nécessitent également une prise en charge dermatologique. Parmi les plus fréquentes :</p>
                 <ul className="check-list">
                   <li>Urticaire</li>
@@ -101,13 +93,7 @@ export default function AllergiesInfections() {
                   <li>Fièvre associée à une éruption cutanée</li>
                   <li>Absence d'amélioration malgré les traitements habituels</li>
                 </ul>
-                <div className="diagram-block">
-                  <LightboxImage
-                    src="/images/pdf_extracted/page_57_img_1.jpeg"
-                    alt="Infographie : Les infections cutanées bactériennes, fongiques et virales"
-                    caption="Classification et manifestations des infections de la peau."
-                  />
-                </div>
+                
 
                 <h2>Comment se déroule la consultation ?</h2>
                 <p>Le Dr Samia Mrabat réalise un examen clinique complet de votre peau afin d'identifier l'origine des lésions.</p>

@@ -1,7 +1,7 @@
 import React from 'react';
 import SEO from '../../components/SEO';
 import Breadcrumbs from '../../components/Breadcrumbs';
-import LightboxImage from '../../components/Lightbox';
+import ArticleImageBlock from '../../components/ArticleImageBlock';
 
 export default function AblationGrainsBeaute() {
   const schemaData = {
@@ -48,13 +48,7 @@ export default function AblationGrainsBeaute() {
           <div className="subpage-grid-layout">
             <div className="subpage-main-body">
               <article className="medical-article">
-                <div className="diagram-block hero-diagram">
-                  <LightboxImage
-                    src="/images/pdf_extracted/page_104_img_1.jpeg"
-                    alt="Infographie : Les signes à surveiller sur un grain de beauté"
-                    caption="Les caractéristiques d'un grain de beauté nécessitant une évaluation dermatologique."
-                  />
-                </div>
+                <ArticleImageBlock articleId="ablation-grains-beaute-lesions-cutanees" imageIndex={0} className="diagram-block hero-diagram" />
 
                 <h2>Quand l'ablation d'un grain de beauté peut-elle être indiquée ?</h2>
                 <p>Une exérèse peut être proposée dans différentes situations, notamment lorsque :</p>
@@ -68,7 +62,9 @@ export default function AblationGrainsBeaute() {
                 </ul>
                 <p>Toutes les lésions ne nécessitent pas une ablation. Une consultation permet de déterminer la conduite à tenir.</p>
 
-                <h2>Comment se déroule la consultation ?</h2>
+                
+                <ArticleImageBlock articleId="ablation-grains-beaute-lesions-cutanees" imageIndex={1} />
+<h2>Comment se déroule la consultation ?</h2>
                 <p>Le dermatologue examine la lésion et recherche les signes nécessitant une surveillance ou une prise en charge.</p>
                 <p>Selon les caractéristiques observées, plusieurs options peuvent être proposées :</p>
                 <ul className="check-list">
@@ -78,13 +74,7 @@ export default function AblationGrainsBeaute() {
                   <li>Exérèse lorsque celle-ci est indiquée</li>
                 </ul>
                 <p>Chaque décision est prise en fonction de votre situation clinique.</p>
-                <div className="diagram-block">
-                  <LightboxImage
-                    src="/images/pdf_extracted/page_105_img_1.jpeg"
-                    alt="Infographie : Déroulement de l'ablation d'un grain de beauté"
-                    caption="Technique d'exérèse chirurgicale sous anesthésie locale pour l'ablation des grains de beauté."
-                  />
-                </div>
+                
 
                 <h2>Comment se déroule l'intervention ?</h2>
                 <p>Lorsque l'ablation est indiquée, elle est réalisée sous anesthésie locale.</p>
