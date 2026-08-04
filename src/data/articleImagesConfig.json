@@ -377,21 +377,21 @@
     "images": [
       {
         "id": "chute-cheveux-img-1",
-        "section": "Qu'est-ce que la chute de cheveux ?",
+        "section": "Introduction / En-tête",
         "src": "/images/pdf_extracted/Article_3_Chute_Cheveux_Cuir_Chevelu_p2_img1.png",
-        "alt": "Schéma médical — Chute de cheveux et pathologies du cuir chevelu à Meknès",
-        "caption": "Infographie médicale et diagnostic — Chute de cheveux et pathologies du cuir chevelu à Meknès."
+        "alt": "Infographie : Chute de cheveux, cuir chevelu et alopécie",
+        "caption": "Chute de cheveux et maladies du cuir chevelu : diagnostic et traitements personnalisés à Meknès."
       },
       {
         "id": "chute-cheveux-img-2",
         "section": "Qu'est-ce que la chute de cheveux ?",
         "src": "/images/pdf_extracted/Article_3_Chute_Cheveux_Cuir_Chevelu_p2_img2.png",
-        "alt": "Schéma médical — Chute de cheveux et pathologies du cuir chevelu à Meknès",
-        "caption": "Infographie médicale et diagnostic — Chute de cheveux et pathologies du cuir chevelu à Meknès."
+        "alt": "Infographie : Le cycle de vie du cheveu",
+        "caption": "Le cycle de vie du cheveu : phases anagène, catagène et télogène."
       },
       {
         "id": "chute-cheveux-img-3",
-        "section": "Symptômes & Signes",
+        "section": "Les maladies du cuir chevelu",
         "src": "/images/pdf_extracted/Article_3_Chute_Cheveux_Cuir_Chevelu_p3_img1.png",
         "alt": "Schéma médical — Chute de cheveux et pathologies du cuir chevelu à Meknès",
         "caption": "Infographie médicale et diagnostic — Chute de cheveux et pathologies du cuir chevelu à Meknès."

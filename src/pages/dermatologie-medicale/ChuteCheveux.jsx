@@ -48,14 +48,14 @@ export default function ChuteCheveux() {
           <div className="subpage-grid-layout">
             <div className="subpage-main-body">
               <article className="medical-article">
-                {/* Image 1: Hero / Introduction */}
+                {/* Image 1: Hero Banner (Article_3_Chute_Cheveux_Cuir_Chevelu_p2_img1.png) */}
                 <ArticleImageBlock articleId="chute-cheveux" imageIndex={0} className="diagram-block hero-diagram" />
 
                 <h2>Qu'est-ce que la chute de cheveux ?</h2>
+                {/* Image 2: Le cycle de vie du cheveu (Article_3_Chute_Cheveux_Cuir_Chevelu_p2_img2.png) */}
+                <ArticleImageBlock articleId="chute-cheveux" imageIndex={1} />
                 <p>La chute de cheveux est un phénomène naturel lorsqu'elle reste modérée. En revanche, une perte importante, prolongée ou localisée peut révéler une affection nécessitant une évaluation dermatologique.</p>
                 <p>Selon les cas, la chute de cheveux peut être temporaire ou chronique et toucher l'ensemble du cuir chevelu ou certaines zones uniquement.</p>
-                {/* Image 2: Cycle de vie du cheveu */}
-                <ArticleImageBlock articleId="chute-cheveux" imageIndex={1} />
 
                 <h2>Les principales causes de la chute de cheveux</h2>
                 <p>La perte de cheveux peut avoir différentes origines :</p>
@@ -72,6 +72,8 @@ export default function ChuteCheveux() {
                 <p>Identifier la cause est essentiel afin de proposer le traitement le plus adapté.</p>
 
                 <h2>Les maladies du cuir chevelu</h2>
+                {/* Image 3: Les principales maladies du cuir chevelu (Article_3_Chute_Cheveux_Cuir_Chevelu_p3_img1.png) */}
+                <ArticleImageBlock articleId="chute-cheveux" imageIndex={2} />
                 <p>Le cuir chevelu peut être touché par différentes affections dermatologiques, notamment :</p>
                 <ul className="check-list">
                   <li>Dermatite séborrhéique</li>
@@ -83,8 +85,6 @@ export default function ChuteCheveux() {
                   <li>Démangeaisons chroniques</li>
                 </ul>
                 <p>Ces maladies peuvent entraîner une gêne importante et parfois favoriser une perte de cheveux si elles ne sont pas prises en charge.</p>
-                {/* Image 3: Maladies du cuir chevelu */}
-                <ArticleImageBlock articleId="chute-cheveux" imageIndex={2} />
 
                 <h2>Les symptômes qui doivent vous alerter</h2>
                 <p>Il est conseillé de consulter si vous observez :</p>
@@ -126,7 +126,7 @@ export default function ChuteCheveux() {
 
                 <h2>Pourquoi consulter rapidement ?</h2>
                 <p>Une prise en charge précoce permet souvent de ralentir l'évolution de certaines formes de chute de cheveux et d'améliorer les chances de repousse lorsqu'un traitement est indiqué.</p>
-                <p>Plus le diagnostic est posé tôt, plus les solutions thérapeutique peuvent être efficaces.</p>
+                <p>Plus le diagnostic est posé tôt, plus les solutions thérapeutiques peuvent être efficaces.</p>
               </article>
             </div>
 
