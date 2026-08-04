@@ -44,6 +44,7 @@ import ConseilsPreventionDermatologique from './pages/prevention-depistage/Conse
 import FAQPage from './pages/FAQPage';
 import ContactPage from './pages/ContactPage';
 import RendezVousPage from './pages/RendezVousPage';
+import ImageVerifierPage from './pages/admin/ImageVerifierPage';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -135,10 +136,11 @@ function Layout() {
         <Route path="/prevention-depistage/lesions-cutanees-suspectes" element={<LesionsCutaneesSuspectes />} />
         <Route path="/prevention-depistage/conseils-prevention-dermatologique" element={<ConseilsPreventionDermatologique />} />
 
-        {/* General Pages */}
+        {/* General Pages & Admin Tools */}
         <Route path="/faq" element={<FAQPage />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/rendez-vous" element={<RendezVousPage />} />
+        <Route path="/admin/image-verifier" element={<ImageVerifierPage />} />
       </Routes>
       <Footer />
     </div>

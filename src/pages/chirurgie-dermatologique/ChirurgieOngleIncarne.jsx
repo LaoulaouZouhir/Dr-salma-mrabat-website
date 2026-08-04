@@ -6,9 +6,9 @@ import LightboxImage from '../../components/Lightbox';
 export default function ChirurgieOngleIncarne() {
   const schemaData = {
     '@context': 'https://schema.org',
-    '@type': 'MedicalProcedure',
-    name: 'Chirurgie de l’Ongle Incarné',
-    description: 'Traitement chirurgical de l’ongle incarné sous anesthésie locale à Meknès par le Dr Samia Mrabat.',
+    '@type': 'MedicalWebPage',
+    name: "Chirurgie de l'ongle incarné à Meknès",
+    description: "Le Dr Samia Mrabat, dermatologue à Meknès, prend en charge les ongles incarnés lorsque leur traitement chirurgical est indiqué afin de soulager durablement la douleur et prévenir les récidives.",
     provider: {
       '@type': 'MedicalClinic',
       name: 'Cabinet du Dr Samia Mrabat',
@@ -19,9 +19,9 @@ export default function ChirurgieOngleIncarne() {
   return (
     <div className="subpage-wrapper">
       <SEO
-        title="Chirurgie de l'ongle incarné à Meknès | Dr Samia Mrabat"
+        title="Chirurgie ongle incarné à Meknès | Dr Samia Mrabat"
         description="Le Dr Samia Mrabat, dermatologue à Meknès, prend en charge les ongles incarnés lorsque leur traitement chirurgical est indiqué afin de soulager durablement la douleur et prévenir les récidives."
-        keywords="Chirurgie ongle incarné Meknès, Traitement ongle incarné douloureux Meknès, Bourgeon charnu orteil Meknès"
+        keywords="Chirurgie ongle incarné Meknès, Ongle incarné douloureux Meknès, Matricectomie Meknès, Dr Samia Mrabat"
         url="https://drsamiamrabatdermatologue.com/chirurgie-dermatologique/chirurgie-ongle-incarne"
         jsonLd={schemaData}
       />
@@ -31,14 +31,15 @@ export default function ChirurgieOngleIncarne() {
           <Breadcrumbs
             items={[
               { label: 'Chirurgie Dermatologique', url: '/chirurgie-dermatologique' },
-              { label: 'Chirurgie de l\'Ongle Incarné' },
+              { label: "Chirurgie de l'ongle incarné" },
             ]}
           />
           <span className="subpage-badge">CHIRURGIE DERMATOLOGIQUE</span>
           <h1 className="subpage-title">Chirurgie de l'ongle incarné à Meknès</h1>
-          <p className="subpage-subtitle">
-            L'ongle incarné survient lorsqu'un bord de l'ongle pénètre dans la chair voisine, provoquant une douleur vive, une rougeur et parfois un bourgeon charnu infecté.
-          </p>
+          <div className="subpage-subtitle">
+            <p>L'ongle incarné est une affection fréquente qui survient lorsqu'un bord de l'ongle pénètre dans la peau voisine. Cette situation peut entraîner une douleur importante, une rougeur, un gonflement et parfois une infection.</p>
+            <p>Lorsque les traitements conservateurs ne suffisent pas ou que les récidives sont fréquentes, une intervention chirurgicale peut être proposée. Le Dr Samia Mrabat, dermatologue à Meknès, réalise une évaluation clinique afin de déterminer le traitement le plus adapté à votre situation.</p>
+          </div>
         </div>
       </section>
 
@@ -46,43 +47,76 @@ export default function ChirurgieOngleIncarne() {
         <div className="container">
           <div className="subpage-grid-layout">
             <div className="subpage-main-body">
-              
               <article className="medical-article">
-                <div className="diagram-block">
+                <div className="diagram-block hero-diagram">
                   <LightboxImage
                     src="/images/pdf_extracted/page_115_img_1.jpeg"
-                    alt="Schéma médical comparatif : Ongle Normal vs Ongle Incarné avec inflammation du repli"
-                    caption="Mécanisme d'incarnation de l'ongle dans le repli latéral."
+                    alt="Infographie : Stades de l'ongle incarné et techniques chirurgicales"
+                    caption="Du traitement médical à l'exérèse partielle avec traitement de la matrice."
                   />
                 </div>
 
-                <h2>Pourquoi un ongle devient-il incarné ?</h2>
-                <p>
-                  Une coupe d'ongles trop courte ou arrondie, des chaussures trop étables, des traumatismes répétés ou une forme d'ongle très courbée favorisent l'incarcération du bord unguéal dans le sillon latéral.
-                </p>
+                <h2>Qu'est-ce qu'un ongle incarné ?</h2>
+                <p>Un ongle incarné apparaît lorsqu'un bord de l'ongle pousse dans la peau qui l'entoure au lieu de pousser normalement.</p>
+                <p>Cette pénétration provoque une réaction inflammatoire pouvant entraîner :</p>
+                <ul className="check-list">
+                  <li>Une douleur au toucher ou à la marche</li>
+                  <li>Une rougeur</li>
+                  <li>Un gonflement</li>
+                  <li>Un écoulement</li>
+                  <li>Une infection locale</li>
+                </ul>
+                <p>Le gros orteil est le plus souvent concerné, mais d'autres ongles peuvent également être touchés.</p>
 
+                <h2>Quand une intervention peut-elle être indiquée ?</h2>
+                <p>Une chirurgie peut être proposée notamment lorsque :</p>
+                <ul className="check-list">
+                  <li>Les douleurs persistent malgré les soins</li>
+                  <li>Les épisodes d'infection se répètent</li>
+                  <li>L'ongle incarné récidive régulièrement</li>
+                  <li>Un bourgeon inflammatoire apparaît</li>
+                  <li>La gêne devient importante dans la vie quotidienne</li>
+                </ul>
+                <p>Chaque indication est évaluée individuellement lors de la consultation.</p>
+
+                <h2>Comment se déroule l'intervention ?</h2>
+                <p>L'intervention est réalisée sous anesthésie locale.</p>
+                <p>Après désinfection de la zone, le dermatologue retire la partie de l'ongle responsable de l'incarnation. Selon les situations, un traitement de la matrice de l'ongle peut être réalisé afin de limiter le risque de récidive.</p>
+                <p>L'intervention est généralement rapide et réalisée en ambulatoire.</p>
                 <div className="diagram-block">
                   <LightboxImage
                     src="/images/pdf_extracted/page_117_img_1.jpeg"
-                    alt="Infographie 4 étapes : Comment se déroule la chirurgie de l'ongle incarné (1. Examen, 2. Anesthésie locale, 3. Retrait de la partie incarnée, 4. Pansement)"
-                    caption="Étapes de la résection partielle de l'ongle sous anesthésie locale."
+                    alt="Infographie : Soins post-opératoires et prévention des récidives"
+                    caption="Consignes de pansement et choix du chaussage après chirurgie."
                   />
                 </div>
 
-                <h2>Comment se déroule la chirurgie ?</h2>
-                <p>
-                  L'intervention se déroule sous anesthésie locale indolore à la base de l'orteil. Le dermatologue retire uniquement la languette d'ongle responsable de l'incarnation ainsi que la matrice correspondante afin d’éviter définitivement toute récidive, en préservant l'esthétique générale de l'orteil.
-                </p>
-              </article>
+                <h2>Après l'intervention</h2>
+                <p>Après la chirurgie, quelques soins locaux sont nécessaires pendant la période de cicatrisation.</p>
+                <p>Le Dr Samia Mrabat vous remet des recommandations personnalisées concernant :</p>
+                <ul className="check-list">
+                  <li>Les pansements</li>
+                  <li>L'hygiène du pied</li>
+                  <li>La reprise des activités</li>
+                  <li>Le choix des chaussures</li>
+                  <li>Le suivi postopératoire</li>
+                </ul>
 
+                <h2>Pourquoi consulter un dermatologue ?</h2>
+                <p>Une douleur persistante au niveau d'un ongle n'est pas toujours liée à un ongle incarné.</p>
+                <p>Une consultation dermatologique permet de confirmer le diagnostic, d'évaluer la gravité de la situation et de proposer le traitement le plus adapté.</p>
+              </article>
             </div>
 
             <aside className="subpage-sidebar">
               <div className="sidebar-booking-card">
                 <h3>Prendre Rendez-vous</h3>
-                <p>Consultez le Dr Samia Mrabat pour soulager un ongle incarné à Meknès.</p>
+                <p>Consultez le Dr Samia Mrabat, dermatologue à Meknès, pour une évaluation personnalisée.</p>
                 <a href="tel:0535524067" className="side-btn-call">📞 05 35 52 40 67</a>
                 <a href="https://wa.me/212689270924" target="_blank" rel="noopener noreferrer" className="side-btn-wa">💬 WhatsApp direct</a>
+                <div className="side-location-mini">
+                  📍 Bureaux Reda, Rue Benzerte, Hamria, Meknès
+                </div>
               </div>
             </aside>
           </div>

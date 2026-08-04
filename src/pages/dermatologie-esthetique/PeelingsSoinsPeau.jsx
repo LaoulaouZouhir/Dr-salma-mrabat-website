@@ -6,9 +6,9 @@ import LightboxImage from '../../components/Lightbox';
 export default function PeelingsSoinsPeau() {
   const schemaData = {
     '@context': 'https://schema.org',
-    '@type': 'MedicalProcedure',
-    name: 'Peelings Dermatologiques et Soins de la Peau',
-    description: 'Peelings médicaux doux, moyens et profonds pour éclat du teint et renouvellement cutané à Meknès par le Dr Samia Mrabat.',
+    '@type': 'MedicalWebPage',
+    name: "Peelings dermatologiques et soins de la peau à Meknès",
+    description: "Le Dr Samia Mrabat, dermatologue à Meknès, propose des peelings dermatologiques et des soins de la peau adaptés pour améliorer l'éclat du teint, la texture cutanée et certaines imperfections.",
     provider: {
       '@type': 'MedicalClinic',
       name: 'Cabinet du Dr Samia Mrabat',
@@ -17,28 +17,29 @@ export default function PeelingsSoinsPeau() {
   };
 
   return (
-    <div className="subpage-wrapper aesthetic-subpage">
+    <div className="subpage-wrapper">
       <SEO
         title="Peeling dermatologique à Meknès | Soins de la peau | Dr Samia Mrabat"
         description="Le Dr Samia Mrabat, dermatologue à Meknès, propose des peelings dermatologiques et des soins de la peau adaptés pour améliorer l'éclat du teint, la texture cutanée et certaines imperfections."
-        keywords="Peeling dermatologique Meknès, Peeling moyen Meknès, Traitement teint terne Meknès, Resserrement pores Meknès"
+        keywords="Peeling Meknès, Peeling moyen Meknès, Éclat du teint Meknès, Traitement taches Meknès, Dermatologue esthétique Meknès"
         url="https://drsamiamrabatdermatologue.com/dermatologie-esthetique/peelings-soins-peau"
         jsonLd={schemaData}
       />
 
-      <section className="subpage-hero aesthetic-hero">
+      <section className="subpage-hero">
         <div className="container">
           <Breadcrumbs
             items={[
               { label: 'Dermatologie Esthétique', url: '/dermatologie-esthetique' },
-              { label: 'Peelings & Soins de la Peau' },
+              { label: "Peelings dermatologiques et soins de la peau" },
             ]}
           />
-          <span className="subpage-badge gold-badge">QUALITÉ &amp; ÉCLAT DE LA PEAU</span>
+          <span className="subpage-badge">DERMATOLOGIE ESTHÉTIQUE</span>
           <h1 className="subpage-title">Peelings dermatologiques et soins de la peau à Meknès</h1>
-          <p className="subpage-subtitle">
-            Les peelings dermatologiques sont des traitements réalisés par un dermatologue afin de régénérer l'épiderme, raviver l'éclat du teint et uniformiser la texture du visage.
-          </p>
+          <div className="subpage-subtitle">
+            <p>Les peelings dermatologiques sont des traitements réalisés par un dermatologue afin d'améliorer la qualité de la peau. Selon leur indication, ils peuvent contribuer à atténuer certaines imperfections superficielles, améliorer l'éclat du teint, uniformiser la texture de la peau et accompagner la prise en charge de certaines lésions pigmentaires ou cicatricielles.</p>
+            <p>Le Dr Samia Mrabat, dermatologue à Meknès, réalise une évaluation personnalisée afin de déterminer le traitement le plus adapté à votre peau, à vos attentes et à votre indication médicale.</p>
+          </div>
         </div>
       </section>
 
@@ -46,65 +47,67 @@ export default function PeelingsSoinsPeau() {
         <div className="container">
           <div className="subpage-grid-layout">
             <div className="subpage-main-body">
-              
-              <article className="medical-article aesthetic-article">
-                <div className="diagram-block">
+              <article className="medical-article">
+                <div className="diagram-block hero-diagram">
                   <LightboxImage
                     src="/images/pdf_extracted/page_74_img_1.jpeg"
-                    alt="Infographie : Peelings dermatologiques - Améliorez la qualité de votre peau (Éclat, Grain de peau, Pores, Taches, Ridules)"
-                    caption="Bénéfices ciblés du peeling médical sur la qualité du teint et le grain de peau."
+                    alt="Infographie : Fonctionnement d'un peeling dermatologique"
+                    caption="Le processus de régénération épidermique par peeling médical."
                   />
                 </div>
 
                 <h2>Qu'est-ce qu'un peeling dermatologique ?</h2>
-                <p>
-                  Un peeling dermatologique consiste à appliquer sur la peau une solution spécifique provoquant une exfoliation contrôlée des couches superficielles ou moyennes de l'épiderme. Ce processus stimule le renouvellement cellulaire et la production de collagène.
-                </p>
+                <p>Un peeling dermatologique consiste à appliquer sur la peau une solution spécifique provoquant un renouvellement contrôlé des couches superficielles de l'épiderme.</p>
+                <p>Ce renouvellement stimule progressivement l'apparition d'une peau plus uniforme, plus lumineuse et plus lisse.</p>
+                <p>Le type de peeling est choisi en fonction de votre type de peau, de la zone à traiter et de l'objectif recherché.</p>
 
-                <div className="diagram-block">
-                  <LightboxImage
-                    src="/images/pdf_extracted/page_75_img_1.jpeg"
-                    alt="Schéma 3D en 3 étapes : Le Peeling Dermatologique (1. Avant cellules mortes, 2. Pendant application, 3. Après peau renouvelée)"
-                    caption="Mécanisme d'action du peeling : élimination des cellules mortes et régénération cutanée."
-                  />
-                </div>
-
-                <h2>Dans quels cas un peeling est-il indiqué ?</h2>
+                <h2>Dans quels cas un peeling peut-il être indiqué ?</h2>
+                <p>Un peeling dermatologique peut être proposé dans différentes situations, notamment pour :</p>
                 <ul className="check-list">
-                  <li>Raviver un teint terne, asphyxié ou fatigué</li>
-                  <li>Lisser le grain de peau et resserrer les pores dilatés</li>
-                  <li>Atténuer les taches pigmentaires superficielles (masque de grossesse, lentigos)</li>
-                  <li>Accompagner le traitement des cicatrices légères d'acné</li>
-                  <li>Atténuer les ridules superficielles du visage</li>
+                  <li>Améliorer l'éclat du teint</li>
+                  <li>Affiner le grain de peau</li>
+                  <li>Atténuer certaines taches pigmentaires</li>
+                  <li>Accompagner la prise en charge de certaines cicatrices d'acné superficielles</li>
+                  <li>Réduire l'aspect des pores dilatés</li>
+                  <li>Améliorer certaines ridules superficielles</li>
                 </ul>
+                <p>Chaque indication est évaluée individuellement lors de la consultation.</p>
 
                 <h2>Comment se déroule une séance ?</h2>
+                <p>La consultation débute par une analyse de votre peau afin d'évaluer son état, son phototype et vos attentes.</p>
+                <p>Le peeling est ensuite appliqué pendant une durée adaptée au traitement choisi. Une fois la séance terminée, des conseils personnalisés vous sont remis afin de favoriser une bonne récupération cutanée.</p>
                 <div className="diagram-block">
                   <LightboxImage
                     src="/images/pdf_extracted/page_77_img_1.jpeg"
-                    alt="Infographie 4 étapes : Comment se déroule une séance de peeling (1. Analyse, 2. Préparation, 3. Application, 4. Conseils après séance)"
-                    caption="Protocole médical d'une séance de peeling au cabinet."
+                    alt="Infographie : Les soins post-peeling et protection solaire"
+                    caption="Recommandations pour optimiser les résultats d'un peeling."
                   />
                 </div>
 
-                <h2>Le processus de renouvellement cutané</h2>
-                <div className="diagram-block">
-                  <LightboxImage
-                    src="/images/pdf_extracted/page_78_img_1.jpeg"
-                    alt="Infographie 3D : Renouvellement cutané (Élimination cellules mortes -> Stimulation renouvellement -> Peau renouvelée plus lisse)"
-                    caption="Résultat progressif : peau plus lisse, uniforme et lumineuse."
-                  />
-                </div>
+                <h2>Quels résultats peut-on attendre ?</h2>
+                <p>Les résultats apparaissent progressivement au fil du renouvellement de la peau.</p>
+                <p>Selon l'indication, le peeling peut contribuer à améliorer la luminosité du teint, la qualité de la peau et certaines imperfections superficielles.</p>
+                <p>Le nombre de séances recommandé dépend de chaque patient et de l'objectif recherché.</p>
+
+                <h2>Les précautions après un peeling</h2>
+                <p>Après un peeling, la peau peut être plus sensible pendant quelques jours.</p>
+                <p>Il est important de suivre les recommandations données par le dermatologue, notamment concernant l'hydratation de la peau, la protection solaire et les soins à utiliser après la séance.</p>
+
+                <h2>Pourquoi consulter un dermatologue ?</h2>
+                <p>Le choix du type de peeling dépend de nombreux critères, notamment du phototype, du type de peau et de l'indication médicale.</p>
+                <p>Une consultation dermatologique permet d'établir un diagnostic précis et de sélectionner le traitement le plus adapté tout en limitant les risques de complications.</p>
               </article>
-
             </div>
 
             <aside className="subpage-sidebar">
-              <div className="sidebar-booking-card aesthetic-sidebar-card">
-                <h3>Rendez-vous Peeling</h3>
-                <p>Consultez le Dr Samia Mrabat pour une évaluation de votre peau à Meknès.</p>
+              <div className="sidebar-booking-card">
+                <h3>Prendre Rendez-vous</h3>
+                <p>Consultez le Dr Samia Mrabat, dermatologue à Meknès, pour une évaluation personnalisée de votre peau.</p>
                 <a href="tel:0535524067" className="side-btn-call">📞 05 35 52 40 67</a>
                 <a href="https://wa.me/212689270924" target="_blank" rel="noopener noreferrer" className="side-btn-wa">💬 WhatsApp direct</a>
+                <div className="side-location-mini">
+                  📍 Bureaux Reda, Rue Benzerte, Hamria, Meknès
+                </div>
               </div>
             </aside>
           </div>

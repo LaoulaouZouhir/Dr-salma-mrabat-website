@@ -6,9 +6,9 @@ import LightboxImage from '../../components/Lightbox';
 export default function ChuteCheveux() {
   const schemaData = {
     '@context': 'https://schema.org',
-    '@type': 'MedicalProcedure',
-    name: 'Prise en charge de la chute de cheveux et maladies du cuir chevelu',
-    description: 'Bilan alopécie et traitements du cuir chevelu à Meknès par le Dr Samia Mrabat.',
+    '@type': 'MedicalWebPage',
+    name: "Chute de cheveux et maladies du cuir chevelu : diagnostic et prise en charge à Meknès",
+    description: "Le Dr Samia Mrabat, dermatologue à Meknès, prend en charge la chute de cheveux, les maladies du cuir chevelu et les différentes formes d'alopécie chez l'adulte et l'enfant.",
     provider: {
       '@type': 'MedicalClinic',
       name: 'Cabinet du Dr Samia Mrabat',
@@ -21,7 +21,7 @@ export default function ChuteCheveux() {
       <SEO
         title="Chute de cheveux et maladies du cuir chevelu à Meknès | Dr Samia Mrabat"
         description="Le Dr Samia Mrabat, dermatologue à Meknès, prend en charge la chute de cheveux, les maladies du cuir chevelu et les différentes formes d'alopécie chez l'adulte et l'enfant."
-        keywords="Chute de cheveux Meknès, Alopécie Meknès, Traitement pelade Meknès, Dermatite séborrhéique cuir chevelu Meknès"
+        keywords="Chute de cheveux Meknès, Alopécie Meknès, Cuir chevelu Meknès, Traitement calvitie Meknès, Dermatologue Meknès"
         url="https://drsamiamrabatdermatologue.com/dermatologie-medicale/chute-cheveux-maladies-cuir-chevelu"
         jsonLd={schemaData}
       />
@@ -31,14 +31,15 @@ export default function ChuteCheveux() {
           <Breadcrumbs
             items={[
               { label: 'Dermatologie Médicale', url: '/dermatologie-medicale' },
-              { label: 'Chute de Cheveux' },
+              { label: "Chute de cheveux et maladies du cuir chevelu" },
             ]}
           />
           <span className="subpage-badge">DERMATOLOGIE MÉDICALE</span>
-          <h1 className="subpage-title">Chute de cheveux et maladies du cuir chevelu à Meknès</h1>
-          <p className="subpage-subtitle">
-            Une chute de cheveux importante, des démangeaisons persistantes ou l'apparition de plaques nécessitent un diagnostic dermatologique précis afin d'identifier leur cause et de proposer un protocole adapté.
-          </p>
+          <h1 className="subpage-title">Chute de cheveux et maladies du cuir chevelu : diagnostic et prise en charge à Meknès</h1>
+          <div className="subpage-subtitle">
+            <p>La perte de cheveux ou les problèmes du cuir chevelu peuvent avoir de nombreuses origines. Une chute de cheveux importante, des démangeaisons persistantes, des pellicules abondantes ou l'apparition de plaques sans cheveux nécessitent un diagnostic précis afin d'identifier leur cause et de mettre en place un traitement adapté.</p>
+            <p>Le Dr Samia Mrabat, dermatologue à Meknès, prend en charge les différentes maladies du cuir chevelu chez l'adulte et l'enfant. Chaque consultation comprend un examen clinique approfondi afin de proposer une prise en charge personnalisée selon l'origine du problème.</p>
+          </div>
         </div>
       </section>
 
@@ -46,60 +47,113 @@ export default function ChuteCheveux() {
         <div className="container">
           <div className="subpage-grid-layout">
             <div className="subpage-main-body">
-              
               <article className="medical-article">
-                <div className="diagram-block">
+                <div className="diagram-block hero-diagram">
                   <LightboxImage
                     src="/images/pdf_extracted/page_47_img_1.jpeg"
-                    alt="Infographie médicale : Comprendre les principales causes de la chute de cheveux (Alopécie androgénétique, Pelade, Dermatite séborrhéique)"
-                    caption="Principales origines de la perte de cheveux chez l'homme et la femme."
+                    alt="Infographie : Le cycle de vie du cheveu (Anagène, Catagène, Télogène)"
+                    caption="Les différentes phases du cycle pilaire et leur rôle dans la chute de cheveux."
                   />
                 </div>
 
-                <h2>Le cycle de vie du cheveu</h2>
-                <p>
-                  Chaque cheveu évolue selon un cycle naturel comprenant 3 phases successives : la phase anagène (croissance active 2 à 6 ans), la phase catagène (transition 2 à 3 semaines) et la phase télogène (chute et renouvellement 3 à 4 mois). La perte quotidienne de 50 à 100 cheveux est considérée comme normale.
-                </p>
-
+                <h2>Qu'est-ce que la chute de cheveux ?</h2>
+                <p>La chute de cheveux est un phénomène naturel lorsqu'elle reste modérée. En revanche, une perte importante, prolongée ou localisée peut révéler une affection nécessitant une évaluation dermatologique.</p>
+                <p>Selon les cas, la chute de cheveux peut être temporaire ou chronique et toucher l'ensemble du cuir chevelu ou certaines zones uniquement.</p>
                 <div className="diagram-block">
                   <LightboxImage
                     src="/images/pdf_extracted/page_48_img_1.jpeg"
-                    alt="Infographie 3D : Le cycle de vie du cheveu en 3 phases naturelles et successives"
-                    caption="Les 3 phases du cycle folliculaire : Anagène, Catagène et Télogène."
+                    alt="Le cycle de vie du cheveu : phases anagène, catagène et télogène"
+                    caption="Comprendre le cycle pilaire est essentiel pour identifier les causes de la chute de cheveux."
                   />
                 </div>
 
                 <h2>Les principales causes de la chute de cheveux</h2>
-                <ul className="bullet-list">
-                  <li><strong>Alopécie androgénétique :</strong> affinement progressif d'origine hormonale et héréditaire.</li>
-                  <li><strong>Effluvium télogène :</strong> chute réactionnelle abondante après un stress, une grossesse ou une maladie.</li>
-                  <li><strong>Pelade (Alopecia areata) :</strong> maladie auto-immune provoquant des plaques circulaires sans cheveux.</li>
-                  <li><strong>Carences nutritionnelles :</strong> manque de fer, zinc ou vitamines essentielles.</li>
-                  <li><strong>Dermatite séborrhéique &amp; psoriasis du cuir chevelu :</strong> inflammation provoquant des pellicules épaisses et des démangeaisons.</li>
+                <p>La perte de cheveux peut avoir différentes origines :</p>
+                <ul className="check-list">
+                  <li>Alopécie androgénétique</li>
+                  <li>Chute de cheveux saisonnière</li>
+                  <li>Effluvium télogène après un stress ou une maladie</li>
+                  <li>Carences nutritionnelles</li>
+                  <li>Déséquilibres hormonaux</li>
+                  <li>Maladies auto-immunes</li>
+                  <li>Certains traitements médicamenteux</li>
+                  <li>Infections du cuir chevelu</li>
                 </ul>
+                <p>Identifier la cause est essentiel afin de proposer le traitement le plus adapté.</p>
 
+                <h2>Les maladies du cuir chevelu</h2>
+                <p>Le cuir chevelu peut être touché par différentes affections dermatologiques, notamment :</p>
+                <ul className="check-list">
+                  <li>Dermatite séborrhéique</li>
+                  <li>Psoriasis du cuir chevelu</li>
+                  <li>Eczéma</li>
+                  <li>Infections fongiques</li>
+                  <li>Folliculites</li>
+                  <li>Pellicules persistantes</li>
+                  <li>Démangeaisons chroniques</li>
+                </ul>
+                <p>Ces maladies peuvent entraîner une gêne importante et parfois favoriser une perte de cheveux si elles ne sont pas prises en charge.</p>
                 <div className="diagram-block">
                   <LightboxImage
                     src="/images/pdf_extracted/page_49_img_1.jpeg"
-                    alt="Infographie : Les 4 affections fréquentes du cuir chevelu (Dermatite séborrhéique, Psoriasis, Folliculite, Mycose)"
-                    caption="Pathologies fréquentes touchant la santé du cuir chevelu."
+                    alt="Infographie : Les principales maladies du cuir chevelu"
+                    caption="Les affections dermatologiques les plus fréquentes touchant le cuir chevelu."
                   />
                 </div>
 
-                <h2>Traitements proposés au cabinet</h2>
-                <p>
-                  Après examen trichologique approfondi par le Dr Samia Mrabat, le traitement personnalisé peut associer des traitements locaux ou oraux prescrits, des soins stimulants spécifiques, la mésothérapie capillaire ou la préparation PRP (Plasma Riche en Plaquettes).
-                </p>
-              </article>
+                <h2>Les symptômes qui doivent vous alerter</h2>
+                <p>Il est conseillé de consulter si vous observez :</p>
+                <ul className="check-list">
+                  <li>Une chute importante de cheveux</li>
+                  <li>Des cheveux qui deviennent progressivement plus fins</li>
+                  <li>Des plaques sans cheveux</li>
+                  <li>Des démangeaisons persistantes</li>
+                  <li>Des rougeurs du cuir chevelu</li>
+                  <li>Des pellicules abondantes</li>
+                  <li>Des douleurs ou une sensibilité du cuir chevelu</li>
+                  <li>Une perte de cheveux après une maladie ou un accouchement</li>
+                </ul>
 
+                <h2>Comment se déroule la consultation ?</h2>
+                <p>Lors de la consultation, le Dr Samia Mrabat réalise un examen du cuir chevelu et de la chevelure afin d'identifier l'origine de la chute de cheveux ou des symptômes.</p>
+                <p>Selon votre situation, des examens complémentaires peuvent être proposés afin d'orienter le diagnostic.</p>
+                <p>Une fois la cause identifiée, un traitement personnalisé vous est expliqué ainsi que les conseils à suivre pour préserver la santé du cuir chevelu.</p>
+
+                <h2>Les traitements proposés</h2>
+                <p>La prise en charge dépend toujours du diagnostic. Selon votre situation, le Dr Samia Mrabat peut proposer :</p>
+                <ul className="check-list">
+                  <li>Des traitements locaux</li>
+                  <li>Des traitements par voie orale lorsque cela est indiqué</li>
+                  <li>Des soins dermatologiques adaptés au cuir chevelu</li>
+                  <li>Des conseils personnalisés concernant l'hygiène capillaire</li>
+                  <li>Un suivi régulier afin d'évaluer l'évolution de la repousse</li>
+                </ul>
+
+                <h2>Conseils pour préserver la santé de vos cheveux</h2>
+                <p>Quelques habitudes simples permettent de protéger durablement vos cheveux :</p>
+                <ul className="check-list">
+                  <li>Utiliser un shampoing adapté à votre cuir chevelu</li>
+                  <li>Éviter les traitements capillaires agressifs</li>
+                  <li>Adopter une alimentation équilibrée</li>
+                  <li>Limiter les sources de stress lorsque cela est possible</li>
+                  <li>Consulter rapidement en cas de chute inhabituelle</li>
+                </ul>
+
+                <h2>Pourquoi consulter rapidement ?</h2>
+                <p>Une prise en charge précoce permet souvent de ralentir l'évolution de certaines formes de chute de cheveux et d'améliorer les chances de repousse lorsqu'un traitement est indiqué.</p>
+                <p>Plus le diagnostic est posé tôt, plus les solutions thérapeutiques peuvent être efficaces.</p>
+              </article>
             </div>
 
             <aside className="subpage-sidebar">
               <div className="sidebar-booking-card">
                 <h3>Prendre Rendez-vous</h3>
-                <p>Consultez le Dr Samia Mrabat pour un bilan capillaire à Meknès.</p>
+                <p>Consultez le Dr Samia Mrabat, dermatologue à Meknès, pour un bilan et une prise en charge adaptée.</p>
                 <a href="tel:0535524067" className="side-btn-call">📞 05 35 52 40 67</a>
                 <a href="https://wa.me/212689270924" target="_blank" rel="noopener noreferrer" className="side-btn-wa">💬 WhatsApp direct</a>
+                <div className="side-location-mini">
+                  📍 Bureaux Reda, Rue Benzerte, Hamria, Meknès
+                </div>
               </div>
             </aside>
           </div>

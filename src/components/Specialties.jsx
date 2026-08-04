@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const specialties = [
   {
@@ -8,6 +9,7 @@ const specialties = [
     desc: 'Diagnostic et traitement des maladies de la peau, des cheveux et des ongles.',
     img: '/images/medical-dermatology.jpg',
     code: '01',
+    link: '/dermatologie-medicale',
   },
   {
     num: '02',
@@ -16,6 +18,7 @@ const specialties = [
     desc: 'Des soins personnalisés pour préserver et révéler la qualité de votre peau.',
     img: '/images/aesthetic-dermatology.jpg',
     code: '02',
+    link: '/dermatologie-esthetique',
   },
   {
     num: '03',
@@ -24,6 +27,7 @@ const specialties = [
     desc: 'Prise en charge des lésions cutanées nécessitant une intervention.',
     img: '/images/surgery-dermatology.jpg',
     code: '03',
+    link: '/chirurgie-dermatologique',
   },
   {
     num: '04',
@@ -32,6 +36,7 @@ const specialties = [
     desc: 'Détecter précocement les lésions cutanées afin de préserver votre santé.',
     img: '/images/prevention-screening.jpg',
     code: '04',
+    link: '/prevention-depistage',
   },
 ];
 
@@ -58,7 +63,7 @@ export default function Specialties() {
         {/* ── Editorial 4-Card Grid ── */}
         <div className="specialties-editorial-grid stagger-children">
           {specialties.map((item) => (
-            <div key={item.num} className="spec-editorial-card">
+            <Link key={item.num} to={item.link} className="spec-editorial-card">
               <img src={item.img} alt={item.title} className="spec-card-bg" />
               <div className="spec-card-gradient" />
 
@@ -76,7 +81,7 @@ export default function Specialties() {
                 </div>
                 <div className="spec-card-code">{item.code}</div>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
 

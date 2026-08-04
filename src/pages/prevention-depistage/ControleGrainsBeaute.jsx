@@ -6,9 +6,9 @@ import LightboxImage from '../../components/Lightbox';
 export default function ControleGrainsBeaute() {
   const schemaData = {
     '@context': 'https://schema.org',
-    '@type': 'MedicalProcedure',
-    name: 'Contrôle des Grains de Beauté',
-    description: 'Dermoscopie et examen complet des grains de beauté à Meknès par le Dr Samia Mrabat.',
+    '@type': 'MedicalWebPage',
+    name: "Contrôle des grains de beauté à Meknès",
+    description: "Le Dr Samia Mrabat, dermatologue à Meknès, réalise le contrôle des grains de beauté grâce à un examen clinique complet et à la dermoscopie lorsque cela est indiqué.",
     provider: {
       '@type': 'MedicalClinic',
       name: 'Cabinet du Dr Samia Mrabat',
@@ -21,7 +21,7 @@ export default function ControleGrainsBeaute() {
       <SEO
         title="Contrôle des grains de beauté à Meknès | Dr Samia Mrabat"
         description="Le Dr Samia Mrabat, dermatologue à Meknès, réalise le contrôle des grains de beauté grâce à un examen clinique complet et à la dermoscopie lorsque cela est indiqué."
-        keywords="Contrôle grains de beauté Meknès, Surveillance nevi Meknès, Dermoscopie Meknès, Examen dermatologue Meknès"
+        keywords="Contrôle grain de beauté Meknès, Naevus atypique Meknès, Dermoscopie Meknès, Surveillance grains de beauté Meknès"
         url="https://drsamiamrabatdermatologue.com/prevention-depistage/controle-grains-beaute"
         jsonLd={schemaData}
       />
@@ -31,14 +31,15 @@ export default function ControleGrainsBeaute() {
           <Breadcrumbs
             items={[
               { label: 'Prévention & Dépistage', url: '/prevention-depistage' },
-              { label: 'Contrôle des Grains de Beauté' },
+              { label: "Contrôle des grains de beauté" },
             ]}
           />
           <span className="subpage-badge">PRÉVENTION &amp; DÉPISTAGE</span>
           <h1 className="subpage-title">Contrôle des grains de beauté à Meknès</h1>
-          <p className="subpage-subtitle">
-            Les grains de beauté (naevus) sont très fréquents et généralement bénins. Toutefois, une surveillance dermatologique annuelle permet de contrôler leur évolution et de détecter toute atypie.
-          </p>
+          <div className="subpage-subtitle">
+            <p>Les grains de beauté (naevus) sont très fréquents et, dans la majorité des cas, bénins. Toutefois, certains peuvent évoluer au fil du temps ou présenter des caractéristiques qui nécessitent une surveillance dermatologique.</p>
+            <p>Le Dr Samia Mrabat, dermatologue à Meknès, réalise un examen clinique de vos grains de beauté afin d'évaluer leur aspect, de rechercher d'éventuelles anomalies et de déterminer si une simple surveillance ou une prise en charge complémentaire est nécessaire.</p>
+          </div>
         </div>
       </section>
 
@@ -46,50 +47,82 @@ export default function ControleGrainsBeaute() {
         <div className="container">
           <div className="subpage-grid-layout">
             <div className="subpage-main-body">
-              
               <article className="medical-article">
-                <div className="diagram-block">
+                <div className="diagram-block hero-diagram">
                   <LightboxImage
                     src="/images/pdf_extracted/page_131_img_1.jpeg"
-                    alt="Photo médicale : Examen au dermatoscope d'un grain de beauté sur le bras par le dermatologue"
-                    caption="Dermoscopie numérique : analyse détaillée des structures pigmentaires invisibles à l'œil nu."
+                    alt="Infographie : Pourquoi faire vérifier ses grains de beauté régulièrement ?"
+                    caption="Suivi des personnes à risque : peau claire, antécédents, coups de soleil."
                   />
                 </div>
 
                 <h2>Pourquoi faire contrôler ses grains de beauté ?</h2>
-                <ul className="bullet-list">
-                  <li>Surveiller l'évolution des nevi au fil des années.</li>
-                  <li>Identifier précocement des lésions atypiques ou suspectes.</li>
-                  <li>Distinguer les taches bénignes des lésions nécessitant une exérèse préventive.</li>
-                  <li>Bénéficier d’un suivi personnalisé selon votre phototype.</li>
+                <p>Un contrôle dermatologique permet :</p>
+                <ul className="check-list">
+                  <li>De surveiller l'évolution de certains grains de beauté</li>
+                  <li>D'identifier précocement des lésions inhabituelles</li>
+                  <li>De distinguer les lésions bénignes des lésions nécessitant une surveillance particulière</li>
+                  <li>De bénéficier d'un suivi personnalisé selon votre profil</li>
+                </ul>
+                <p>La plupart des grains de beauté sont bénins, mais leur surveillance peut être recommandée dans certaines situations.</p>
+
+                <h2>Qui devrait réaliser un contrôle dermatologique ?</h2>
+                <p>Un contrôle est particulièrement recommandé si vous :</p>
+                <ul className="check-list">
+                  <li>Avez un grand nombre de grains de beauté</li>
+                  <li>Présentez une peau claire</li>
+                  <li>Avez des antécédents personnels ou familiaux de cancer de la peau</li>
+                  <li>Avez subi de nombreux coups de soleil, notamment durant l'enfance</li>
+                  <li>Observez l'apparition d'un nouveau grain de beauté à l'âge adulte</li>
+                  <li>Remarquez une modification d'une lésion existante</li>
                 </ul>
 
-                <div className="diagram-block">
-                  <LightboxImage
-                    src="/images/pdf_extracted/page_132_img_1.jpeg"
-                    alt="Infographie : Les personnes les plus concernées par le contrôle dermatologique des nevi"
-                    caption="Publics prioritaires pour un contrôle dermatologique annuel des grains de beauté."
-                  />
-                </div>
-
-                <h2>Quand consulter rapidement ?</h2>
+                <h2>Comment se déroule le contrôle ?</h2>
+                <p>Lors de la consultation, le dermatologue examine l'ensemble des grains de beauté visibles.</p>
+                <p>Lorsque cela est nécessaire, une dermoscopie est réalisée afin d'observer les structures de la peau invisibles à l'œil nu.</p>
+                <p>Selon les résultats de l'examen, plusieurs options peuvent être proposées :</p>
+                <ul className="check-list">
+                  <li>Simple surveillance</li>
+                  <li>Contrôle régulier</li>
+                  <li>Photographie de suivi</li>
+                  <li>Biopsie ou exérèse lorsqu'elles sont médicalement indiquées</li>
+                </ul>
                 <div className="diagram-block">
                   <LightboxImage
                     src="/images/pdf_extracted/page_134_img_1.jpeg"
-                    alt="Infographie : Quand consulter ? Les signes qui doivent vous alerter (Changement taille, couleur, asymétrie, saignement, démangeaison)"
-                    caption="Signes d'alerte sur un grain de beauté."
+                    alt="Infographie : L'examen dermoscopique indolore au cabinet"
+                    caption="Observation à fort grossissement des structures pigmentaires profondes."
                   />
                 </div>
-              </article>
 
+                <h2>Les signes qui doivent vous alerter</h2>
+                <p>Il est recommandé de consulter rapidement si un grain de beauté :</p>
+                <ul className="check-list">
+                  <li>Change de taille</li>
+                  <li>Change de forme</li>
+                  <li>Change de couleur</li>
+                  <li>Présente des bords irréguliers</li>
+                  <li>Saigne spontanément</li>
+                  <li>Démange ou devient douloureux</li>
+                  <li>Évolue rapidement</li>
+                </ul>
+                <p>Ces signes ne permettent pas à eux seuls de poser un diagnostic, mais justifient un avis dermatologique.</p>
+
+                <h2>Pourquoi consulter un dermatologue ?</h2>
+                <p>L'examen d'un grain de beauté nécessite une évaluation médicale précise.</p>
+                <p>Le dermatologue dispose des connaissances et des outils nécessaires, notamment la dermoscopie, pour analyser les lésions cutanées et déterminer la conduite à tenir la plus adaptée.</p>
+              </article>
             </div>
 
             <aside className="subpage-sidebar">
               <div className="sidebar-booking-card">
                 <h3>Prendre Rendez-vous</h3>
-                <p>Prenez rendez-vous pour faire contrôler vos grains de beauté à Meknès.</p>
+                <p>Consultez le Dr Samia Mrabat, dermatologue à Meknès, pour un contrôle personnalisé de vos grains de beauté.</p>
                 <a href="tel:0535524067" className="side-btn-call">📞 05 35 52 40 67</a>
                 <a href="https://wa.me/212689270924" target="_blank" rel="noopener noreferrer" className="side-btn-wa">💬 WhatsApp direct</a>
+                <div className="side-location-mini">
+                  📍 Bureaux Reda, Rue Benzerte, Hamria, Meknès
+                </div>
               </div>
             </aside>
           </div>

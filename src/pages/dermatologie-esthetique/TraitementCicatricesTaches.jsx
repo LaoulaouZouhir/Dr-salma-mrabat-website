@@ -6,9 +6,9 @@ import LightboxImage from '../../components/Lightbox';
 export default function TraitementCicatricesTaches() {
   const schemaData = {
     '@context': 'https://schema.org',
-    '@type': 'MedicalProcedure',
-    name: 'Traitement des Cicatrices et des Taches Pigmentaires',
-    description: 'Prise en charge personnalisée du mélasma, des cicatrices d’acné et des taches solaires à Meknès par le Dr Samia Mrabat.',
+    '@type': 'MedicalWebPage',
+    name: "Traitement des cicatrices et des taches pigmentaires à Meknès",
+    description: "Le Dr Samia Mrabat, dermatologue à Meknès, propose une prise en charge personnalisée des cicatrices et des taches pigmentaires selon votre type de peau et votre indication médicale.",
     provider: {
       '@type': 'MedicalClinic',
       name: 'Cabinet du Dr Samia Mrabat',
@@ -17,28 +17,29 @@ export default function TraitementCicatricesTaches() {
   };
 
   return (
-    <div className="subpage-wrapper aesthetic-subpage">
+    <div className="subpage-wrapper">
       <SEO
         title="Traitement des cicatrices et des taches pigmentaires à Meknès | Dr Samia Mrabat"
-        description="Le Dr Samia Mrabat, dermatologue à Meknès, propose une prise en charge personnalisée des cicatrices d'acné, du mélasma et des taches pigmentaires selon votre phototype."
-        keywords="Traitement taches pigmentaires Meknès, Mélasma Meknès, Cicatrices acné Meknès, Taches solaires Meknès"
+        description="Le Dr Samia Mrabat, dermatologue à Meknès, propose une prise en charge personnalisée des cicatrices et des taches pigmentaires selon votre type de peau et votre indication médicale."
+        keywords="Traitement cicatrices d'acné Meknès, Mélasma Meknès, Taches solaires Meknès, Dépigmentation Meknès, Dermatologue esthétique Meknès"
         url="https://drsamiamrabatdermatologue.com/dermatologie-esthetique/traitement-cicatrices-taches-pigmentaires"
         jsonLd={schemaData}
       />
 
-      <section className="subpage-hero aesthetic-hero">
+      <section className="subpage-hero">
         <div className="container">
           <Breadcrumbs
             items={[
               { label: 'Dermatologie Esthétique', url: '/dermatologie-esthetique' },
-              { label: 'Cicatrices & Taches Pigmentaires' },
+              { label: "Traitement des cicatrices et des taches pigmentaires" },
             ]}
           />
-          <span className="subpage-badge gold-badge">HOMOGÉNÉITÉ DU TEINT</span>
+          <span className="subpage-badge">DERMATOLOGIE ESTHÉTIQUE</span>
           <h1 className="subpage-title">Traitement des cicatrices et des taches pigmentaires à Meknès</h1>
-          <p className="subpage-subtitle">
-            Les cicatrices d'acné et les taches pigmentaires (mélasma, lentigos) nécessitent une évaluation médicale précise afin de sélectionner le protocole le plus adapté sans risquer de rebond pigmentaire.
-          </p>
+          <div className="subpage-subtitle">
+            <p>Les cicatrices et les taches pigmentaires peuvent apparaître après une acné, une inflammation cutanée, une exposition au soleil ou avec le vieillissement naturel de la peau. Leur aspect, leur profondeur et leur origine varient d'une personne à l'autre, ce qui nécessite une évaluation dermatologique avant toute prise en charge.</p>
+            <p>Le Dr Samia Mrabat, dermatologue à Meknès, réalise un examen personnalisé afin d'identifier l'origine des lésions et de proposer un protocole adapté à votre peau et à vos besoins.</p>
+          </div>
         </div>
       </section>
 
@@ -46,54 +47,86 @@ export default function TraitementCicatricesTaches() {
         <div className="container">
           <div className="subpage-grid-layout">
             <div className="subpage-main-body">
-              
-              <article className="medical-article aesthetic-article">
-                <div className="diagram-block">
+              <article className="medical-article">
+                <div className="diagram-block hero-diagram">
                   <LightboxImage
                     src="/images/pdf_extracted/page_86_img_1.jpeg"
-                    alt="Infographie : Cicatrices et Taches Pigmentaires (Cicatrices d'acné, Teint irrégulier, Taches pigmentaires, Texture cutanée)"
-                    caption="Principales irrégularités pigmentaires et cicatricielles traitées au cabinet."
+                    alt="Infographie : Types de cicatrices et d'hyperpigmentation"
+                    caption="Classification des cicatrices atrophiques, hypertrophiques et des taches pigmentaires."
                   />
                 </div>
 
-                <h2>Pourquoi les taches pigmentaires apparaissent-elles ?</h2>
-                <p>
-                  Les taches brunes s'expliquent par une accumulation excessive de mélanine dermo-épidermique déclenchée par les UV solaires, les poussées d'inflammation cutanée (hyperpigmentation post-inflammatoire), la grossesse ou la contraception orale (mélasma) et le vieillissement cutané.
-                </p>
+                <h2>Quelles sont les principales causes des cicatrices et des taches pigmentaires ?</h2>
+                <p>Les cicatrices et les taches peuvent avoir différentes origines. Les causes les plus fréquentes sont :</p>
+                <ul className="check-list">
+                  <li>Les cicatrices d'acné</li>
+                  <li>L'hyperpigmentation post-inflammatoire</li>
+                  <li>Le mélasma</li>
+                  <li>Les lentigos solaires (taches liées au soleil)</li>
+                  <li>Certaines cicatrices après une blessure ou une intervention</li>
+                  <li>Le vieillissement cutané</li>
+                </ul>
+                <p>Identifier la cause est une étape essentielle pour choisir la prise en charge la plus adaptée.</p>
 
-                <div className="diagram-block">
-                  <LightboxImage
-                    src="/images/pdf_extracted/page_87_img_1.jpeg"
-                    alt="Schéma 3D explicatif : Pourquoi des taches pigmentaires apparaissent ? (Peau uniforme vs Hyperpigmentation)"
-                    caption="Mécanisme de l'hyperpigmentation : accumulation de mélanine dans l'épiderme."
-                  />
-                </div>
+                <h2>Comment se déroule le diagnostic ?</h2>
+                <p>Lors de la consultation, le Dr Samia Mrabat examine votre peau afin d'évaluer :</p>
+                <ul className="check-list">
+                  <li>Le type de cicatrice ou de tache</li>
+                  <li>Sa profondeur</li>
+                  <li>Son ancienneté</li>
+                  <li>Votre phototype</li>
+                  <li>Vos antécédents médicaux</li>
+                  <li>Vos attentes</li>
+                </ul>
+                <p>Cette évaluation permet de définir un protocole personnalisé.</p>
 
-                <h2>Processus de renouvellement progressif de la peau</h2>
+                <h2>Quels traitements peuvent être proposés ?</h2>
+                <p>Selon votre situation, différents traitements peuvent être envisagés, seuls ou associés. Ils peuvent inclure :</p>
+                <ul className="check-list">
+                  <li>Peelings dermatologiques</li>
+                  <li>Microneedling</li>
+                  <li>Mésothérapie</li>
+                  <li>Traitements topiques</li>
+                  <li>Conseils de photoprotection</li>
+                  <li>Autres traitements adaptés à votre indication</li>
+                </ul>
+                <p>Le choix du traitement dépend toujours de votre peau et de l'avis du dermatologue.</p>
                 <div className="diagram-block">
                   <LightboxImage
                     src="/images/pdf_extracted/page_89_img_1.jpeg"
-                    alt="Infographie 3 étapes : Le renouvellement progressif de la peau (1. État initial, 2. Renouvellement stimulé, 3. Peau améliorée)"
-                    caption="Évolution progressive de la qualité de la peau et atténuation des taches."
+                    alt="Infographie : Combinaisons de traitements dermatologiques"
+                    caption="Approches combinées pour uniformiser le grain de peau et le teint."
                   />
                 </div>
 
-                <h2>Traitements proposés</h2>
-                <ul className="bullet-list">
-                  <li><strong>Peelings dépigmentants ciblés :</strong> exfoliation douce pour éliminer les pigments de surface.</li>
-                  <li><strong>Microneedling &amp; principes actifs dépigmentants :</strong> pénétration ciblée d'actifs inhibiteurs de tyrosinase.</li>
-                  <li><strong>Traitements topiques prescrits &amp; photoprotection :</strong> routine quotidienne rigoureuse pour bloquer les récidives.</li>
-                </ul>
-              </article>
+                <h2>Quels résultats peut-on attendre ?</h2>
+                <p>Les résultats apparaissent progressivement et varient selon le type de cicatrice ou de tache, sa profondeur et la réponse individuelle de la peau.</p>
+                <p>L'objectif est d'obtenir une amélioration progressive de la qualité de la peau et une diminution visible des imperfections, dans le respect de votre peau et de son fonctionnement naturel.</p>
 
+                <h2>Les précautions après le traitement</h2>
+                <p>Après certaines procédures, la peau peut être plus sensible pendant quelques jours. Il est recommandé de :</p>
+                <ul className="check-list">
+                  <li>Appliquer une protection solaire adaptée</li>
+                  <li>Hydrater régulièrement la peau</li>
+                  <li>Éviter les produits irritants</li>
+                  <li>Respecter les recommandations données par le dermatologue</li>
+                </ul>
+
+                <h2>Pourquoi consulter un dermatologue ?</h2>
+                <p>Toutes les taches pigmentaires ou cicatrices ne nécessitent pas le même traitement.</p>
+                <p>Une consultation dermatologique permet d'établir un diagnostic précis, d'écarter certaines lésions nécessitant une surveillance particulière et de proposer une prise en charge personnalisée.</p>
+              </article>
             </div>
 
             <aside className="subpage-sidebar">
-              <div className="sidebar-booking-card aesthetic-sidebar-card">
-                <h3>Rendez-vous Dépigmentation</h3>
-                <p>Consultez le Dr Samia Mrabat à Meknès pour faire évaluer vos taches.</p>
+              <div className="sidebar-booking-card">
+                <h3>Prendre Rendez-vous</h3>
+                <p>Consultez le Dr Samia Mrabat, dermatologue à Meknès, pour une évaluation personnalisée de votre peau.</p>
                 <a href="tel:0535524067" className="side-btn-call">📞 05 35 52 40 67</a>
                 <a href="https://wa.me/212689270924" target="_blank" rel="noopener noreferrer" className="side-btn-wa">💬 WhatsApp direct</a>
+                <div className="side-location-mini">
+                  📍 Bureaux Reda, Rue Benzerte, Hamria, Meknès
+                </div>
               </div>
             </aside>
           </div>

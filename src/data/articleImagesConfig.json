@@ -1,0 +1,449 @@
+[
+  {
+    "id": "acne-rosacee",
+    "title": "Acné et rosacée : diagnostic et traitement à Meknès",
+    "category": "Dermatologie Médicale",
+    "url": "/dermatologie-medicale/acne-rosacee",
+    "images": [
+      {
+        "id": "acne-img-1",
+        "section": "Qu'est-ce que l'acné ?",
+        "src": "/images/acne_skin_anatomy.jpg",
+        "alt": "Illustration médicale 3D d'une coupe de peau montrant le follicule pileux, le sébum, le pore bouché, la bactérie responsable et la formation du bouton",
+        "caption": "Illustration médicale 3D : coupe de peau montrant le follicule pileux, l'excès de sébum, le pore obstrué et l'inflammation folliculaire."
+      },
+      {
+        "id": "acne-img-2",
+        "section": "Qu'est-ce que la rosacée ?",
+        "src": "/images/rosacea_facial_redness.jpg",
+        "alt": "Visage d'une femme présentant une rosacée légère à modérée avec des rougeurs visibles au niveau des joues, du nez et du menton",
+        "caption": "Diagnostic visuel de la rosacée : présence de rougeurs persistantes (érythrose et couperose) concentrées sur la zone centrale du visage."
+      },
+      {
+        "id": "acne-img-3",
+        "section": "Comment se déroule la consultation ?",
+        "src": "/images/cabinet/espace-soins.jpg",
+        "alt": "Cabinet de dermatologie moderne du Dr Samia Mrabat à Meknès",
+        "caption": "Le cabinet de consultation du Dr Samia Mrabat à Meknès, conçu pour une évaluation dermatologique confortable et personnalisée."
+      }
+    ]
+  },
+  {
+    "id": "eczema-psoriasis-vitiligo",
+    "title": "Éczéma, psoriasis et vitiligo à Meknès",
+    "category": "Dermatologie Médicale",
+    "url": "/dermatologie-medicale/eczema-psoriasis-vitiligo",
+    "images": [
+      {
+        "id": "eczema-img-1",
+        "section": "En-tête de l'article",
+        "src": "/images/pdf_extracted/page_38_img_1.jpeg",
+        "alt": "Infographie : Physiopathologie de la barrière cutanée dans l'eczéma",
+        "caption": "Altération de la barrière épidermique et perte en eau transépidermique dans la dermatite atopique."
+      },
+      {
+        "id": "eczema-img-2",
+        "section": "Milieu de l'article",
+        "src": "/images/pdf_extracted/page_40_img_1.jpeg",
+        "alt": "Infographie : Différences cliniques entre Éczéma, Psoriasis et Vitiligo",
+        "caption": "Comparaison clinique des lésions : plaques érythémato-squameuses du psoriasis vs plaques de dépigmentation du vitiligo."
+      }
+    ]
+  },
+  {
+    "id": "chute-cheveux",
+    "title": "Chute de cheveux et pathologies du cuir chevelu à Meknès",
+    "category": "Dermatologie Médicale",
+    "url": "/dermatologie-medicale/chute-cheveux-maladies-cuir-chevelu",
+    "images": [
+      {
+        "id": "cheveux-img-1",
+        "section": "En-tête de l'article",
+        "src": "/images/pdf_extracted/page_47_img_1.jpeg",
+        "alt": "Infographie : Cycle de pousse du cheveu (Anagène, Catagène, Télogène)",
+        "caption": "Les 3 phases du cycle pilaire et les mécanismes de l'effluvium télogène et de l'alopécie androgénétique."
+      },
+      {
+        "id": "cheveux-img-2",
+        "section": "Milieu de l'article",
+        "src": "/images/pdf_extracted/page_49_img_1.jpeg",
+        "alt": "Infographie : Examen dermoscopique du cuir chevelu (Trichoscopie)",
+        "caption": "Analyse trichoscopique de la densité pilaire et des ostia folliculaires au cabinet."
+      }
+    ]
+  },
+  {
+    "id": "allergies-infections",
+    "title": "Allergies cutanées et infections de la peau à Meknès",
+    "category": "Dermatologie Médicale",
+    "url": "/dermatologie-medicale/allergies-infections-maladies-peau",
+    "images": [
+      {
+        "id": "allergies-img-1",
+        "section": "En-tête de l'article",
+        "src": "/images/pdf_extracted/page_54_img_1.jpeg",
+        "alt": "Infographie : Urticaire, eczéma de contact et mycoses cutanées",
+        "caption": "Identification des réactions allergiques immédiates et tardives de la peau."
+      },
+      {
+        "id": "allergies-img-2",
+        "section": "Milieu de l'article",
+        "src": "/images/pdf_extracted/page_57_img_1.jpeg",
+        "alt": "Infographie : Bilan allergologique et conseils d'éviction",
+        "caption": "Méthode d'investigation allergologique et consignes de soin apaisant."
+      }
+    ]
+  },
+  {
+    "id": "dermatologie-pediatrique",
+    "title": "Dermatologie pédiatrique à Meknès",
+    "category": "Dermatologie Médicale",
+    "url": "/dermatologie-medicale/dermatologie-pediatrique",
+    "images": [
+      {
+        "id": "pedia-img-1",
+        "section": "En-tête de l'article",
+        "src": "/images/pdf_extracted/page_61_img_1.jpeg",
+        "alt": "Infographie : Affections cutanées fréquentes chez le nourrisson et l'enfant",
+        "caption": "Prise en charge douce de l'eczéma nourrisson, des angiomes et de l'érythème fessier."
+      },
+      {
+        "id": "pedia-img-2",
+        "section": "Milieu de l'article",
+        "src": "/images/pdf_extracted/page_63_img_1.jpeg",
+        "alt": "Infographie : Traitements doux et conseils de soins pour enfants",
+        "caption": "Règles d'hygiène et dermocosmétique adaptée à la peau fragile des enfants."
+      }
+    ]
+  },
+  {
+    "id": "injections-botox-acide-hyaluronique",
+    "title": "Injections de Botox® et d'acide hyaluronique à Meknès",
+    "category": "Dermatologie Esthétique",
+    "url": "/dermatologie-esthetique/injections-botox-acide-hyaluronique",
+    "images": [
+      {
+        "id": "botox-img-1",
+        "section": "En-tête de l'article",
+        "src": "/images/pdf_extracted/page_67_img_1.jpeg",
+        "alt": "Infographie : Différence entre Botox® et Acide Hyaluronique",
+        "caption": "Comparaison détaillée des mécanismes d'action du Botox® et de l'Acide Hyaluronique."
+      },
+      {
+        "id": "botox-img-2",
+        "section": "Comment se déroule une séance ?",
+        "src": "/images/pdf_extracted/page_69_img_1.jpeg",
+        "alt": "Infographie : Déroulement d'une séance d'injections esthétiques",
+        "caption": "Étapes d'une prise en charge esthétique médicale personnalisée."
+      }
+    ]
+  },
+  {
+    "id": "peelings-soins-peau",
+    "title": "Peelings dermatologiques et soins de la peau à Meknès",
+    "category": "Dermatologie Esthétique",
+    "url": "/dermatologie-esthetique/peelings-soins-peau",
+    "images": [
+      {
+        "id": "peeling-img-1",
+        "section": "En-tête de l'article",
+        "src": "/images/pdf_extracted/page_74_img_1.jpeg",
+        "alt": "Infographie : Fonctionnement d'un peeling dermatologique",
+        "caption": "Le processus de régénération épidermique par peeling médical."
+      },
+      {
+        "id": "peeling-img-2",
+        "section": "Comment se déroule une séance ?",
+        "src": "/images/pdf_extracted/page_77_img_1.jpeg",
+        "alt": "Infographie : Les soins post-peeling et protection solaire",
+        "caption": "Recommandations pour optimiser les résultats d'un peeling."
+      }
+    ]
+  },
+  {
+    "id": "microneedling-mesotherapie",
+    "title": "Microneedling et mésothérapie à Meknès",
+    "category": "Dermatologie Esthétique",
+    "url": "/dermatologie-esthetique/microneedling-mesotherapie",
+    "images": [
+      {
+        "id": "micro-img-1",
+        "section": "En-tête de l'article",
+        "src": "/images/pdf_extracted/page_81_img_1.jpeg",
+        "alt": "Infographie : Principes du Microneedling et de la Mésothérapie",
+        "caption": "Stimulation mécanique du collagène et apport de nutriments essentiels."
+      },
+      {
+        "id": "micro-img-2",
+        "section": "Comment se déroule une séance ?",
+        "src": "/images/pdf_extracted/page_83_img_1.jpeg",
+        "alt": "Infographie : Résultats attendus et protocole de soin",
+        "caption": "Évolution progressive de la qualité cutanée sur plusieurs séances."
+      }
+    ]
+  },
+  {
+    "id": "traitement-cicatrices-taches-pigmentaires",
+    "title": "Traitement des cicatrices et des taches pigmentaires à Meknès",
+    "category": "Dermatologie Esthétique",
+    "url": "/dermatologie-esthetique/traitement-cicatrices-taches-pigmentaires",
+    "images": [
+      {
+        "id": "cicatrices-img-1",
+        "section": "En-tête de l'article",
+        "src": "/images/pdf_extracted/page_86_img_1.jpeg",
+        "alt": "Infographie : Types de cicatrices et d'hyperpigmentation",
+        "caption": "Classification des cicatrices atrophiques, hypertrophiques et des taches pigmentaires."
+      },
+      {
+        "id": "cicatrices-img-2",
+        "section": "Quels traitements peuvent être proposés ?",
+        "src": "/images/pdf_extracted/page_89_img_1.jpeg",
+        "alt": "Infographie : Combinaisons de traitements dermatologiques",
+        "caption": "Approches combinées pour uniformiser le grain de peau et le teint."
+      }
+    ]
+  },
+  {
+    "id": "rajeunissement-cutane",
+    "title": "Rajeunissement cutané à Meknès",
+    "category": "Dermatologie Esthétique",
+    "url": "/dermatologie-esthetique/rajeunissement-cutane",
+    "images": [
+      {
+        "id": "raj-img-1",
+        "section": "En-tête de l'article",
+        "src": "/images/pdf_extracted/page_92_img_1.jpeg",
+        "alt": "Infographie : Les facteurs du vieillissement cutané (Intrinsèques et Extrinsèques)",
+        "caption": "Comprendre le vieillissement cellulaire et la perte de fermeté."
+      },
+      {
+        "id": "raj-img-2",
+        "section": "Quels traitements peuvent être proposés ?",
+        "src": "/images/pdf_extracted/page_94_img_1.jpeg",
+        "alt": "Infographie : Protocoles de rajeunissement sur-mesure",
+        "caption": "Synergie de soins esthétiques médicaux pour stimuler les fibroblastes."
+      }
+    ]
+  },
+  {
+    "id": "exerese-kystes-lipomes",
+    "title": "Exérèse des kystes et des lipomes à Meknès",
+    "category": "Chirurgie Dermatologique",
+    "url": "/chirurgie-dermatologique/exerese-kystes-lipomes",
+    "images": [
+      {
+        "id": "kyste-img-1",
+        "section": "En-tête de l'article",
+        "src": "/images/pdf_extracted/page_99_img_1.jpeg",
+        "alt": "Infographie : Différence entre Kyste épidermoïde et Lipome",
+        "caption": "Caractéristiques cliniques des kystes et lipomes cutanés."
+      },
+      {
+        "id": "kyste-img-2",
+        "section": "Qu'est-ce qu'un kyste ou un lipome ?",
+        "src": "/images/pdf_extracted/page_100_img_1.jpeg",
+        "alt": "Infographie : Méthode d'exérèse chirurgicale sous anesthésie locale",
+        "caption": "Caractéristiques cliniques et méthode d'exérèse chirurgicale sous anesthésie locale."
+      }
+    ]
+  },
+  {
+    "id": "ablation-grains-beaute-lesions-cutanees",
+    "title": "Ablation des grains de beauté et des lésions cutanées à Meknès",
+    "category": "Chirurgie Dermatologique",
+    "url": "/chirurgie-dermatologique/ablation-grains-beaute-lesions-cutanees",
+    "images": [
+      {
+        "id": "ablation-img-1",
+        "section": "En-tête de l'article",
+        "src": "/images/pdf_extracted/page_104_img_1.jpeg",
+        "alt": "Infographie : Les signes à surveiller sur un grain de beauté",
+        "caption": "Les caractéristiques d'un grain de beauté nécessitant une évaluation dermatologique."
+      },
+      {
+        "id": "ablation-img-2",
+        "section": "Comment se déroule la consultation ?",
+        "src": "/images/pdf_extracted/page_105_img_1.jpeg",
+        "alt": "Infographie : Déroulement de l'ablation d'un grain de beauté",
+        "caption": "Technique d'exérèse chirurgicale sous anesthésie locale pour l'ablation des grains de beauté."
+      }
+    ]
+  },
+  {
+    "id": "biopsies-cutanees",
+    "title": "Biopsies cutanées à Meknès",
+    "category": "Chirurgie Dermatologique",
+    "url": "/chirurgie-dermatologique/biopsies-cutanees",
+    "images": [
+      {
+        "id": "biopsie-img-1",
+        "section": "En-tête de l'article",
+        "src": "/images/pdf_extracted/page_110_img_1.jpeg",
+        "alt": "Infographie : Quand réaliser une biopsie cutanée ?",
+        "caption": "Indications diagnostiques pour l'examen histologique de la peau."
+      },
+      {
+        "id": "biopsie-img-2",
+        "section": "Comment se déroule une biopsie ?",
+        "src": "/images/pdf_extracted/page_111_img_1.jpeg",
+        "alt": "Infographie : Déroulement et suites de la biopsie cutanée",
+        "caption": "Protocole opératoire sous anesthésie locale au cabinet."
+      }
+    ]
+  },
+  {
+    "id": "chirurgie-ongle-incarne",
+    "title": "Chirurgie de l'ongle incarné à Meknès",
+    "category": "Chirurgie Dermatologique",
+    "url": "/chirurgie-dermatologique/chirurgie-ongle-incarne",
+    "images": [
+      {
+        "id": "ongle-img-1",
+        "section": "En-tête de l'article",
+        "src": "/images/pdf_extracted/page_115_img_1.jpeg",
+        "alt": "Infographie : Stades de l'ongle incarné et techniques chirurgicales",
+        "caption": "Du traitement médical à l'exérèse partielle avec traitement de la matrice."
+      },
+      {
+        "id": "ongle-img-2",
+        "section": "Comment se déroule l'intervention ?",
+        "src": "/images/pdf_extracted/page_117_img_1.jpeg",
+        "alt": "Infographie : Soins post-opératoires et prévention des récidives",
+        "caption": "Consignes de pansement et choix du chaussage après chirurgie."
+      }
+    ]
+  },
+  {
+    "id": "petite-chirurgie-dermatologique",
+    "title": "Petite chirurgie dermatologique à Meknès",
+    "category": "Chirurgie Dermatologique",
+    "url": "/chirurgie-dermatologique/petite-chirurgie-dermatologique",
+    "images": [
+      {
+        "id": "p-chir-img-1",
+        "section": "En-tête de l'article",
+        "src": "/images/pdf_extracted/page_121_img_1.jpeg",
+        "alt": "Infographie : Les lésions bénignes traitées en petite chirurgie",
+        "caption": "Exérèse des petites lésions cutanées inesthétiques ou gênantes."
+      },
+      {
+        "id": "p-chir-img-2",
+        "section": "Quels actes peuvent être réalisés ?",
+        "src": "/images/pdf_extracted/page_122_img_1.jpeg",
+        "alt": "Infographie : Déroulement des actes chirurgicaux légers",
+        "caption": "Intervention ambulatoire sous anesthésie locale sans interruption des activités."
+      }
+    ]
+  },
+  {
+    "id": "depistage-cancers-peau",
+    "title": "Dépistage des cancers de la peau à Meknès",
+    "category": "Prévention & Dépistage",
+    "url": "/prevention-depistage/depistage-cancers-peau",
+    "images": [
+      {
+        "id": "depistage-img-1",
+        "section": "En-tête de l'article",
+        "src": "/images/pdf_extracted/page_126_img_1.jpeg",
+        "alt": "Infographie : Comprendre les différents types de cancers cutanés",
+        "caption": "Distinction entre mélanome, carcinome basocellulaire et spinocellulaire."
+      },
+      {
+        "id": "depistage-img-2",
+        "section": "Quels signes doivent vous amener à consulter ?",
+        "src": "/images/pdf_extracted/page_128_img_1.jpeg",
+        "alt": "Infographie : La règle ABCDE et les signes d'alerte",
+        "caption": "Critères dermoscopiques de surveillance des lésions évolutives."
+      }
+    ]
+  },
+  {
+    "id": "controle-grains-beaute",
+    "title": "Contrôle des grains de beauté à Meknès",
+    "category": "Prévention & Dépistage",
+    "url": "/prevention-depistage/controle-grains-beaute",
+    "images": [
+      {
+        "id": "controle-img-1",
+        "section": "En-tête de l'article",
+        "src": "/images/pdf_extracted/page_131_img_1.jpeg",
+        "alt": "Infographie : Pourquoi faire vérifier ses grains de beauté régulièrement ?",
+        "caption": "Suivi des personnes à risque : peau claire, antécédents, coups de soleil."
+      },
+      {
+        "id": "controle-img-2",
+        "section": "Comment se déroule le contrôle ?",
+        "src": "/images/pdf_extracted/page_134_img_1.jpeg",
+        "alt": "Infographie : L'examen dermoscopique indolore au cabinet",
+        "caption": "Observation à fort grossissement des structures pigmentaires profondes."
+      }
+    ]
+  },
+  {
+    "id": "prevention-solaire",
+    "title": "Prévention solaire à Meknès",
+    "category": "Prévention & Dépistage",
+    "url": "/prevention-depistage/prevention-solaire",
+    "images": [
+      {
+        "id": "prev-sol-img-1",
+        "section": "En-tête de l'article",
+        "src": "/images/pdf_extracted/page_138_img_1.jpeg",
+        "alt": "Infographie : Les effets des rayons UVA et UVB sur la peau",
+        "caption": "Impact des ultraviolets sur le vieillissement prématuré et l'ADN cellulaire."
+      },
+      {
+        "id": "prev-sol-img-2",
+        "section": "Quels sont les effets des rayons UV sur la peau ?",
+        "src": "/images/pdf_extracted/page_139_img_1.jpeg",
+        "alt": "Infographie : Les bonnes pratiques de protection solaire",
+        "caption": "Règles d'exposition et réapplication des écrans solaires à haut indice."
+      }
+    ]
+  },
+  {
+    "id": "lesions-cutanees-suspectes",
+    "title": "Lésions cutanées suspectes : quand consulter un dermatologue ?",
+    "category": "Prévention & Dépistage",
+    "url": "/prevention-depistage/lesions-cutanees-suspectes",
+    "images": [
+      {
+        "id": "lesions-img-1",
+        "section": "En-tête de l'article",
+        "src": "/images/pdf_extracted/page_144_img_1.jpeg",
+        "alt": "Infographie : Reconnaître une lésion cutanée anormale",
+        "caption": "Signes d'alerte imposant une consultation dermatologique sans délai."
+      },
+      {
+        "id": "lesions-img-2",
+        "section": "Comment se déroule l'évaluation ?",
+        "src": "/images/pdf_extracted/page_145_img_1.jpeg",
+        "alt": "Infographie : Démarche diagnostique et prise en charge",
+        "caption": "Examen dermoscopique et orientation vers une exérèse ou surveillance."
+      }
+    ]
+  },
+  {
+    "id": "conseils-prevention-dermatologique",
+    "title": "Conseils de prévention dermatologique à Meknès",
+    "category": "Prévention & Dépistage",
+    "url": "/prevention-depistage/conseils-prevention-dermatologique",
+    "images": [
+      {
+        "id": "conseils-img-1",
+        "section": "En-tête de l'article",
+        "src": "/images/pdf_extracted/page_150_img_1.jpeg",
+        "alt": "Infographie : Les gestes essentiels pour prendre soin de sa peau",
+        "caption": "Les bons réflexes quotidiens pour une peau saine et protégée."
+      },
+      {
+        "id": "conseils-img-2",
+        "section": "Pourquoi surveiller régulièrement sa peau ?",
+        "src": "/images/pdf_extracted/page_152_img_1.jpeg",
+        "alt": "Infographie : Quand consulter un dermatologue ?",
+        "caption": "Les situations qui justifient une consultation dermatologique personnalisée."
+      }
+    ]
+  }
+]

@@ -52,7 +52,7 @@ export default function Header({ isSubPage }) {
           <span />
         </button>
 
-        {/* Nav */}
+        {/* Desktop Nav */}
         <nav className="nav-menu" aria-label="Navigation principale">
           <ul className="nav-links">
             <li>
@@ -165,19 +165,60 @@ export default function Header({ isSubPage }) {
         {menuOpen && (
           <div className="mobile-drawer">
             <div className="mobile-drawer-inner">
-              <Link to="/" onClick={() => setMenuOpen(false)}>Accueil</Link>
-              <Link to="/notre-cabinet" onClick={() => setMenuOpen(false)}>Notre Cabinet</Link>
+              <Link to="/" className="mobile-link-primary" onClick={() => setMenuOpen(false)}>
+                Accueil
+              </Link>
+              <Link to="/notre-cabinet" className="mobile-link-primary" onClick={() => setMenuOpen(false)}>
+                Notre Cabinet
+              </Link>
               
-              <div className="mobile-section-header">NOS SERVICES</div>
-              <Link to="/dermatologie-medicale" onClick={() => setMenuOpen(false)}>🩺 Dermatologie Médicale</Link>
-              <Link to="/dermatologie-esthetique" onClick={() => setMenuOpen(false)}>✨ Dermatologie Esthétique</Link>
-              <Link to="/chirurgie-dermatologique" onClick={() => setMenuOpen(false)}>🔪 Chirurgie Dermatologique</Link>
-              <Link to="/prevention-depistage" onClick={() => setMenuOpen(false)}>🛡️ Prévention &amp; Dépistage</Link>
+              <div className="mobile-section-header">🩺 Dermatologie Médicale</div>
+              <div className="mobile-sublinks-group">
+                <Link to="/dermatologie-medicale" onClick={() => setMenuOpen(false)}>Vue d'ensemble</Link>
+                <Link to="/dermatologie-medicale/acne-rosacee" onClick={() => setMenuOpen(false)}>Acné &amp; Rosacée</Link>
+                <Link to="/dermatologie-medicale/eczema-psoriasis-vitiligo" onClick={() => setMenuOpen(false)}>Eczéma, Psoriasis &amp; Vitiligo</Link>
+                <Link to="/dermatologie-medicale/chute-cheveux-maladies-cuir-chevelu" onClick={() => setMenuOpen(false)}>Chute de Cheveux</Link>
+                <Link to="/dermatologie-medicale/allergies-infections-maladies-peau" onClick={() => setMenuOpen(false)}>Allergies &amp; Infections</Link>
+                <Link to="/dermatologie-medicale/dermatologie-pediatrique" onClick={() => setMenuOpen(false)}>Dermatologie Pédiatrique</Link>
+              </div>
+
+              <div className="mobile-section-header">✨ Dermatologie Esthétique</div>
+              <div className="mobile-sublinks-group">
+                <Link to="/dermatologie-esthetique" onClick={() => setMenuOpen(false)}>Vue d'ensemble</Link>
+                <Link to="/dermatologie-esthetique/injections-botox-acide-hyaluronique" onClick={() => setMenuOpen(false)}>Injections (Botox® &amp; Hyaluronique)</Link>
+                <Link to="/dermatologie-esthetique/peelings-soins-peau" onClick={() => setMenuOpen(false)}>Peelings &amp; Soins de Peau</Link>
+                <Link to="/dermatologie-esthetique/microneedling-mesotherapie" onClick={() => setMenuOpen(false)}>Microneedling &amp; Mésothérapie</Link>
+                <Link to="/dermatologie-esthetique/traitement-cicatrices-taches-pigmentaires" onClick={() => setMenuOpen(false)}>Cicatrices &amp; Taches</Link>
+                <Link to="/dermatologie-esthetique/rajeunissement-cutane" onClick={() => setMenuOpen(false)}>Rajeunissement Cutané</Link>
+              </div>
+
+              <div className="mobile-section-header">🔪 Chirurgie Dermatologique</div>
+              <div className="mobile-sublinks-group">
+                <Link to="/chirurgie-dermatologique" onClick={() => setMenuOpen(false)}>Vue d'ensemble</Link>
+                <Link to="/chirurgie-dermatologique/exerese-kystes-lipomes" onClick={() => setMenuOpen(false)}>Exérèse Kystes &amp; Lipomes</Link>
+                <Link to="/chirurgie-dermatologique/ablation-grains-beaute-lesions-cutanees" onClick={() => setMenuOpen(false)}>Ablation Grains de Beauté</Link>
+                <Link to="/chirurgie-dermatologique/biopsies-cutanees" onClick={() => setMenuOpen(false)}>Biopsies Cutanées</Link>
+                <Link to="/chirurgie-dermatologique/chirurgie-ongle-incarne" onClick={() => setMenuOpen(false)}>Chirurgie Ongle Incarné</Link>
+                <Link to="/chirurgie-dermatologique/petite-chirurgie-dermatologique" onClick={() => setMenuOpen(false)}>Petite Chirurgie</Link>
+              </div>
+
+              <div className="mobile-section-header">🛡️ Prévention &amp; Dépistage</div>
+              <div className="mobile-sublinks-group">
+                <Link to="/prevention-depistage" onClick={() => setMenuOpen(false)}>Vue d'ensemble</Link>
+                <Link to="/prevention-depistage/depistage-cancers-peau" onClick={() => setMenuOpen(false)}>Dépistage Cancers de la Peau</Link>
+                <Link to="/prevention-depistage/controle-grains-beaute" onClick={() => setMenuOpen(false)}>Contrôle Grains de Beauté</Link>
+                <Link to="/prevention-depistage/prevention-solaire" onClick={() => setMenuOpen(false)}>Prévention Solaire</Link>
+                <Link to="/prevention-depistage/lesions-cutanees-suspectes" onClick={() => setMenuOpen(false)}>Lésions Suspectes</Link>
+                <Link to="/prevention-depistage/conseils-prevention-dermatologique" onClick={() => setMenuOpen(false)}>Conseils de Prévention</Link>
+              </div>
 
               <div className="mobile-divider" />
-              <Link to="/faq" onClick={() => setMenuOpen(false)}>FAQ</Link>
-              <Link to="/contact" onClick={() => setMenuOpen(false)}>Contact</Link>
-              <Link to="/rendez-vous" className="mobile-cta-btn" onClick={() => setMenuOpen(false)}>Prendre Rendez-vous</Link>
+              <Link to="/faq" className="mobile-link-primary" onClick={() => setMenuOpen(false)}>FAQ</Link>
+              <Link to="/contact" className="mobile-link-primary" onClick={() => setMenuOpen(false)}>Contact</Link>
+              
+              <Link to="/rendez-vous" className="mobile-cta-btn" onClick={() => setMenuOpen(false)}>
+                Prendre Rendez-vous
+              </Link>
             </div>
           </div>
         )}
