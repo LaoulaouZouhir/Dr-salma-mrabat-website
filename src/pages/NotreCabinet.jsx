@@ -9,13 +9,13 @@ const YT_ID = 'L8KuRbzpFr4';
 
 /* ── gallery images (real photos from /images/cabinet/) ── */
 const galleryImages = [
-  { src: '/images/cabinet/cabinet-01.jpg', alt: 'Façade du cabinet de dermatologie du Dr Samia Mrabat à Meknès' },
-  { src: '/images/cabinet/cabinet-02.jpg', alt: 'Accueil du cabinet de dermatologie du Dr Samia Mrabat à Meknès' },
-  { src: '/images/cabinet/cabinet-03.jpg', alt: 'Salle d\'attente du cabinet de dermatologie du Dr Samia Mrabat à Meknès' },
-  { src: '/images/cabinet/cabinet-04.jpg', alt: 'Salle de consultation du cabinet de dermatologie du Dr Samia Mrabat à Meknès' },
-  { src: '/images/cabinet/cabinet-05.jpg', alt: 'Équipements du cabinet de dermatologie du Dr Samia Mrabat à Meknès' },
-  { src: '/images/cabinet/cabinet-06.jpg', alt: 'Espace de soin du cabinet de dermatologie du Dr Samia Mrabat à Meknès' },
-  { src: '/images/cabinet/cabinet-07.jpg', alt: 'Cabinet de dermatologie Dr Samia Mrabat Meknès' },
+  { src: '/images/cabinet/Entree.jpg', alt: 'Entrée du cabinet de dermatologie du Dr Samia Mrabat à Meknès' },
+  { src: '/images/cabinet/Reception.jpg', alt: 'Accueil du cabinet de dermatologie du Dr Samia Mrabat à Meknès' },
+  { src: '/images/cabinet/Salle attente.jpg', alt: 'Salle d\'attente du cabinet de dermatologie du Dr Samia Mrabat à Meknès' },
+  { src: '/images/cabinet/Salle attente2.jpg', alt: 'Espace d\'attente confortable du cabinet de dermatologie du Dr Samia Mrabat à Meknès' },
+  { src: '/images/cabinet/espace consultation.jpg', alt: 'Salle de consultation du cabinet de dermatologie du Dr Samia Mrabat à Meknès' },
+  { src: '/images/cabinet/Equipement.jpg', alt: 'Équipements du cabinet de dermatologie du Dr Samia Mrabat à Meknès' },
+  { src: '/images/cabinet/espace de soins.jpg', alt: 'Espace de soin du cabinet de dermatologie du Dr Samia Mrabat à Meknès' },
 ];
 
 /* ── equipment placeholders ── */
@@ -185,8 +185,8 @@ export default function NotreCabinet() {
             </div>
             <div className="nc-img-col">
               <div className="nc-img-stack">
-                <img src="/images/cabinet/cabinet-01.jpg" alt="Cabinet de dermatologie Dr Samia Mrabat Meknès" className="nc-img-main" />
-                <img src="/images/cabinet/cabinet-02.jpg" alt="Accueil du cabinet de dermatologie Meknès" className="nc-img-accent" />
+                <img src="/images/cabinet/Entree.jpg" alt="Cabinet de dermatologie Dr Samia Mrabat Meknès" className="nc-img-main" />
+                <img src="/images/cabinet/Reception.jpg" alt="Accueil du cabinet de dermatologie Meknès" className="nc-img-accent" />
               </div>
             </div>
           </div>

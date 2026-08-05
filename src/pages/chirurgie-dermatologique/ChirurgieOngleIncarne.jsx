@@ -36,9 +36,9 @@ export default function ChirurgieOngleIncarne() {
           <span className="subpage-badge">CHIRURGIE DERMATOLOGIQUE</span>
           <h1 className="subpage-title">Chirurgie de l'ongle incarné à Meknès</h1>
           <div className="subpage-subtitle">
-            <p>L'ongle incarné est une affection fréquente qui survient lorsqu'un bord de l'ongle pénètre dans la peau voisine. Cette situation peut entraîner une douleur importante, une rougeur, un gonflement et parfois une infection.</p>
-            <p>Lorsque les traitements conservateurs ne suffisent pas ou que les récidives sont fréquentes, une intervention chirurgicale peut être proposée. Le Dr Samia Mrabat, dermatologue à Meknès, réalise une évaluation clinique afin de déterminer le traitement le plus adapté à votre situation.</p>
-          </div>
+<p>L'ongle incarné est une affection fréquente qui survient lorsqu'un bord de l'ongle pénètre dans la peau voisine. Cette situation peut entraîner une douleur importante, une rougeur, un gonflement et parfois une infection.</p>
+<p>Lorsque les traitements conservateurs ne suffisent pas ou que les récidives sont fréquentes, une intervention chirurgicale peut être proposée. Le Dr Samia Mrabat réalise une évaluation clinique afin de déterminer le traitement le plus adapté à votre situation.</p>
+</div>
         </div>
       </section>
 
@@ -47,6 +47,63 @@ export default function ChirurgieOngleIncarne() {
           <div className="subpage-grid-layout">
             <div className="subpage-main-body">
               <article className="medical-article">
+<img src="/articles/article14/images/img-000.png" alt="Chirurgie de l'ongle incarn\u00e9 - Dr Samia Mrabat, Mekn\u00e8s" className="hero-image" />
+<p className="caption">Chirurgie de l'ongle incarné — Dr Samia Mrabat, dermatologue à Meknès.</p>
+<h2>Qu'est-ce qu'un ongle incarné ?</h2>
+<p>Un ongle incarné apparaît lorsqu'un bord de l'ongle pousse dans la peau qui l'entoure au lieu de pousser normalement. Cette pénétration provoque une réaction inflammatoire pouvant entraîner plusieurs signes cliniques.</p>
+
+<h3>Pourquoi un ongle devient-il incarné ?</h3>
+<p>La pénétration de l'ongle dans la peau provoque une inflammation locale et parfois une infection. Les signes les plus fréquents sont :</p>
+<ul>
+  <li>Une douleur au toucher ou à la marche</li>
+  <li>Une rougeur</li>
+  <li>Un gonflement</li>
+  <li>Un écoulement</li>
+  <li>Une infection locale</li>
+</ul>
+<p>Le gros orteil est le plus souvent concerné, mais d'autres ongles peuvent également être touchés.</p>
+
+<h3>Quand une intervention peut-elle être indiquée ?</h3>
+<p>Une chirurgie peut être proposée notamment lorsque :</p>
+<ul>
+  <li>Les douleurs persistent malgré les soins</li>
+  <li>Les épisodes d'infection se répètent</li>
+  <li>L'ongle incarné récidive régulièrement</li>
+  <li>Un bourgeon inflammatoire apparaît</li>
+  <li>La gêne devient importante dans la vie quotidienne</li>
+</ul>
+<p>Chaque indication est évaluée individuellement lors de la consultation.</p>
+
+<h2>Comment se déroule l'intervention ?</h2>
+
+<img src="/articles/article14/images/img-001.png" className="infographic" alt="Intervention sous anesthésie locale pour ongle incarné" />
+<p className="caption">Intervention sous anesthésie locale et ablation de la portion incarnée de l'ongle.</p>
+
+<p>L'intervention est réalisée sous anesthésie locale. Après désinfection de la zone, le dermatologue retire la partie de l'ongle responsable de l'incarnation. Selon les situations, un traitement de la matrice de l'ongle peut être réalisé afin de limiter le risque de récidive. L'intervention est généralement rapide et réalisée en ambulatoire.</p>
+
+<h2>Après l'intervention</h2>
+
+<img src="/articles/article14/images/img-002.png" className="infographic" alt="Soins post-opératoires après chirurgie d'ongle incarné" />
+<p className="caption">Soins locaux et recommandations postopératoires pour une cicatrisation optimale.</p>
+
+<p>Après la chirurgie, quelques soins locaux sont nécessaires pendant la période de cicatrisation. Le Dr Samia Mrabat vous remet des recommandations personnalisées concernant :</p>
+<ul>
+  <li>Les pansements</li>
+  <li>L'hygiène du pied</li>
+  <li>La reprise des activités</li>
+  <li>Le choix des chaussures</li>
+  <li>Le suivi postopératoire</li>
+</ul>
+
+<h2>Pourquoi consulter un dermatologue ?</h2>
+<p>Une douleur persistante au niveau d'un ongle n'est pas toujours liée à un ongle incarné. Une consultation dermatologique permet de confirmer le diagnostic, d'évaluer la gravité de la situation et de proposer le traitement le plus adapté.</p>
+
+<h2>Prendre rendez-vous</h2>
+<p>Vous souffrez d'un ongle incarné douloureux ou récidivant ? Le Dr Samia Mrabat, dermatologue à Meknès, vous reçoit en consultation afin d'évaluer votre situation et de vous proposer une prise en charge adaptée.</p>
+                <div className="cta-container">
+                  <a href="https://wa.me/212689270924" target="_blank" rel="noopener noreferrer" className="cta-button">Je prends mon rendez-vous</a>
+                  <span className="cta-subtext">Contactez le cabinet via WhatsApp pour fixer votre consultation</span>
+                </div>
               </article>
             </div>
 

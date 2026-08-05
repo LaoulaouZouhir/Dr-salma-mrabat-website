@@ -36,9 +36,9 @@ export default function DepistageCancersPeau() {
           <span className="subpage-badge">PRÉVENTION &amp; DÉPISTAGE</span>
           <h1 className="subpage-title">Dépistage des cancers de la peau à Meknès</h1>
           <div className="subpage-subtitle">
-            <p>Le dépistage des cancers de la peau permet d'identifier précocement certaines lésions suspectes avant qu'elles n'évoluent. Un diagnostic réalisé à un stade précoce favorise une prise en charge adaptée.</p>
-            <p>Le Dr Samia Mrabat, dermatologue à Meknès, réalise un examen clinique complet de la peau et utilise la dermoscopie lorsque cela est indiqué afin d'évaluer les grains de beauté et les autres lésions cutanées.</p>
-          </div>
+<p>Le dépistage des cancers de la peau permet d'identifier précocement certaines lésions suspectes avant qu'elles n'évoluent. Un diagnostic réalisé à un stade précoce favorise une prise en charge adaptée.</p>
+<p>Le Dr Samia Mrabat, dermatologue à Meknès, réalise un examen clinique complet de la peau et utilise la dermoscopie lorsque cela est indiqué afin d'évaluer les grains de beauté et les autres lésions cutanées.</p>
+</div>
         </div>
       </section>
 
@@ -47,6 +47,61 @@ export default function DepistageCancersPeau() {
           <div className="subpage-grid-layout">
             <div className="subpage-main-body">
               <article className="medical-article">
+<img src="/articles/article16/images/img-000.png" alt="Examen clinique et dermoscopie pour d\u00e9pistage des cancers de la peau" className="hero-image" />
+<p className="caption">Dépistage des cancers de la peau — examen clinique et dermoscopie par le Dr Samia Mrabat.</p>
+<h2>Pourquoi réaliser un dépistage ?</h2>
+
+<h3>Qui est le plus concerné ?</h3>
+<p>Les cancers de la peau figurent parmi les cancers les plus fréquents. Lorsqu'ils sont détectés précocement, ils peuvent être pris en charge plus rapidement. Un dépistage est particulièrement recommandé chez les personnes présentant :</p>
+<ul>
+  <li>De nombreux grains de beauté</li>
+  <li>Une peau claire</li>
+  <li>Des antécédents personnels ou familiaux de cancer cutané</li>
+  <li>Une exposition importante au soleil au cours de la vie</li>
+  <li>Des coups de soleil répétés, notamment pendant l'enfance</li>
+  <li>Une apparition récente ou une modification d'une lésion cutanée</li>
+</ul>
+
+<h2>Comment se déroule le dépistage ?</h2>
+<p>Lors de la consultation, le dermatologue examine l'ensemble de la peau, du cuir chevelu jusqu'aux pieds.</p>
+<p>Lorsque cela est nécessaire, une dermoscopie est réalisée. Cet examen utilise un dermatoscope permettant d'observer les structures de la peau invisibles à l'œil nu et d'évaluer plus précisément certaines lésions.</p>
+<p>Si une anomalie est identifiée, une surveillance, une biopsie ou une exérèse peut être proposée selon les indications médicales.</p>
+
+<h2>Quels signes doivent vous amener à consulter ?</h2>
+<p>Une consultation dermatologique est recommandée si vous observez :</p>
+<ul>
+  <li>Un grain de beauté qui change de taille, de forme ou de couleur</li>
+  <li>Une nouvelle lésion pigmentée</li>
+  <li>Une plaie qui ne cicatrise pas</li>
+  <li>Une lésion qui saigne spontanément</li>
+  <li>Une croûte persistante</li>
+  <li>Une lésion qui démange ou devient douloureuse</li>
+</ul>
+<p>Ces signes ne signifient pas nécessairement qu'il s'agit d'un cancer de la peau, mais ils justifient un avis spécialisé.</p>
+
+<img src="/articles/article16/images/img-001.png" className="infographic" alt="Signes cliniques nécessitant une consultation dermatologique" />
+<p className="caption">Signes cliniques qui doivent amener à consulter un dermatologue.</p>
+
+<h2>La règle ABCDE</h2>
+<p>Les signes à surveiller. Pour repérer certaines lésions suspectes, les dermatologues utilisent notamment la règle ABCDE :</p>
+<ul>
+  <li>A : Asymétrie</li>
+  <li>B : Bords irréguliers</li>
+  <li>C : Couleurs multiples</li>
+  <li>D : Diamètre supérieur à 6 mm</li>
+  <li>E : Évolution de la lésion</li>
+</ul>
+<p>Cette règle constitue un outil d'alerte, mais seul un examen dermatologique permet d'établir un diagnostic.</p>
+
+<img src="/articles/article16/images/img-002.png" className="infographic" alt="Règle ABCDE pour l'évaluation des lésions pigmentées" />
+<p className="caption">Règle ABCDE : repères pour identifier les lésions suspectes.</p>
+
+<h2>Pourquoi consulter un dermatologue ?</h2>
+<p>Toutes les lésions pigmentées ne sont pas cancéreuses. Une consultation dermatologique permet d'établir un diagnostic précis, d'éviter des inquiétudes inutiles et de mettre en place une surveillance ou une prise en charge adaptée lorsque cela est nécessaire.</p>
+                <div className="cta-container">
+                  <a href="https://wa.me/212689270924" target="_blank" rel="noopener noreferrer" className="cta-button">Je prends mon rendez-vous</a>
+                  <span className="cta-subtext">Contactez le cabinet via WhatsApp pour fixer votre consultation</span>
+                </div>
               </article>
             </div>
 

@@ -1,0 +1,360 @@
+[
+  {
+    "article": "article1",
+    "html_exists": true,
+    "img_dir_exists": true,
+    "image_files": [],
+    "image_count": 0,
+    "title": "Acné et rosacée : diagnostic et traitement à Meknès",
+    "h1": "Acné et rosacée : diagnostic et traitement à Meknès",
+    "img_srcs_in_html": [
+      "images/img-000.png",
+      "images/img-001.png",
+      "images/img-002.png",
+      "images/img-003.png",
+      "images/img-004.png"
+    ]
+  },
+  {
+    "article": "article2",
+    "html_exists": true,
+    "img_dir_exists": true,
+    "image_files": [
+      "img-004.png",
+      "img-000.png",
+      "img-001.png",
+      "img-003.png",
+      "img-002.png"
+    ],
+    "image_count": 5,
+    "title": "Eczéma, psoriasis et vitiligo : diagnostic et prise en charge à Meknès",
+    "h1": "Eczéma, psoriasis et vitiligo : diagnostic et prise en charge à Meknès",
+    "img_srcs_in_html": [
+      "images/img-000.png",
+      "images/img-001.png",
+      "images/img-002.png",
+      "images/img-003.png",
+      "images/img-004.png"
+    ]
+  },
+  {
+    "article": "article3",
+    "html_exists": true,
+    "img_dir_exists": true,
+    "image_files": [
+      "img-000.png",
+      "img-001.png",
+      "img-002.png"
+    ],
+    "image_count": 3,
+    "title": "Chute de cheveux et maladies du cuir chevelu : diagnostic et prise en charge à Meknès",
+    "h1": "Chute de cheveux et maladies du cuir chevelu : diagnostic et prise en charge à Meknès",
+    "img_srcs_in_html": [
+      "images/img-000.png",
+      "images/img-001.png",
+      "images/img-002.png"
+    ]
+  },
+  {
+    "article": "article4",
+    "html_exists": true,
+    "img_dir_exists": true,
+    "image_files": [
+      "img-000.png",
+      "img-001.png",
+      "img-002.png"
+    ],
+    "image_count": 3,
+    "title": "Allergies, infections et maladies de la peau : diagnostic et traitement à Meknès",
+    "h1": "Allergies, infections et maladies de la peau : diagnostic et traitement à Meknès",
+    "img_srcs_in_html": [
+      "images/img-000.png",
+      "images/img-001.png",
+      "images/img-002.png"
+    ]
+  },
+  {
+    "article": "article5",
+    "html_exists": true,
+    "img_dir_exists": true,
+    "image_files": [
+      "img-000.png",
+      "img-001.png"
+    ],
+    "image_count": 2,
+    "title": "Dermatologie pédiatrique : prise en charge des maladies de la peau chez l'enfant à Meknès",
+    "h1": "Dermatologie pédiatrique : prise en charge des maladies de la peau chez l'enfant à Meknès",
+    "img_srcs_in_html": [
+      "images/img-000.png",
+      "images/img-001.png"
+    ]
+  },
+  {
+    "article": "article6",
+    "html_exists": true,
+    "img_dir_exists": true,
+    "image_files": [
+      "img-004.png",
+      "img-000.png",
+      "img-001.png",
+      "img-003.png",
+      "img-002.png"
+    ],
+    "image_count": 5,
+    "title": "Injections de Botox® et d'acide hyaluronique à Meknès",
+    "h1": "Injections de Botox® et d'acide hyaluronique à Meknès",
+    "img_srcs_in_html": [
+      "images/img-000.png",
+      "images/img-001.png",
+      "images/img-002.png",
+      "images/img-003.png",
+      "images/img-004.png"
+    ]
+  },
+  {
+    "article": "article7",
+    "html_exists": true,
+    "img_dir_exists": true,
+    "image_files": [
+      "img-000.png",
+      "img-001.png",
+      "img-003.png",
+      "img-002.png"
+    ],
+    "image_count": 4,
+    "title": "Peelings dermatologiques et soins de la peau à Meknès",
+    "h1": "Peelings dermatologiques et soins de la peau à Meknès",
+    "img_srcs_in_html": [
+      "images/img-000.png",
+      "images/img-001.png",
+      "images/img-002.png",
+      "images/img-003.png"
+    ]
+  },
+  {
+    "article": "article8",
+    "html_exists": true,
+    "img_dir_exists": true,
+    "image_files": [
+      "img-000.png",
+      "img-001.png"
+    ],
+    "image_count": 2,
+    "title": "Microneedling et mésothérapie à Meknès",
+    "h1": "Microneedling et mésothérapie à Meknès",
+    "img_srcs_in_html": [
+      "images/img-000.png",
+      "images/img-001.png"
+    ]
+  },
+  {
+    "article": "article9",
+    "html_exists": true,
+    "img_dir_exists": true,
+    "image_files": [
+      "img-000.png",
+      "img-001.png",
+      "img-002.png"
+    ],
+    "image_count": 3,
+    "title": "Traitement des cicatrices et des taches pigmentaires à Meknès",
+    "h1": "Traitement des cicatrices et des taches pigmentaires à Meknès",
+    "img_srcs_in_html": [
+      "images/img-000.png",
+      "images/img-001.png",
+      "images/img-002.png"
+    ]
+  },
+  {
+    "article": "article10",
+    "html_exists": true,
+    "img_dir_exists": true,
+    "image_files": [
+      "img-000.png",
+      "img-001.png",
+      "img-002.png"
+    ],
+    "image_count": 3,
+    "title": "Rajeunissement cutané à Meknès",
+    "h1": "Rajeunissement cutané à Meknès",
+    "img_srcs_in_html": [
+      "images/img-000.png",
+      "images/img-001.png",
+      "images/img-002.png"
+    ]
+  },
+  {
+    "article": "article11",
+    "html_exists": true,
+    "img_dir_exists": true,
+    "image_files": [
+      "img-000.png",
+      "img-001.png"
+    ],
+    "image_count": 2,
+    "title": "Exérèse des kystes et des lipomes à Meknès",
+    "h1": "Exérèse des kystes et des lipomes à Meknès",
+    "img_srcs_in_html": [
+      "images/img-000.png",
+      "images/img-001.png"
+    ]
+  },
+  {
+    "article": "article12",
+    "html_exists": true,
+    "img_dir_exists": true,
+    "image_files": [
+      "img-000.png",
+      "img-001.png"
+    ],
+    "image_count": 2,
+    "title": "Ablation des grains de beauté et des lésions cutanées à Meknès",
+    "h1": "Ablation des grains de beauté et des lésions cutanées à Meknès",
+    "img_srcs_in_html": [
+      "images/img-000.png",
+      "images/img-001.png"
+    ]
+  },
+  {
+    "article": "article13",
+    "html_exists": true,
+    "img_dir_exists": true,
+    "image_files": [
+      "img-000.png",
+      "img-001.png",
+      "img-002.png"
+    ],
+    "image_count": 3,
+    "title": "Biopsies cutanées à Meknès",
+    "h1": "Biopsies cutanées à Meknès",
+    "img_srcs_in_html": [
+      "images/img-000.png",
+      "images/img-001.png",
+      "images/img-002.png"
+    ]
+  },
+  {
+    "article": "article14",
+    "html_exists": true,
+    "img_dir_exists": true,
+    "image_files": [
+      "img-000.png",
+      "img-001.png",
+      "img-002.png"
+    ],
+    "image_count": 3,
+    "title": "Chirurgie de l'ongle incarné à Meknès",
+    "h1": "Chirurgie de l'ongle incarné à Meknès",
+    "img_srcs_in_html": [
+      "images/img-000.png",
+      "images/img-001.png",
+      "images/img-002.png"
+    ]
+  },
+  {
+    "article": "article15",
+    "html_exists": true,
+    "img_dir_exists": true,
+    "image_files": [
+      "img-000.png",
+      "img-001.png"
+    ],
+    "image_count": 2,
+    "title": "Petite chirurgie dermatologique à Meknès",
+    "h1": "Petite chirurgie dermatologique à Meknès",
+    "img_srcs_in_html": [
+      "images/img-000.png",
+      "images/img-001.png"
+    ]
+  },
+  {
+    "article": "article16",
+    "html_exists": true,
+    "img_dir_exists": true,
+    "image_files": [
+      "img-000.png",
+      "img-001.png",
+      "img-002.png"
+    ],
+    "image_count": 3,
+    "title": "Dépistage des cancers de la peau à Meknès",
+    "h1": "Dépistage des cancers de la peau à Meknès",
+    "img_srcs_in_html": [
+      "images/img-000.png",
+      "images/img-001.png",
+      "images/img-002.png"
+    ]
+  },
+  {
+    "article": "article17",
+    "html_exists": true,
+    "img_dir_exists": true,
+    "image_files": [
+      "img-000.png",
+      "img-001.png",
+      "img-002.png"
+    ],
+    "image_count": 3,
+    "title": "Contrôle des grains de beauté à Meknès",
+    "h1": "Contrôle des grains de beauté à Meknès",
+    "img_srcs_in_html": [
+      "images/img-000.png",
+      "images/img-002.png",
+      "images/img-001.png"
+    ]
+  },
+  {
+    "article": "article18",
+    "html_exists": true,
+    "img_dir_exists": true,
+    "image_files": [
+      "img-000.png",
+      "img-001.png",
+      "img-002.png"
+    ],
+    "image_count": 3,
+    "title": "Prévention solaire à Meknès",
+    "h1": "Prévention solaire à Meknès",
+    "img_srcs_in_html": [
+      "images/img-000.png",
+      "images/img-001.png",
+      "images/img-002.png"
+    ]
+  },
+  {
+    "article": "article19",
+    "html_exists": true,
+    "img_dir_exists": true,
+    "image_files": [
+      "img-000.png",
+      "img-001.png",
+      "img-002.png"
+    ],
+    "image_count": 3,
+    "title": "Lésions cutanées suspectes : quand consulter un dermatologue ?",
+    "h1": "Lésions cutanées suspectes : quand consulter un dermatologue ?",
+    "img_srcs_in_html": [
+      "images/img-000.png",
+      "images/img-001.png",
+      "images/img-002.png"
+    ]
+  },
+  {
+    "article": "article20",
+    "html_exists": true,
+    "img_dir_exists": true,
+    "image_files": [
+      "img-000.png",
+      "img-001.png",
+      "img-002.png"
+    ],
+    "image_count": 3,
+    "title": "Conseils de prévention dermatologique à Meknès",
+    "h1": "Conseils de prévention dermatologique à Meknès",
+    "img_srcs_in_html": [
+      "images/img-000.png",
+      "images/img-001.png",
+      "images/img-002.png"
+    ]
+  }
+]

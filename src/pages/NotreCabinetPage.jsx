@@ -8,7 +8,7 @@ const equipmentData = [
     num: '01',
     title: 'Dermoscope',
     subtitle: 'Un examen précis des lésions cutanées',
-    img: '/images/pdf_extracted/page_17_img_1.jpeg',
+    img: '/images/equipement/dermoscope.png',
     alt: 'Dermoscope utilisé par le Dr Samia Mrabat pour l\'examen des lésions cutanées et le dépistage des cancers de la peau à Meknès.',
     desc: 'Le dermoscope permet d\'observer les structures de la peau invisibles à l\'œil nu. Cet examen non invasif aide au diagnostic de nombreuses maladies inflammatoires de la peau, des cheveux et des ongles. Il constitue également un outil essentiel pour l\'analyse des tumeurs cutanées bénignes et la détection précoce des cancers de la peau.',
   },
@@ -16,7 +16,7 @@ const equipmentData = [
     num: '02',
     title: 'Bistouri Électrique',
     subtitle: 'Une chirurgie dermatologique précise',
-    img: '/images/pdf_extracted/page_18_img_1.jpeg',
+    img: '/images/equipement/bistouri-electrique.png',
     alt: 'Bistouri électrique utilisé par le Dr Samia Mrabat pour les actes de chirurgie dermatologique à Meknès.',
     desc: 'Le bistouri électrique est utilisé lors de certains actes de chirurgie dermatologique afin de réaliser des gestes précis tout en limitant les saignements. Il participe à une prise en charge efficace et sécurisée lors des interventions ambulatoires.',
   },
@@ -24,7 +24,7 @@ const equipmentData = [
     num: '03',
     title: 'Autoclave',
     subtitle: 'Une stérilisation conforme aux normes européennes',
-    img: '/images/pdf_extracted/page_19_img_1.jpeg',
+    img: '/images/equipement/autoclave.png',
     alt: 'Autoclave utilisé au cabinet du Dr Samia Mrabat pour la stérilisation du matériel chirurgical selon les normes européennes.',
     desc: 'L\'ensemble du matériel chirurgical réutilisable est stérilisé à l\'aide d\'un autoclave répondant aux normes européennes les plus strictes. Cette procédure garantit un haut niveau de sécurité et d\'hygiène pour chaque patient.',
   },
@@ -32,7 +32,7 @@ const equipmentData = [
     num: '04',
     title: 'Centrifugeuse RegenLab®',
     subtitle: 'La technologie PRP au service de la régénération',
-    img: '/images/pdf_extracted/page_20_img_1.jpeg',
+    img: '/images/equipement/centrifugeuse-regenlab.png',
     alt: 'Centrifugeuse RegenLab® utilisée au cabinet du Dr Samia Mrabat pour la préparation du Plasma Riche en Plaquettes (PRP) destiné au traitement de la chute de cheveux et au rajeunissement cutané.',
     desc: 'Le cabinet est équipé d\'une centrifugeuse RegenLab®, marque suisse pionnière pour les systèmes de préparation du Plasma Riche en Plaquettes (PRP). Cette technologie permet d\'obtenir un plasma concentré utilisé dans le traitement de l\'alopécie, l\'amélioration des cicatrices et le rajeunissement cutané.',
   },
@@ -40,7 +40,7 @@ const equipmentData = [
     num: '05',
     title: 'HydraFacial®',
     subtitle: 'Un nettoyage profond et une hydratation de la peau',
-    img: '/images/pdf_extracted/page_22_img_1.jpeg',
+    img: '/images/equipement/hydrafacial.png',
     alt: 'Machine HydraFacial® utilisée au cabinet du Dr Samia Mrabat pour le nettoyage profond de la peau et l\'amélioration de l\'éclat du teint à Meknès.',
     desc: 'Le système HydraFacial® réalise un nettoyage en profondeur de la peau, exfolie les cellules mortes, extrait les impuretés et pénètre des sérums hautement hydratants pour raviver immédiatement l\'éclat du teint.',
   },
@@ -48,7 +48,7 @@ const equipmentData = [
     num: '06',
     title: 'Laser Dermatologique',
     subtitle: 'Des traitements ciblés grâce au laser',
-    img: '/images/clinic-interior.jpg',
+    img: '/images/equipement/laser-dermatologique.jpg',
     alt: 'Équipement laser médical au cabinet du Dr Samia Mrabat à Meknès.',
     desc: 'Le cabinet est équipé d\'un laser médical permettant la réalisation de traitements dermatologiques et esthétiques ciblés selon les indications cliniques validées lors de la consultation.',
   },
@@ -98,7 +98,7 @@ export default function NotreCabinetPage() {
           <div className="about-intro-grid">
             <div className="about-intro-img">
               <LightboxImage
-                src="/images/pdf_extracted/page_10_img_1.jpeg"
+                src="/images/cabinet/espace consultation.jpg"
                 alt="Bureau de consultation du Dr Samia Mrabat au cabinet de dermatologie à Meknès"
                 caption="Espace de consultation et d'écoute du cabinet du Dr Samia Mrabat à Meknès."
               />
@@ -123,8 +123,8 @@ export default function NotreCabinetPage() {
             
             <div className="diagram-block text-center">
               <LightboxImage
-                src="/images/pdf_extracted/page_11_img_1.jpeg"
-                alt="Infographie 3D : Un parcours académique au service de votre peau (Fès, Nice, Montpellier)"
+                src="/images/doctor-portrait.jpg"
+                alt="Infographie : Un parcours académique au service de votre peau (Fès, Nice, Montpellier)"
                 caption="Formation universitaire du Dr Samia Mrabat : Faculté de Médecine de Fès, Université de Nice, Université de Montpellier."
               />
             </div>
@@ -159,7 +159,7 @@ export default function NotreCabinetPage() {
               {equipmentData.map((eq, idx) => (
                 <div key={idx} className="equip-card">
                   <div className="equip-img-box">
-                    <LightboxImage src={eq.img} alt={eq.alt} />
+                    <img src={eq.img} alt={eq.alt} />
                   </div>
                   <div className="equip-body">
                     <span className="equip-num">{eq.num}</span>

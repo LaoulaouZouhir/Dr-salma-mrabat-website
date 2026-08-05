@@ -36,9 +36,9 @@ export default function ChuteCheveux() {
           <span className="subpage-badge">DERMATOLOGIE MÉDICALE</span>
           <h1 className="subpage-title">Chute de cheveux et maladies du cuir chevelu : diagnostic et prise en charge à Meknès</h1>
           <div className="subpage-subtitle">
-            <p>La perte de cheveux ou les problèmes du cuir chevelu peuvent avoir de nombreuses origines. Une chute de cheveux importante, des démangeaisons persistantes, des pellicules abondantes ou l'apparition de plaques sans cheveux nécessitent un diagnostic précis afin d'identifier leur cause et de mettre en place un traitement adapté.</p>
-            <p>Le Dr Samia Mrabat, dermatologue à Meknès, prend en charge les différentes maladies du cuir chevelu chez l'adulte et l'enfant. Chaque consultation comprend un examen clinique approfondi afin de proposer une prise en charge personnalisée selon l'origine du problème.</p>
-          </div>
+<p>La perte de cheveux ou les problèmes du cuir chevelu peuvent avoir de nombreuses origines. Une chute de cheveux importante, des démangeaisons persistantes, des pellicules abondantes ou l'apparition de plaques sans cheveux nécessitent un diagnostic précis afin d'identifier leur cause et de mettre en place un traitement adapté.</p>
+<p>Le Dr Samia Mrabat, dermatologue à Meknès, prend en charge les différentes maladies du cuir chevelu chez l'adulte et l'enfant. Chaque consultation comprend un examen clinique approfondi afin de proposer une prise en charge personnalisée selon l'origine du problème.</p>
+</div>
         </div>
       </section>
 
@@ -47,6 +47,90 @@ export default function ChuteCheveux() {
           <div className="subpage-grid-layout">
             <div className="subpage-main-body">
               <article className="medical-article">
+<img src="/articles/article3/images/img-000.png" alt="Consultation dermatologique - cuir chevelu" className="hero-image" />
+<p className="caption"><em>Le Dr Samia Mrabat, dermatologue à Meknès, prend en charge la chute de cheveux et les maladies du cuir chevelu.</em></p>
+<h2>Qu'est-ce que la chute de cheveux ?</h2>
+
+<p>La chute de cheveux est un phénomène naturel lorsqu'elle reste modérée. En revanche, une perte importante, prolongée ou localisée peut révéler une affection nécessitant une évaluation dermatologique. Selon les cas, la chute de cheveux peut être temporaire ou chronique et toucher l'ensemble du cuir chevelu ou certaines zones uniquement.</p>
+
+<h3>Le cycle de vie du cheveu</h3>
+<img src="/articles/article3/images/img-001.png" alt="Cycle de vie du cheveu" className="infographic" />
+<p className="caption"><em>Cycle de vie du cheveu : phases et renouvellement naturel.</em></p>
+
+<h2>Les principales causes de la chute de cheveux</h2>
+<p>La perte de cheveux peut avoir différentes origines :</p>
+<ul>
+  <li>Alopécie androgénétique</li>
+  <li>Chute de cheveux saisonnière</li>
+  <li>Effluvium télogène après un stress ou une maladie</li>
+  <li>Carences nutritionnelles</li>
+  <li>Déséquilibres hormonaux</li>
+  <li>Maladies auto-immunes</li>
+  <li>Certains traitements médicamenteux</li>
+  <li>Infections du cuir chevelu</li>
+</ul>
+<p>Identifier la cause est essentiel afin de proposer le traitement le plus adapté.</p>
+
+<h2>Les maladies du cuir chevelu</h2>
+<p>Le cuir chevelu peut être touché par différentes affections dermatologiques, notamment :</p>
+<ul>
+  <li>Dermatite séborrhéique</li>
+  <li>Psoriasis du cuir chevelu</li>
+  <li>Eczéma</li>
+  <li>Infections fongiques</li>
+  <li>Folliculites</li>
+  <li>Pellicules persistantes</li>
+  <li>Démangeaisons chroniques</li>
+</ul>
+<img src="/articles/article3/images/img-002.png" alt="Principales maladies du cuir chevelu" className="infographic" />
+<p className="caption"><em>Principales maladies du cuir chevelu pouvant entraîner gêne et perte de cheveux.</em></p>
+<p>Ces maladies peuvent entraîner une gêne importante et parfois favoriser une perte de cheveux si elles ne sont pas prises en charge.</p>
+
+<h2>Les symptômes qui doivent vous alerter</h2>
+<p>Il est conseillé de consulter si vous observez :</p>
+<ul>
+  <li>Une chute importante de cheveux</li>
+  <li>Des cheveux qui deviennent progressivement plus fins</li>
+  <li>Des plaques sans cheveux</li>
+  <li>Des démangeaisons persistantes</li>
+  <li>Des rougeurs du cuir chevelu</li>
+  <li>Des pellicules abondantes</li>
+  <li>Des douleurs ou une sensibilité du cuir chevelu</li>
+  <li>Une perte de cheveux après une maladie ou un accouchement</li>
+</ul>
+
+<h2>Comment se déroule la consultation ?</h2>
+<p>Lors de la consultation, le Dr Samia Mrabat réalise un examen du cuir chevelu et de la chevelure afin d'identifier l'origine de la chute de cheveux ou des symptômes. Selon votre situation, des examens complémentaires peuvent être proposés afin d'orienter le diagnostic. Une fois la cause identifiée, un traitement personnalisé vous est expliqué ainsi que les conseils à suivre pour préserver la santé du cuir chevelu.</p>
+
+<h2>Les traitements proposés</h2>
+<p>La prise en charge dépend toujours du diagnostic. Selon votre situation, le Dr Samia Mrabat peut proposer :</p>
+<ul>
+  <li>Des traitements locaux</li>
+  <li>Des traitements par voie orale lorsque cela est indiqué</li>
+  <li>Des soins dermatologiques adaptés au cuir chevelu</li>
+  <li>Des conseils personnalisés concernant l'hygiène capillaire</li>
+  <li>Un suivi régulier afin d'évaluer l'évolution de la repousse</li>
+</ul>
+
+<h2>Conseils pour préserver la santé de vos cheveux</h2>
+<p>Quelques habitudes simples permettent de protéger durablement vos cheveux :</p>
+<ul>
+  <li>Utiliser un shampoing adapté à votre cuir chevelu</li>
+  <li>Éviter les traitements capillaires agressifs</li>
+  <li>Adopter une alimentation équilibrée</li>
+  <li>Limiter les sources de stress lorsque cela est possible</li>
+  <li>Consulter rapidement en cas de chute inhabituelle</li>
+</ul>
+
+<h2>Pourquoi consulter rapidement ?</h2>
+<p>Une prise en charge précoce permet souvent de ralentir l'évolution de certaines formes de chute de cheveux et d'améliorer les chances de repousse lorsqu'un traitement est indiqué. Plus le diagnostic est posé tôt, plus les solutions thérapeutiques peuvent être efficaces.</p>
+
+<h2>Prendre rendez-vous</h2>
+<p>Vous constatez une chute de cheveux importante, des démangeaisons persistantes ou des problèmes du cuir chevelu ? Le Dr Samia Mrabat, dermatologue à Meknès, vous accueille au cabinet afin d'établir un diagnostic précis et de vous proposer une prise en charge adaptée à votre situation.</p>
+                <div className="cta-container">
+                  <a href="https://wa.me/212689270924" target="_blank" rel="noopener noreferrer" className="cta-button">Je prends mon rendez-vous</a>
+                  <span className="cta-subtext">Contactez le cabinet via WhatsApp pour fixer votre consultation</span>
+                </div>
               </article>
             </div>
 

@@ -1,0 +1,440 @@
+[
+  {
+    "num": 1,
+    "folder": "article1",
+    "kicker": "DERMATOLOGIE MÉDICALE",
+    "h1": "Acné et rosacée : diagnostic et traitement à Meknès",
+    "slug": "acne-rosacee",
+    "url": "https://drsamiamrabatdermatologue.com/dermatologie-medicale/acne-rosacee",
+    "seo_title": "Acné et rosacée à Meknès | Dermatologue Dr Samia Mrabat",
+    "meta_description": "Le Dr Samia Mrabat, dermatologue à Meknès, prend en charge l'acné et la rosacée chez l'adolescent et l'adulte grâce à un diagnostic précis et des traitements personnalisés.",
+    "images_on_disk": 0,
+    "image_files": [],
+    "images_in_html": 5,
+    "img_sources": [
+      "images/img-000.png",
+      "images/img-001.png",
+      "images/img-002.png",
+      "images/img-003.png",
+      "images/img-004.png"
+    ]
+  },
+  {
+    "num": 2,
+    "folder": "article2",
+    "kicker": "DERMATOLOGIE MÉDICALE",
+    "h1": "Eczéma, psoriasis et vitiligo : diagnostic et prise en charge à Meknès",
+    "slug": "",
+    "url": "",
+    "seo_title": "",
+    "meta_description": "",
+    "images_on_disk": 5,
+    "image_files": [
+      "img-000.png",
+      "img-001.png",
+      "img-002.png",
+      "img-003.png",
+      "img-004.png"
+    ],
+    "images_in_html": 5,
+    "img_sources": [
+      "images/img-000.png",
+      "images/img-001.png",
+      "images/img-002.png",
+      "images/img-003.png",
+      "images/img-004.png"
+    ]
+  },
+  {
+    "num": 3,
+    "folder": "article3",
+    "kicker": "DERMATOLOGIE MÉDICALE",
+    "h1": "Chute de cheveux et maladies du cuir chevelu : diagnostic et prise en charge à Meknès",
+    "slug": "chute-cheveux-maladies-cuir-chevelu",
+    "url": "https://drsamiamrabatdermatologue.com/dermatologie-medicale/chute-cheveux-maladies-cuir-chevelu",
+    "seo_title": "Chute de cheveux et maladies du cuir chevelu à Meknès | Dr Samia Mrabat",
+    "meta_description": "Le Dr Samia Mrabat, dermatologue à Meknès, prend en charge la chute de cheveux, les maladies du cuir chevelu et les différentes formes d'alopécie chez l'adulte et l'enfant.",
+    "images_on_disk": 3,
+    "image_files": [
+      "img-000.png",
+      "img-001.png",
+      "img-002.png"
+    ],
+    "images_in_html": 3,
+    "img_sources": [
+      "images/img-000.png",
+      "images/img-001.png",
+      "images/img-002.png"
+    ]
+  },
+  {
+    "num": 4,
+    "folder": "article4",
+    "kicker": "DERMATOLOGIE MÉDICALE",
+    "h1": "Allergies, infections et maladies de la peau : diagnostic et traitement à Meknès",
+    "slug": "allergies-infections-maladies-peau",
+    "url": "https://drsamiamrabatdermatologue.com/dermatologie-medicale/allergies-infections-maladies-peau",
+    "seo_title": "Allergies, infections et maladies de la peau à Meknès | Dr Samia Mrabat",
+    "meta_description": "Le Dr Samia Mrabat, dermatologue à Meknès, diagnostique et traite les allergies cutanées, les infections de la peau et de nombreuses maladies dermatologiques chez l'adulte et l'enfant.",
+    "images_on_disk": 3,
+    "image_files": [
+      "img-000.png",
+      "img-001.png",
+      "img-002.png"
+    ],
+    "images_in_html": 3,
+    "img_sources": [
+      "images/img-000.png",
+      "images/img-001.png",
+      "images/img-002.png"
+    ]
+  },
+  {
+    "num": 5,
+    "folder": "article5",
+    "kicker": "DERMATOLOGIE MÉDICALE",
+    "h1": "Dermatologie pédiatrique : prise en charge des maladies de la peau chez l'enfant à Meknès",
+    "slug": "dermatologie-pediatrique",
+    "url": "https://drsamiamrabatdermatologue.com/dermatologie-medicale/dermatologie-pediatrique",
+    "seo_title": "Dermatologie pédiatrique à Meknès | Dermatologue enfant | Dr Samia Mrabat",
+    "meta_description": "Le Dr Samia Mrabat, dermatologue à Meknès, prend en charge les maladies de la peau du nourrisson, de l'enfant et de l'adolescent : eczéma, verrues, molluscum contagiosum, infections cutanées, acné et bien d'autres.",
+    "images_on_disk": 2,
+    "image_files": [
+      "img-000.png",
+      "img-001.png"
+    ],
+    "images_in_html": 2,
+    "img_sources": [
+      "images/img-000.png",
+      "images/img-001.png"
+    ]
+  },
+  {
+    "num": 6,
+    "folder": "article6",
+    "kicker": "DERMATOLOGIE ESTHÉTIQUE",
+    "h1": "Injections de Botox® et d'acide hyaluronique à Meknès",
+    "slug": "injections-botox-acide-hyaluronique",
+    "url": "https://drsamiamrabatdermatologue.com/dermatologie-esthetique/injections-botox-acide-hyaluronique",
+    "seo_title": "Botox® et acide hyaluronique à Meknès | Dr Samia Mrabat",
+    "meta_description": "Le Dr Samia Mrabat, dermatologue à Meknès, réalise les injections de Botox® et d'acide hyaluronique pour le traitement des rides, la prévention du vieillissement cutané et l'harmonisation du visage.",
+    "images_on_disk": 5,
+    "image_files": [
+      "img-000.png",
+      "img-001.png",
+      "img-002.png",
+      "img-003.png",
+      "img-004.png"
+    ],
+    "images_in_html": 5,
+    "img_sources": [
+      "images/img-000.png",
+      "images/img-001.png",
+      "images/img-002.png",
+      "images/img-003.png",
+      "images/img-004.png"
+    ]
+  },
+  {
+    "num": 7,
+    "folder": "article7",
+    "kicker": "DERMATOLOGIE ESTHÉTIQUE",
+    "h1": "Peelings dermatologiques et soins de la peau à Meknès",
+    "slug": "peelings-soins-peau",
+    "url": "https://drsamiamrabatdermatologue.com/dermatologie-esthetique/peelings-soins-peau",
+    "seo_title": "Peeling dermatologique à Meknès | Soins de la peau | Dr Samia Mrabat",
+    "meta_description": "Le Dr Samia Mrabat, dermatologue à Meknès, propose des peelings dermatologiques et des soins de la peau adaptés pour améliorer l'éclat du teint, la texture cutanée et certaines imperfections.",
+    "images_on_disk": 4,
+    "image_files": [
+      "img-000.png",
+      "img-001.png",
+      "img-002.png",
+      "img-003.png"
+    ],
+    "images_in_html": 4,
+    "img_sources": [
+      "images/img-000.png",
+      "images/img-001.png",
+      "images/img-002.png",
+      "images/img-003.png"
+    ]
+  },
+  {
+    "num": 8,
+    "folder": "article8",
+    "kicker": "DERMATOLOGIE ESTHÉTIQUE",
+    "h1": "Microneedling et mésothérapie à Meknès",
+    "slug": "microneedling-mesotherapie",
+    "url": "https://drsamiamrabatdermatologue.com/dermatologie-esthetique/microneedling-mesotherapie",
+    "seo_title": "",
+    "meta_description": "Le Dr Samia Mrabat, dermatologue à Meknès, réalise des séances de microneedling et de mésothérapie adaptées pour améliorer la qualité de la peau, la texture cutanée et certaines imperfections.",
+    "images_on_disk": 2,
+    "image_files": [
+      "img-000.png",
+      "img-001.png"
+    ],
+    "images_in_html": 2,
+    "img_sources": [
+      "images/img-000.png",
+      "images/img-001.png"
+    ]
+  },
+  {
+    "num": 9,
+    "folder": "article9",
+    "kicker": "DERMATOLOGIE ESTHÉTIQUE",
+    "h1": "Traitement des cicatrices et des taches pigmentaires à Meknès",
+    "slug": "traitement-cicatrices-taches-pigmentaires",
+    "url": "https://drsamiamrabatdermatologue.com/dermatologie-esthetique/traitement-cicatrices-taches-pigmentaires",
+    "seo_title": "Traitement des cicatrices et des taches pigmentaires à Meknès | Dr Samia Mrabat",
+    "meta_description": "Le Dr Samia Mrabat, dermatologue à Meknès, propose une prise en charge personnalisée des cicatrices et des taches pigmentaires selon votre type de peau et votre indication médicale.",
+    "images_on_disk": 3,
+    "image_files": [
+      "img-000.png",
+      "img-001.png",
+      "img-002.png"
+    ],
+    "images_in_html": 3,
+    "img_sources": [
+      "images/img-000.png",
+      "images/img-001.png",
+      "images/img-002.png"
+    ]
+  },
+  {
+    "num": 10,
+    "folder": "article10",
+    "kicker": "DERMATOLOGIE ESTHÉTIQUE",
+    "h1": "Rajeunissement cutané à Meknès",
+    "slug": "rajeunissement-cutane",
+    "url": "https://drsamiamrabatdermatologue.com/dermatologie-esthetique/rajeunissement-cutane",
+    "seo_title": "Rajeunissement cutané à Meknès | Dr Samia Mrabat",
+    "meta_description": "Le Dr Samia Mrabat, dermatologue à Meknès, propose une prise en charge personnalisée du vieillissement cutané afin d'améliorer la qualité de la peau, sa fermeté et son éclat selon votre indication médicale.",
+    "images_on_disk": 3,
+    "image_files": [
+      "img-000.png",
+      "img-001.png",
+      "img-002.png"
+    ],
+    "images_in_html": 3,
+    "img_sources": [
+      "images/img-000.png",
+      "images/img-001.png",
+      "images/img-002.png"
+    ]
+  },
+  {
+    "num": 11,
+    "folder": "article11",
+    "kicker": "CHIRURGIE DERMATOLOGIQUE",
+    "h1": "Exérèse des kystes et des lipomes à Meknès",
+    "slug": "",
+    "url": "",
+    "seo_title": "",
+    "meta_description": "",
+    "images_on_disk": 2,
+    "image_files": [
+      "img-000.png",
+      "img-001.png"
+    ],
+    "images_in_html": 2,
+    "img_sources": [
+      "images/img-000.png",
+      "images/img-001.png"
+    ]
+  },
+  {
+    "num": 12,
+    "folder": "article12",
+    "kicker": "CHIRURGIE DERMATOLOGIQUE",
+    "h1": "Ablation des grains de beauté et des lésions cutanées à Meknès",
+    "slug": "",
+    "url": "",
+    "seo_title": "",
+    "meta_description": "",
+    "images_on_disk": 2,
+    "image_files": [
+      "img-000.png",
+      "img-001.png"
+    ],
+    "images_in_html": 2,
+    "img_sources": [
+      "images/img-000.png",
+      "images/img-001.png"
+    ]
+  },
+  {
+    "num": 13,
+    "folder": "article13",
+    "kicker": "CHIRURGIE DERMATOLOGIQUE",
+    "h1": "Biopsies cutanées à Meknès",
+    "slug": "biopsies-cutanees",
+    "url": "https://drsamiamrabatdermatologue.com/chirurgie-dermatologique/biopsies-cutanees",
+    "seo_title": "Biopsies cutanées à Meknès | Diagnostic dermatologique | Dr Samia Mrabat",
+    "meta_description": "Le Dr Samia Mrabat, dermatologue à Meknès, réalise des biopsies cutanées lorsque cela est indiqué afin de confirmer un diagnostic et d'orienter la prise en charge adaptée.",
+    "images_on_disk": 3,
+    "image_files": [
+      "img-000.png",
+      "img-001.png",
+      "img-002.png"
+    ],
+    "images_in_html": 3,
+    "img_sources": [
+      "images/img-000.png",
+      "images/img-001.png",
+      "images/img-002.png"
+    ]
+  },
+  {
+    "num": 14,
+    "folder": "article14",
+    "kicker": "CHIRURGIE DERMATOLOGIQUE",
+    "h1": "Chirurgie de l'ongle incarné à Meknès",
+    "slug": "chirurgie-ongle-incarne",
+    "url": "https://drsamiamrabatdermatologue.com/chirurgie-dermatologique/chirurgie-ongle-incarne",
+    "seo_title": "",
+    "meta_description": "Le Dr Samia Mrabat, dermatologue à Meknès, prend en charge les ongles incarnés lorsque leur traitement chirurgical est indiqué afin de soulager durablement la douleur et prévenir les récidives.",
+    "images_on_disk": 3,
+    "image_files": [
+      "img-000.png",
+      "img-001.png",
+      "img-002.png"
+    ],
+    "images_in_html": 3,
+    "img_sources": [
+      "images/img-000.png",
+      "images/img-001.png",
+      "images/img-002.png"
+    ]
+  },
+  {
+    "num": 15,
+    "folder": "article15",
+    "kicker": "CHIRURGIE DERMATOLOGIQUE",
+    "h1": "Petite chirurgie dermatologique à Meknès",
+    "slug": "petite-chirurgie-dermatologique",
+    "url": "https://drsamiamrabatdermatologue.com/chirurgie-dermatologique/petite-chirurgie-dermatologique",
+    "seo_title": "Petite chirurgie dermatologique à Meknès | Dr Samia Mrabat",
+    "meta_description": "Le Dr Samia Mrabat, dermatologue à Meknès, réalise différents actes de petite chirurgie dermatologique sous anesthésie locale, dans des conditions de sécurité et de confort adaptées.",
+    "images_on_disk": 2,
+    "image_files": [
+      "img-000.png",
+      "img-001.png"
+    ],
+    "images_in_html": 2,
+    "img_sources": [
+      "images/img-000.png",
+      "images/img-001.png"
+    ]
+  },
+  {
+    "num": 16,
+    "folder": "article16",
+    "kicker": "PRÉVENTION ET DÉPISTAGE",
+    "h1": "Dépistage des cancers de la peau à Meknès",
+    "slug": "",
+    "url": "",
+    "seo_title": "",
+    "meta_description": "",
+    "images_on_disk": 3,
+    "image_files": [
+      "img-000.png",
+      "img-001.png",
+      "img-002.png"
+    ],
+    "images_in_html": 3,
+    "img_sources": [
+      "images/img-000.png",
+      "images/img-001.png",
+      "images/img-002.png"
+    ]
+  },
+  {
+    "num": 17,
+    "folder": "article17",
+    "kicker": "PRÉVENTION ET DÉPISTAGE",
+    "h1": "Contrôle des grains de beauté à Meknès",
+    "slug": "controle-grains-beaute",
+    "url": "https://drsamiamrabatdermatologue.com/prevention-depistage/controle-grains-beaute",
+    "seo_title": "Contrôle des grains de beauté à Meknès | Dr Samia Mrabat",
+    "meta_description": "Le Dr Samia Mrabat, dermatologue à Meknès, réalise le contrôle des grains de beauté grâce à un examen clinique complet et à la dermoscopie lorsque cela est indiqué.",
+    "images_on_disk": 3,
+    "image_files": [
+      "img-000.png",
+      "img-001.png",
+      "img-002.png"
+    ],
+    "images_in_html": 3,
+    "img_sources": [
+      "images/img-000.png",
+      "images/img-002.png",
+      "images/img-001.png"
+    ]
+  },
+  {
+    "num": 18,
+    "folder": "article18",
+    "kicker": "PRÉVENTION ET PROTECTION SOLAIRE",
+    "h1": "Prévention solaire à Meknès",
+    "slug": "prevention-solaire",
+    "url": "https://drsamiamrabatdermatologue.com/prevention-depistage/prevention-solaire",
+    "seo_title": "Prévention solaire à Meknès | Conseils dermatologiques | Dr Samia Mrabat",
+    "meta_description": "Le Dr Samia Mrabat, dermatologue à Meknès, vous conseille sur les bonnes pratiques de protection solaire afin de préserver votre peau et de limiter les effets des rayons UV.",
+    "images_on_disk": 3,
+    "image_files": [
+      "img-000.png",
+      "img-001.png",
+      "img-002.png"
+    ],
+    "images_in_html": 3,
+    "img_sources": [
+      "images/img-000.png",
+      "images/img-001.png",
+      "images/img-002.png"
+    ]
+  },
+  {
+    "num": 19,
+    "folder": "article19",
+    "kicker": "PRÉVENTION ET DÉPISTAGE",
+    "h1": "Lésions cutanées suspectes : quand consulter un dermatologue ?",
+    "slug": "lesions-cutanees-suspectes",
+    "url": "https://drsamiamrabatdermatologue.com/prevention-depistage/lesions-cutanees-suspectes",
+    "seo_title": "Lésions cutanées suspectes à Meknès | Quand consulter ? | Dr Samia Mrabat",
+    "meta_description": "Le Dr Samia Mrabat, dermatologue à Meknès, évalue les lésions cutanées suspectes afin d'établir un diagnostic précis et de proposer une prise en charge adaptée lorsque cela est nécessaire.",
+    "images_on_disk": 3,
+    "image_files": [
+      "img-000.png",
+      "img-001.png",
+      "img-002.png"
+    ],
+    "images_in_html": 3,
+    "img_sources": [
+      "images/img-000.png",
+      "images/img-001.png",
+      "images/img-002.png"
+    ]
+  },
+  {
+    "num": 20,
+    "folder": "article20",
+    "kicker": "PRÉVENTION AU QUOTIDIEN",
+    "h1": "Conseils de prévention dermatologique à Meknès",
+    "slug": "conseils-prevention-dermatologique",
+    "url": "<a href=\"https://drsamiamrabatdermatologue.com/prevention-depistage/conseils-prevention-dermatologique\">https://drsamiamrabatdermatologue.com/prevention-depistage/conseils-prevention-dermatologique</a>",
+    "seo_title": "Conseils de prévention dermatologique à Meknès | Dr Samia Mrabat",
+    "meta_description": "Le Dr Samia Mrabat, dermatologue à Meknès, vous accompagne avec des conseils de prévention pour préserver la santé de votre peau et détecter précocement certaines maladies cutanées.",
+    "images_on_disk": 3,
+    "image_files": [
+      "img-000.png",
+      "img-001.png",
+      "img-002.png"
+    ],
+    "images_in_html": 3,
+    "img_sources": [
+      "images/img-000.png",
+      "images/img-001.png",
+      "images/img-002.png"
+    ]
+  }
+]
