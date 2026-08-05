@@ -86,7 +86,7 @@ export default function Header({ isSubPage }) {
                   {/* Col 1: Dermatologie Médicale */}
                   <div className="mega-col">
                     <Link to="/dermatologie-medicale" className="mega-category-title">
-                      🩺 Dermatologie Médicale →
+                      Dermatologie Médicale →
                     </Link>
                     <ul className="mega-links">
                       <li><Link to="/dermatologie-medicale/acne-rosacee">Acné &amp; Rosacée</Link></li>
@@ -100,7 +100,7 @@ export default function Header({ isSubPage }) {
                   {/* Col 2: Dermatologie Esthétique */}
                   <div className="mega-col">
                     <Link to="/dermatologie-esthetique" className="mega-category-title">
-                      ✨ Dermatologie Esthétique →
+                      Dermatologie Esthétique →
                     </Link>
                     <ul className="mega-links">
                       <li><Link to="/dermatologie-esthetique/injections-botox-acide-hyaluronique">Injections (Botox® &amp; Hyaluronique)</Link></li>
@@ -114,7 +114,7 @@ export default function Header({ isSubPage }) {
                   {/* Col 3: Chirurgie Dermatologique */}
                   <div className="mega-col">
                     <Link to="/chirurgie-dermatologique" className="mega-category-title">
-                      🔪 Chirurgie Dermatologique →
+                      Chirurgie Dermatologique →
                     </Link>
                     <ul className="mega-links">
                       <li><Link to="/chirurgie-dermatologique/exerese-kystes-lipomes">Exérèse Kystes &amp; Lipomes</Link></li>
@@ -128,7 +128,7 @@ export default function Header({ isSubPage }) {
                   {/* Col 4: Prévention & Dépistage */}
                   <div className="mega-col">
                     <Link to="/prevention-depistage" className="mega-category-title">
-                      🛡️ Prévention &amp; Dépistage →
+                      Prévention &amp; Dépistage →
                     </Link>
                     <ul className="mega-links">
                       <li><Link to="/prevention-depistage/depistage-cancers-peau">Dépistage Cancers de la Peau</Link></li>
@@ -172,7 +172,7 @@ export default function Header({ isSubPage }) {
                 Notre Cabinet
               </Link>
               
-              <div className="mobile-section-header">🩺 Dermatologie Médicale</div>
+              <div className="mobile-section-header">Dermatologie Médicale</div>
               <div className="mobile-sublinks-group">
                 <Link to="/dermatologie-medicale" onClick={() => setMenuOpen(false)}>Vue d'ensemble</Link>
                 <Link to="/dermatologie-medicale/acne-rosacee" onClick={() => setMenuOpen(false)}>Acné &amp; Rosacée</Link>
@@ -182,7 +182,7 @@ export default function Header({ isSubPage }) {
                 <Link to="/dermatologie-medicale/dermatologie-pediatrique" onClick={() => setMenuOpen(false)}>Dermatologie Pédiatrique</Link>
               </div>
 
-              <div className="mobile-section-header">✨ Dermatologie Esthétique</div>
+              <div className="mobile-section-header">Dermatologie Esthétique</div>
               <div className="mobile-sublinks-group">
                 <Link to="/dermatologie-esthetique" onClick={() => setMenuOpen(false)}>Vue d'ensemble</Link>
                 <Link to="/dermatologie-esthetique/injections-botox-acide-hyaluronique" onClick={() => setMenuOpen(false)}>Injections (Botox® &amp; Hyaluronique)</Link>
@@ -192,7 +192,7 @@ export default function Header({ isSubPage }) {
                 <Link to="/dermatologie-esthetique/rajeunissement-cutane" onClick={() => setMenuOpen(false)}>Rajeunissement Cutané</Link>
               </div>
 
-              <div className="mobile-section-header">🔪 Chirurgie Dermatologique</div>
+              <div className="mobile-section-header">Chirurgie Dermatologique</div>
               <div className="mobile-sublinks-group">
                 <Link to="/chirurgie-dermatologique" onClick={() => setMenuOpen(false)}>Vue d'ensemble</Link>
                 <Link to="/chirurgie-dermatologique/exerese-kystes-lipomes" onClick={() => setMenuOpen(false)}>Exérèse Kystes &amp; Lipomes</Link>
@@ -202,7 +202,7 @@ export default function Header({ isSubPage }) {
                 <Link to="/chirurgie-dermatologique/petite-chirurgie-dermatologique" onClick={() => setMenuOpen(false)}>Petite Chirurgie</Link>
               </div>
 
-              <div className="mobile-section-header">🛡️ Prévention &amp; Dépistage</div>
+              <div className="mobile-section-header">Prévention &amp; Dépistage</div>
               <div className="mobile-sublinks-group">
                 <Link to="/prevention-depistage" onClick={() => setMenuOpen(false)}>Vue d'ensemble</Link>
                 <Link to="/prevention-depistage/depistage-cancers-peau" onClick={() => setMenuOpen(false)}>Dépistage Cancers de la Peau</Link>
