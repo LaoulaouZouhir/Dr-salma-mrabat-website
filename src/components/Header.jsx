@@ -172,7 +172,10 @@ export default function Header({ isSubPage }) {
                 Notre Cabinet
               </Link>
               
-              <div className="mobile-section-header">Dermatologie Médicale</div>
+              <div className="mobile-link-primary" style={{ borderBottom: 'none', paddingBottom: '4px', paddingTop: '16px' }}>
+                Nos Services
+              </div>
+              <div className="mobile-section-header" style={{ marginTop: '12px' }}>Dermatologie Médicale</div>
               <div className="mobile-sublinks-group">
                 <Link to="/dermatologie-medicale" onClick={() => setMenuOpen(false)}>Vue d'ensemble</Link>
                 <Link to="/dermatologie-medicale/acne-rosacee" onClick={() => setMenuOpen(false)}>Acné &amp; Rosacée</Link>
