@@ -123,7 +123,7 @@ export default function NotreCabinetPage() {
             
             <div className="diagram-block text-center">
               <LightboxImage
-                src="/images/doctor-portrait.jpg"
+                src="/images/parcour.png"
                 alt="Infographie : Un parcours académique au service de votre peau (Fès, Nice, Montpellier)"
                 caption="Formation universitaire du Dr Samia Mrabat : Faculté de Médecine de Fès, Université de Nice, Université de Montpellier."
               />
